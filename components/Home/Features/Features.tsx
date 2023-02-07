@@ -5,7 +5,7 @@ import { FeatureData } from "./FeatureData";
 export const Features = () => {
   const features = FeatureData;
   return (
-    <div className="pb-4 bg-gray-900">
+    <div className="py-8 bg-gray-900">
       {features.map((feature, key) => (
         <div
           key={key}
