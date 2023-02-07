@@ -5,11 +5,11 @@ import { FeatureData } from "./FeatureData";
 export const Features = () => {
   const features = FeatureData;
   return (
-    <>
+    <div className="pb-4 bg-gray-900">
       {features.map((feature, key) => (
         <div
           key={key}
-          className="pb-30 grid gap-y-4 bg-gray-900 p-3 text-gray-400 md:grid-cols-4"
+          className="pb-30 grid gap-y-4 p-3 text-gray-400 md:grid-cols-4"
         >
           <div className="font-bold text-white">{feature.caption}</div>
 
@@ -39,6 +39,6 @@ export const Features = () => {
           <div></div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
