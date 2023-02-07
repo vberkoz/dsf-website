@@ -37,7 +37,7 @@ export const Carousel = () => {
 
   return (
     <div className="relative">
-      <nav ref={indicatorListRef} className="absolute bottom-0 left-0 p-3">
+      <nav ref={indicatorListRef} className="absolute bottom-0 left-14 p-3">
         <span
           className="mr-1 bg-white px-3"
           onClick={() => currentSlide(0)}

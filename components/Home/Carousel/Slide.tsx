@@ -17,19 +17,21 @@ export const Slide = ({ image, title, description, button, href }: Props) => (
     }}
   >
     <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/0 text-left text-white/80">
-      <div className="p-3 h-80">
-        <h1 className="text-4xl sm:text-5xl mb-4 font-light">{title}</h1>
+      <div className="p-14">
+        <div className="h-80 p-3">
+          <h1 className="mb-4 text-4xl font-light sm:text-5xl">{title}</h1>
 
-        <div className="grid xl:grid-cols-4">
-          <p className="xl:col-span-2 md:w-[29rem]">{description}</p>
+          <div className="grid xl:grid-cols-4">
+            <p className="md:w-[29rem] xl:col-span-2">{description}</p>
+          </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 h-32">
+      <div className="grid h-32 grid-cols-2 md:grid-cols-4">
         <div className="md:col-span-3"></div>
         <Link
           href={href}
-          className="flex flex-col bg-yellow-300 hover:bg-yellow-400 text-black p-3 cursor-pointer"
+          className="flex cursor-pointer flex-col bg-yellow-300 p-3 text-black hover:bg-yellow-400"
         >
           {button}
           <div className="grow"></div>
@@ -46,4 +48,4 @@ export const Slide = ({ image, title, description, button, href }: Props) => (
       </div>
     </div>
   </li>
-)
+);
