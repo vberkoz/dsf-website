@@ -1,7 +1,7 @@
 export const MenuItemData = [
   {
     title: "About us",
-    href: "#",
+    href: "/about",
     subitems: [
       {
         title: "Our team's story - avatars",

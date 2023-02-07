@@ -60,9 +60,9 @@ export const Menu = () => {
 
         <div className="my-3 border-r border-gray-200"></div>
 
-        <div className="py-2 px-3">
+        <Link className="py-2 px-3 hover:bg-gray-200" href="/">
           <Image src={logo} alt="VO Group" width={30} height={30} />
-        </div>
+        </Link>
 
         <div className="hidden xl:flex">
           <div className="my-3 border-r border-gray-200"></div>

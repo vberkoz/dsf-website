@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Footer = () => (
   <div className="px-3 py-8 bg-gray-900 flex flex-col text-gray-300 leading-8">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
-      <Link href="#" className="font-bold text-white hover:underline hover:text-white md:col-span-2 lg:col-span-1">VO Sales Group</Link>
+      <Link href="/" className="font-bold text-white hover:underline hover:text-white md:col-span-2 lg:col-span-1">VO Sales Group</Link>
 
       <div className="flex flex-col">
         <Link href="#" className="font-bold text-white hover:underline hover:text-white">Solutions</Link>
@@ -36,7 +36,7 @@ export const Footer = () => (
       <div className="hidden lg:block"></div>
 
       <div className="flex flex-col">
-        <Link href="#" className="font-bold text-white hover:underline hover:text-white">About Us</Link>
+        <Link href="/about" className="font-bold text-white hover:underline hover:text-white">About Us</Link>
         <Link href="#" className="hover:underline hover:text-white">On-Demand Economy</Link>
         <Link href="#" className="hover:underline hover:text-white">Our Team's Story</Link>
       </div>
