@@ -1,6 +1,6 @@
-import nyc from "../../../public/home/nyc.webp";
-import map from "../../../public/home/map.webp";
-import road from "../../../public/home/road.webp";
+import nyc from "@/public/home/nyc.webp";
+import map from "@/public/home/map.webp";
+import road from "@/public/home/road.webp";
 
 import { Slide } from "./Slide";
 import { useEffect, useRef } from "react";
