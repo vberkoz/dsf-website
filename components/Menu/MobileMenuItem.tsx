@@ -26,7 +26,7 @@ export const MobileMenuItem = ({ ddItem }: Props) => {
   return (
     <div className="flex flex-col">
       <div className="flex">
-        <Link href={ddItem.href} className="px-4 py-3 grow">
+        <Link href={ddItem.href} className="grow px-4 py-3">
           {ddItem.title}
         </Link>
 
@@ -49,10 +49,10 @@ export const MobileMenuItem = ({ ddItem }: Props) => {
       <div
         className={`${
           opened ? "flex" : "hidden"
-        } flex-col bg-white w-full pl-6`}
+        } w-full flex-col bg-white pl-6`}
       >
         {ddItem?.subitems?.map((subItem, key) => (
-          <Link key={key} href={subItem.href} className="px-4 py-3 bg-gray-100">
+          <Link key={key} href={subItem.href} className="bg-gray-100 px-4 py-3">
             {subItem.title}
           </Link>
         ))}

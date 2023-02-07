@@ -1,6 +1,6 @@
-import nyc from "../../public/home/nyc.webp";
-import map from "../../public/home/map.webp";
-import road from "../../public/home/road.webp";
+import nyc from "../../../public/home/nyc.webp";
+import map from "../../../public/home/map.webp";
+import road from "../../../public/home/road.webp";
 
 import { Slide } from "./Slide";
 import { useEffect, useRef } from "react";
@@ -26,11 +26,11 @@ export const Carousel = () => {
       const slide = slides[i];
       const indicator = indicators[i];
       if (i === index) {
-        slide.style.display = "block"
-        indicator.style.paddingTop = "10px"
+        slide.style.display = "block";
+        indicator.style.paddingTop = "10px";
       } else {
-        slide.style.display = "none"
-        indicator.style.paddingTop = "1px"
+        slide.style.display = "none";
+        indicator.style.paddingTop = "1px";
       }
     }
   };
@@ -39,15 +39,15 @@ export const Carousel = () => {
     <div className="relative">
       <nav ref={indicatorListRef} className="absolute bottom-0 left-0 p-3">
         <span
-          className="px-3 bg-white mr-1"
+          className="mr-1 bg-white px-3"
           onClick={() => currentSlide(0)}
         ></span>
         <span
-          className="px-3 bg-white mr-1"
+          className="mr-1 bg-white px-3"
           onClick={() => currentSlide(1)}
         ></span>
         <span
-          className="px-3 bg-white mr-1"
+          className="mr-1 bg-white px-3"
           onClick={() => currentSlide(2)}
         ></span>
       </nav>
