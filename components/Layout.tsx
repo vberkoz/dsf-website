@@ -2,6 +2,7 @@ import Head from "next/head";
 import { ReactNode } from "react";
 import { Banner } from "./Banner";
 import { Menu } from "./Menu/Menu";
+import { Footer } from "@/components/Footer";
 
 type Props = {
   children: ReactNode;
@@ -20,6 +21,7 @@ export const Layout = ({ children }: Props) => (
       <Menu />
       <Banner />
       {children}
+      <Footer />
     </div>
   </>
 );
