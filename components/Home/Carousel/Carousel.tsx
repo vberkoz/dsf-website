@@ -3,78 +3,53 @@ import map from "@/public/home/map.webp";
 import road from "@/public/home/road.webp";
 
 import { Slide } from "./Slide";
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
+
+const slides = [
+  {
+    image: nyc.src,
+    title: "The On-Demand Economy",
+    description:
+      "VO Sales Group offers a full suite of Lead Generation Solutions, Sales Development, Digital Marketing and Channel Solutions.",
+    button: "VO Solutions",
+    href: "#",
+  },
+  {
+    image: map.src,
+    title: "Sales Prospecting",
+    description:
+      "VO Sales Group offers a unique sales approach to generate high quality opportunities for your organization.",
+    button: "Learn More",
+    href: "#",
+  },
+  {
+    image: road.src,
+    title: "The Gig Economy",
+    description:
+      "The On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives.",
+    button: "Sales Prospecting",
+    href: "#",
+  },
+];
 
 export const Carousel = () => {
-  const slideListRef = useRef(null);
-  const indicatorListRef = useRef(null);
-  let slideIndicator = 0;
-
-  useEffect(() => {
-    currentSlide(slideIndicator);
-  });
-
-  const currentSlide = (index: number) => {
-    slideIndicator = index;
-    const slideList = slideListRef.current;
-    const slides = slideList!.querySelectorAll("li");
-
-    const indicatorList = indicatorListRef.current;
-    const indicators = indicatorList!.querySelectorAll("span");
-
-    for (let i = 0; i < slides.length; i++) {
-      const slide = slides[i];
-      const indicator = indicators[i];
-      if (i === index) {
-        slide.style.display = "block";
-        indicator.style.paddingTop = "10px";
-      } else {
-        slide.style.display = "none";
-        indicator.style.paddingTop = "1px";
-      }
-    }
-  };
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="relative">
-      <nav ref={indicatorListRef} className="absolute bottom-0 left-3 lg:left-14 lg:pl-3">
-        <span
-          className="mr-1 bg-white px-3"
-          onClick={() => currentSlide(0)}
-        ></span>
-        <span
-          className="mr-1 bg-white px-3"
-          onClick={() => currentSlide(1)}
-        ></span>
-        <span
-          className="mr-1 bg-white px-3"
-          onClick={() => currentSlide(2)}
-        ></span>
-      </nav>
-
-      <ul ref={slideListRef}>
-        <Slide
-          image={nyc.src}
-          title="The On-Demand Economy"
-          description="VO Sales Group offers a full suite of Lead Generation Solutions, Sales Development, Digital Marketing and Channel Solutions."
-          button="VO Solutions"
-          href="#"
-        />
-        <Slide
-          image={map.src}
-          title="Sales Prospecting"
-          description="VO Sales Group offers a unique sales approach to generate high quality opportunities for your organization."
-          button="Learn More"
-          href="#"
-        />
-        <Slide
-          image={road.src}
-          title="The Gig Economy"
-          description="The On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives."
-          button="Sales Prospecting"
-          href="#"
-        />
-      </ul>
-    </div>
+    <ul>
+      {slides.map((item, key) => {
+        const isActive = activeIndex === key;
+        const length = slides.length;
+        return Slide({
+          item,
+          key,
+          isActive,
+          length,
+          onShow(index: number) {
+            setActiveIndex(index);
+          },
+        });
+      })}
+    </ul>
   );
 };
