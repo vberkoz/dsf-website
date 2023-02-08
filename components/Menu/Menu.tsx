@@ -23,7 +23,7 @@ export const Menu = () => {
       ></div>
 
       <div className="flex">
-        <div className="z-10 float-left xl:hidden">
+        <div className="z-10 float-left lg:hidden">
           <div
             onClick={toggleMenu}
             className="z-10 cursor-pointer bg-white p-3"
@@ -64,7 +64,7 @@ export const Menu = () => {
           <Image src={logo} alt="VO Group" width={30} height={30} />
         </Link>
 
-        <div className="hidden xl:flex">
+        <div className="hidden lg:flex">
           <div className="my-3 border-r border-gray-200"></div>
 
           <div className="float-left flex">

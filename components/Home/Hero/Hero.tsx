@@ -16,7 +16,7 @@ export const Hero = ({ index }: Prop) => {
       }}
     >
       <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white lg:to-gray-900/0">
-        <div className="p-14">
+        <div className="lg:p-14">
           <div className="p-3">
             <h1 className="mb-4 pb-40 text-4xl font-light sm:text-5xl">
               {hero.title}

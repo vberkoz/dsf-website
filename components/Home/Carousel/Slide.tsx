@@ -17,7 +17,7 @@ export const Slide = ({ image, title, description, button, href }: Props) => (
     }}
   >
     <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/0 text-left text-white/80">
-      <div className="p-14">
+      <div className="lg:p-14">
         <div className="h-80 p-3">
           <h1 className="mb-4 text-4xl font-light sm:text-5xl">{title}</h1>
 

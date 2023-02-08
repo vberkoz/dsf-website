@@ -11,8 +11,8 @@ export const HeroTabs = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white lg:to-gray-900/0">
-          <div className="pl-14">
+        <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white/80 lg:to-gray-900/0">
+          <div className="lg:p-14">
             <div className="p-3">
               <h1 className="mb-4 text-4xl font-light sm:text-5xl">About Us</h1>
               <div className="grid pb-40 md:grid-cols-2 lg:grid-cols-3">
@@ -22,7 +22,7 @@ export const HeroTabs = () => {
           </div>
 
           <div className="border-b-2 border-gray-800">
-            <div className="ml-14 flex text-white">
+            <div className="lg:ml-14 flex text-white">
               <Link
                 href="#"
                 className="border-t-2 border-yellow-400 bg-gray-800 p-3 hover:bg-gray-700"

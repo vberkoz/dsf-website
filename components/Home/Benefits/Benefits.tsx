@@ -7,7 +7,7 @@ export const Benefits = () => {
   const benefits = BenefitData;
 
   return (
-    <div className="p-14 bg-gray-900 text-white">
+    <div className="lg:p-14 bg-gray-900 text-white">
       <div className="grid grid-cols-1 gap-x-8 gap-y-20 px-3 py-8 md:grid-cols-2 xl:grid-cols-4">
         <div className="font-bold md:col-span-2 xl:col-span-1">Benefits</div>
         <Benefit benefit={benefits[0]} />
