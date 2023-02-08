@@ -1,5 +1,5 @@
 import { Benefits } from "@/components/Home/Benefits/Benefits";
-import { Carousel } from "@/components/Home/Carousel/Carousel";
+import { Slides } from "@/components/Home/Slides/Slides";
 import { Features } from "@/components/Home/Features/Features";
 import { Hero } from "@/components/Home/Hero/Hero";
 import { NextSteps } from "@/components/Home/NextSteps/NextSteps";
@@ -8,7 +8,7 @@ import { Layout } from "@/components/Layout";
 export default function Home() {
   return (
     <Layout>
-      <Carousel />
+      <Slides />
       <Features />
       <Hero index={0} />
       <Benefits />

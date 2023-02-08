@@ -2,10 +2,7 @@ import nyc from "@/public/home/nyc.webp";
 import map from "@/public/home/map.webp";
 import road from "@/public/home/road.webp";
 
-import { Slide } from "./Slide";
-import { useEffect, useState } from "react";
-
-const slides = [
+export const SlideData = [
   {
     image: nyc.src,
     title: "The On-Demand Economy",
@@ -31,25 +28,3 @@ const slides = [
     href: "#",
   },
 ];
-
-export const Carousel = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  return (
-    <ul>
-      {slides.map((item, key) => {
-        const isActive = activeIndex === key;
-        const length = slides.length;
-        return Slide({
-          item,
-          key,
-          isActive,
-          length,
-          onShow(index: number) {
-            setActiveIndex(index);
-          },
-        });
-      })}
-    </ul>
-  );
-};
