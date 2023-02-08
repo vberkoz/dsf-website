@@ -99,7 +99,7 @@ export const Footer = () => (
             On-Demand Economy
           </Link>
           <Link href="#" className="hover:text-white hover:underline">
-            Our Team's Story
+            Our Team&apos;s Story
           </Link>
         </div>
 

@@ -12,7 +12,7 @@ export const Carousel = () => {
 
   useEffect(() => {
     currentSlide(slideIndicator);
-  }, []);
+  });
 
   const currentSlide = (index: number) => {
     slideIndicator = index;

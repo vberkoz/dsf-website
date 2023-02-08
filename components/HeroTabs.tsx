@@ -30,7 +30,7 @@ export const HeroTabs = () => {
                 About us
               </Link>
               <Link href="#" className="p-3 hover:bg-gray-700">
-                Our team's story
+                Our team&apos;s story
               </Link>
               <Link href="#" className="p-3 hover:bg-gray-700">
                 On-demand economy
