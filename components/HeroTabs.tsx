@@ -21,8 +21,8 @@ export const HeroTabs = () => {
             </div>
           </div>
 
-          <div className="border-b-2 border-gray-800">
-            <div className="lg:ml-14 flex text-white">
+          <div className="border-b-2 border-gray-800 max-h-[50px] whitespace-nowrap">
+            <div className="lg:ml-14 flex text-white overflow-x-scroll">
               <Link
                 href="#"
                 className="border-t-2 border-yellow-400 bg-gray-800 p-3 hover:bg-gray-700"
