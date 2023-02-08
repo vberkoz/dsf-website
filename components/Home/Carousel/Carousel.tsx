@@ -17,10 +17,10 @@ export const Carousel = () => {
   const currentSlide = (index: number) => {
     slideIndicator = index;
     const slideList = slideListRef.current;
-    const slides = slideList.querySelectorAll("li");
+    const slides = slideList!.querySelectorAll("li");
 
     const indicatorList = indicatorListRef.current;
-    const indicators = indicatorList.querySelectorAll("span");
+    const indicators = indicatorList!.querySelectorAll("span");
 
     for (let i = 0; i < slides.length; i++) {
       const slide = slides[i];
