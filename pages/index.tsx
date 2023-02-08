@@ -2,7 +2,7 @@ import { Benefits } from "@/components/Home/Benefits/Benefits";
 import { Slides } from "@/components/Home/Slides/Slides";
 import { Features } from "@/components/Home/Features/Features";
 import { Hero } from "@/components/Home/Hero/Hero";
-import { NextSteps } from "@/components/Home/NextSteps/NextSteps";
+import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Layout } from "@/components/Layout";
 
 export default function Home() {
