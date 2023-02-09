@@ -29,8 +29,7 @@ export const Content121Data = [
       {
         p: "VO Sales Group is the ultimate Virtual Organization for both Sales and Marketing."
       }
-    ],
-    image: null
+    ]
   },
   {
     caption: "Marketing solutions",
@@ -73,7 +72,6 @@ export const Content121Data = [
       {
         p: "In today’s On-Demand Economy, VO Sales Group provides an environment for sales and marketing professionals to enjoy the Gig Life."
       }
-    ],
-    image: null
+    ]
   }
 ]

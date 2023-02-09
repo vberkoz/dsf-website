@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { BenefitData } from "./BenefitData";
 import { Benefit } from "./Benefit";
 

@@ -1,8 +1,17 @@
-import { Content121Data } from "./Content121Data";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-export const Content121 = () => {
-  const content = Content121Data;
+type Props = {
+  content: {
+    caption: string;
+    title: string;
+    content: {
+      p: string;
+    }[];
+    image?: StaticImageData;
+  }[];
+};
+
+export const Content121 = ({ content }: Props) => {
   return (
     <div className="bg-gray-900 py-8 lg:pl-14">
       {content.map((item, key) => (
@@ -19,9 +28,11 @@ export const Content121 = () => {
             ))}
           </div>
           <div className={`${!item.image && "hidden"} xl:hidden`}></div>
-          {item.image && <div className="md:col-span-3 xl:col-span-1 flex flex-col justify-end">
-            <Image src={item.image} alt={""} />
-            </div>}
+          {item.image && (
+            <div className="flex flex-col justify-end md:col-span-3 xl:col-span-1">
+              <Image src={item.image} alt={""} />
+            </div>
+          )}
         </div>
       ))}
     </div>
