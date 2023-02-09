@@ -90,16 +90,16 @@ export const Footer = () => (
 
         <div className="flex flex-col">
           <Link
-            href="/about"
+            href="about-us"
             className="font-bold text-white hover:text-white hover:underline"
           >
             About Us
           </Link>
-          <Link href="#" className="hover:text-white hover:underline">
+          <Link href="on-demand-economy" className="hover:text-white hover:underline">
             On-Demand Economy
           </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Our Team&apos;s Story
+          <Link href="our-teams-story-avatars" className="hover:text-white hover:underline">
+            Our Team&apos;s Story - Avatars
           </Link>
         </div>
 

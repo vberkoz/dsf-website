@@ -14,7 +14,7 @@ export const Menu = () => {
   };
 
   return (
-    <div className="sticky top-0 z-10 flex justify-between border-b border-gray-200 bg-white text-black">
+    <div style={{zIndex: 2000}} className="sticky top-0 flex justify-between border-b border-gray-200 bg-white text-black">
       <div
         onClick={toggleMenu}
         className={`${

@@ -1,15 +1,15 @@
 export const MenuItemData = [
   {
     title: "About us",
-    href: "/about",
+    href: "about-us",
     subitems: [
       {
         title: "Our team's story - avatars",
-        href: "#"
+        href: "our-teams-story-avatars"
       },
       {
         title: "On-demand economy",
-        href: "#"
+        href: "on-demand-economy"
       }
     ]
   },
