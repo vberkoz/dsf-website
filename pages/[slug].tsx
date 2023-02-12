@@ -1,6 +1,7 @@
 import { Pages } from "@/data/data";
 
 import { Layout } from "@/components/Layout";
+import { Slides } from "@/components/Slides/Slides";
 import { HeroTabs } from "@/components/HeroTabs";
 import { Content121 } from "@/components/Content121";
 import dynamic from "next/dynamic";

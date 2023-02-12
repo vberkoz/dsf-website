@@ -7,7 +7,7 @@ type Props = {
   image: string;
   tabs: {
     title: string;
-    slug: string;
+    slug: string | null;
   }[];
 };
 
@@ -26,9 +26,7 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
         <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white/80 lg:to-gray-900/0">
           <div className="h-80 lg:p-14">
             <div className="p-3">
-              <h1 className="mb-4 text-4xl font-light sm:text-5xl">
-                {title}
-              </h1>
+              <h1 className="mb-4 text-4xl font-light sm:text-5xl">{title}</h1>
               <div className="grid md:grid-cols-2 lg:grid-cols-3">
                 <p className="text-white/80">{description}</p>
               </div>
@@ -40,7 +38,7 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
               {tabs.map((tab, key) => (
                 <Link
                   key={key}
-                  href={tab.slug}
+                  href={tab.slug ? tab.slug.toString() : "/"}
                   className={`${
                     tab.slug === router.asPath.substring(1) &&
                     "border-t-2 border-yellow-400 bg-gray-800"
