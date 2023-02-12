@@ -12,6 +12,12 @@ export const OurTeamSStoryAvatars = {
       id: "HeroTabs",
     },
     {
+      id: "OurValues",
+    },
+    {
+      id: "Map",
+    },
+    {
       id: "NextSteps",
     },
   ]
