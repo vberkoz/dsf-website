@@ -8,6 +8,5 @@ export const Pages = [
   AboutUs,
   OurTeamSStoryAvatars,
   OnDemandEconomy,
-  Home,
   XitStrategy,
 ]
