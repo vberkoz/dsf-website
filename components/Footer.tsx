@@ -3,10 +3,10 @@ import Link from "next/link";
 export const Footer = () => (
   <div className="lg:pl-14 bg-gray-900 text-gray-300">
     <div className="flex flex-col pl-3 py-8 leading-8">
-      <div className="grid grid-cols-1 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <Link
           href="/"
-          className="font-bold text-white hover:text-white hover:underline md:col-span-2 lg:col-span-1"
+          className="font-bold text-white hover:text-white hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1"
         >
           VO Sales Group
         </Link>
@@ -86,7 +86,7 @@ export const Footer = () => (
           </Link>
         </div>
 
-        <div className="hidden lg:block"></div>
+        <div className="hidden xl:block"></div>
 
         <div className="flex flex-col">
           <Link
@@ -148,9 +148,9 @@ export const Footer = () => (
           </Link>
         </div>
 
-        <div className="hidden lg:block"></div>
-        <div className="border-t border-gray-700 md:col-span-2 lg:col-span-3"></div>
-        <div className="hidden lg:block"></div>
+        <div className="hidden xl:block"></div>
+        <div className="border-t border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
+        <div className="hidden xl:block"></div>
         <div className="flex flex-col">© VO Group, LLC</div>
       </div>
     </div>

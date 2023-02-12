@@ -24,12 +24,6 @@ export default function Home() {
             return <NextSteps />;
         }
       })}
-      {/* <Slides />
-      <Features />
-      <Hero index={0} />
-      <Benefits />
-      <Hero index={1} />
-      <NextSteps /> */}
     </Layout>
   );
 }
