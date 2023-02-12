@@ -1,10 +1,10 @@
+import dynamic from "next/dynamic";
+
 import { Pages } from "@/data/data";
 
 import { Layout } from "@/components/Layout";
-import { Slides } from "@/components/Slides/Slides";
 import { HeroTabs } from "@/components/HeroTabs";
 import { Content121 } from "@/components/Content121";
-import dynamic from "next/dynamic";
 import { OurValues } from "@/components/OurValues/OurValues";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 
@@ -30,7 +30,7 @@ export default function Page({ page }: any) {
           case "Content121":
             return <Content121 content={section.data} />;
           case "OurValues":
-            return <OurValues />;
+            return <OurValues data={section.data} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,
