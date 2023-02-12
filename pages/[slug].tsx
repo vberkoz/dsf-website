@@ -36,11 +36,12 @@ export default function Page({ page }: any) {
               ssr: false,
             });
             return (
-              <div className="grid bg-gray-900 lg:grid-cols-4 lg:pl-14">
+              <div className="grid bg-gray-900 xl:grid-cols-4 lg:pl-14">
                 <div></div>
-                <div className="col-span-3">
+                <div className="col-span-2">
                   <MapWithNoSSR />
                 </div>
+                <div></div>
               </div>
             );
           case "NextSteps":
