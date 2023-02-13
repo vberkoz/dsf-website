@@ -13,7 +13,7 @@ export default function Home() {
       {page.sections.map((section) => {
         switch (section.id) {
           case "Slides":
-            return <Slides />;
+            return <Slides data={section.data!} />;
           case "Features":
             return <Features />;
           case "Hero":

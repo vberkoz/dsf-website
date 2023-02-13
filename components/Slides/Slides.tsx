@@ -1,10 +1,19 @@
 import { useState } from "react";
 import { Slide } from "./Slide";
-import { SlideData } from "./SlideData";
 
-export const Slides = () => {
+type Props = {
+  data: {
+    image: string;
+    title: string;
+    description: string;
+    button: string;
+    href: string;
+  }[]
+}
+
+export const Slides = ({data}: Props) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const slides = SlideData;
+  const slides = data;
 
   return (
     <ul>
