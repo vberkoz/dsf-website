@@ -45,7 +45,7 @@ export default function Page({ page }: any) {
               </div>
             );
           case "NextSteps":
-            return <NextSteps />;
+            return <NextSteps data={section.steps} />;
         }
       })}
     </Layout>

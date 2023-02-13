@@ -8,10 +8,10 @@ type Props = {
     description: string;
     button: string;
     href: string;
-  }[]
-}
+  }[];
+};
 
-export const Slides = ({data}: Props) => {
+export const Slides = ({ data }: Props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const slides = data;
 

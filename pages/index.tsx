@@ -13,7 +13,7 @@ export default function Home() {
       {page.sections.map((section) => {
         switch (section.id) {
           case "Slides":
-            return <Slides data={section.data!} />;
+            return <Slides data={section.slides!} />;
           case "Features":
             return <Features />;
           case "Hero":
@@ -21,7 +21,7 @@ export default function Home() {
           case "Benefits":
             return <Benefits />;
           case "NextSteps":
-            return <NextSteps />;
+            return <NextSteps data={section.steps!} />;
         }
       })}
     </Layout>
