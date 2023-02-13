@@ -1,8 +1,8 @@
 export const XitStrategy = {
   title: "XIT Strategy",
   slug: "xit-strategy",
-  pageset: "home",
-  isPrimary: false,
+  pageset: "xit-strategy",
+  isPrimary: true,
   sections: [
     {
       id: "NextSteps",

@@ -5,7 +5,7 @@ import road from "@/public/home/road.webp";
 export const Home = {
   title: "Home",
   slug: "",
-  pageset: "home",
+  pageset: "general",
   isPrimary: true,
   sections: [
     {
