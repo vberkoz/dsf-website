@@ -8,26 +8,25 @@ type Props = {
     button: string;
     href: string;
   };
-  key: number;
+  k: number;
   isActive: boolean;
   length: number;
   onShow: Function;
 };
 
-export const Slide = ({ item, key, isActive, length, onShow }: Props) => {
+export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
   const rows = [];
   for (let i = 0; i < length; i++) {
     rows.push(
       <span
         key={i}
-        className={`${key === i && "pt-4"} mr-1 bg-white px-3`}
+        className={`${k === i && "pt-4"} mr-1 bg-white px-3`}
         onClick={() => onShow(i)}
       ></span>
     );
   }
   return (
-    <li
-      key={key}
+    <div
       style={{
         backgroundImage: `url('${item.image}')`,
         backgroundSize: "cover",
@@ -72,6 +71,6 @@ export const Slide = ({ item, key, isActive, length, onShow }: Props) => {
           </Link>
         </div>
       </div>
-    </li>
+    </div>
   );
 };

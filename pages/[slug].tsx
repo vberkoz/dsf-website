@@ -11,7 +11,7 @@ import { NextSteps } from "@/components/NextSteps/NextSteps";
 export default function Page({ page }: any) {
   return (
     <Layout>
-      {page.sections.map((section: any) => {
+      {page.sections.map((section: any, key: number) => {
         switch (section.id) {
           case "HeroTabs":
             const pages = Pages.filter((item) => page.pageset === item.pageset);
@@ -21,6 +21,7 @@ export default function Page({ page }: any) {
             }));
             return (
               <HeroTabs
+                key={key}
                 title={page.title}
                 description={page.description}
                 image={page.image}
@@ -28,15 +29,15 @@ export default function Page({ page }: any) {
               />
             );
           case "Content121":
-            return <Content121 content={section.data} />;
+            return <Content121 content={section.data} key={key} />;
           case "OurValues":
-            return <OurValues data={section.data} />;
+            return <OurValues data={section.data} key={key} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,
             });
             return (
-              <div className="grid bg-gray-900 xl:grid-cols-4 lg:pl-14">
+              <div className="grid bg-gray-900 xl:grid-cols-4 lg:pl-14" key={key}>
                 <div></div>
                 <div className="col-span-2">
                   <MapWithNoSSR />
@@ -45,7 +46,7 @@ export default function Page({ page }: any) {
               </div>
             );
           case "NextSteps":
-            return <NextSteps data={section.steps} />;
+            return <NextSteps data={section.steps} key={key} />;
         }
       })}
     </Layout>

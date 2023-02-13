@@ -10,18 +10,18 @@ import { Layout } from "@/components/Layout";
 export default function Home() {
   return (
     <Layout>
-      {page.sections.map((section) => {
+      {page.sections.map((section, key) => {
         switch (section.id) {
           case "Slides":
-            return <Slides data={section.slides!} />;
+            return <Slides data={section.slides!} key={key} />;
           case "Features":
-            return <Features />;
+            return <Features key={key} />;
           case "Hero":
-            return <Hero index={section.index || 0} />;
+            return <Hero index={section.index || 0} key={key} />;
           case "Benefits":
-            return <Benefits />;
+            return <Benefits key={key} />;
           case "NextSteps":
-            return <NextSteps data={section.steps!} />;
+            return <NextSteps data={section.steps!} key={key} />;
         }
       })}
     </Layout>

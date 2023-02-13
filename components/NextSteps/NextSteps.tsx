@@ -13,7 +13,9 @@ export const NextSteps = ({ data }: Props) => (
       <div className="col-span-1 mb-8 mt-8 p-3 font-bold lg:col-span-3 xl:col-span-1 xl:mt-0">
         Next steps
       </div>
-      {data.map((item, key) => NextStep({ item, key }))}
+      {data.map((item, key) => (
+        <NextStep item={item} key={key} />
+      ))}
     </div>
   </div>
 );
