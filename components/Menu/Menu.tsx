@@ -53,10 +53,10 @@ export const Menu = () => {
                 {menuItems.map((item, key) => (
                   <div key={key}>
                     {item?.subitems ? (
-                      <MobileMenuItem ddItem={item} />
+                      <MobileMenuItem ddItem={item} onShow={toggleMenu} />
                     ) : (
                       <div className="flex flex-col">
-                        <Link href={item.href} className="grow p-3">{item.title}</Link>
+                        <Link href={item.href} className="grow p-3" onClick={toggleMenu}>{item.title}</Link>
                       </div>
                     )}
                   </div>
