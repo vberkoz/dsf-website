@@ -1,4 +1,4 @@
-import { Home as page } from "@/data/pagesets/General/Home";
+import { Home as page } from "@/data/pagesets/Home";
 
 import { Benefits } from "@/components/Benefits/Benefits";
 import { Slides } from "@/components/Slides/Slides";

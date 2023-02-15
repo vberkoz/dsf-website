@@ -26,7 +26,7 @@ import { Sales360Team } from "./pagesets/JoinOurTeam/Sales360Team";
 import { RequestInterview } from "./pagesets/JoinOurTeam/RequestInterview";
 import { GigLife } from "./pagesets/JoinOurTeam/GigLife";
 
-import { XitStrategy } from "./pagesets/General/XitStrategy";
+import { XitStrategy } from "./pagesets/XitStrategy";
 
 export const Pages = [
   AboutUs,
