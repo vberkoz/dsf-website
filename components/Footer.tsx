@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export const Footer = () => (
   <div className="lg:pl-14 bg-gray-900 text-gray-300">
-    <div className="flex flex-col pl-3 py-8 leading-8">
+    <div className="flex flex-col py-8 leading-8">
       <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <Link
           href="/"
-          className="font-bold text-white hover:text-white hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1"
+          className="font-bold text-white hover:text-white hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1 pl-3"
         >
           VO Sales Group
         </Link>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-3 xl:pl-6">
           <Link
             href="#"
             className="font-bold text-white hover:text-white hover:underline"
@@ -35,7 +35,7 @@ export const Footer = () => (
           </Link>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-3 xl:pl-6">
           <Link
             href="#"
             className="font-bold text-white hover:text-white hover:underline"
@@ -65,7 +65,7 @@ export const Footer = () => (
           </Link>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-3 xl:pl-6">
           <Link
             href="#"
             className="font-bold text-white hover:text-white hover:underline"
@@ -88,7 +88,7 @@ export const Footer = () => (
 
         <div className="hidden xl:block"></div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-3 xl:pl-6">
           <Link
             href="about-us"
             className="font-bold text-white hover:text-white hover:underline"
@@ -103,19 +103,19 @@ export const Footer = () => (
           </Link>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-3 xl:pl-6">
           <Link href="#" className="hover:text-white hover:underline">
             Submit GIG
           </Link>
           <Link href="#" className="hover:text-white hover:underline">
             Leadership
           </Link>
-          <Link href="#" className="hover:text-white hover:underline">
+          <Link href="blog" className="hover:text-white hover:underline">
             Blog
           </Link>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pl-3 xl:pl-6">
           <Link
             href="#"
             className="mb-4 flex leading-4 hover:text-white hover:underline"
@@ -151,7 +151,7 @@ export const Footer = () => (
         <div className="hidden xl:block"></div>
         <div className="border-t border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
         <div className="hidden xl:block"></div>
-        <div className="flex flex-col">© VO Group, LLC</div>
+        <div className="flex flex-col pl-3 xl:pl-6">© VO Group, LLC</div>
       </div>
     </div>
   </div>
