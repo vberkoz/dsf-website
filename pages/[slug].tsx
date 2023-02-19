@@ -19,13 +19,23 @@ export default function Page({ page }: any) {
               title: item.title,
               slug: item.slug,
             }));
+            if (pageset.length > 1) {
+              return (
+                <HeroTabs
+                  key={key}
+                  title={page.title}
+                  description={page.description}
+                  image={page.image}
+                  tabs={pageset}
+                />
+              );
+            }
             return (
               <HeroTabs
                 key={key}
                 title={page.title}
                 description={page.description}
                 image={page.image}
-                tabs={pageset}
               />
             );
           case "Content121":
@@ -37,7 +47,10 @@ export default function Page({ page }: any) {
               ssr: false,
             });
             return (
-              <div className="grid bg-gray-900 xl:grid-cols-4 lg:pl-14" key={key}>
+              <div
+                className="grid bg-gray-900 lg:pl-14 xl:grid-cols-4"
+                key={key}
+              >
                 <div></div>
                 <div className="col-span-2">
                   <MapWithNoSSR />

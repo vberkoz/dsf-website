@@ -5,7 +5,7 @@ type Props = {
   title: string;
   description: string;
   image: string;
-  tabs: {
+  tabs?: {
     title: string;
     slug: string | null;
   }[];
@@ -33,7 +33,7 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
             </div>
           </div>
 
-          <div className="max-h-[50px] whitespace-nowrap border-b-2 border-gray-800">
+          {tabs && <div className="max-h-[50px] whitespace-nowrap border-b-2 border-gray-800">
             <div className="flex overflow-x-scroll text-white lg:ml-14">
               {tabs.map((tab, key) => (
                 <Link
@@ -48,7 +48,7 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
                 </Link>
               ))}
             </div>
-          </div>
+          </div>}
         </div>
       </div>
     </>
