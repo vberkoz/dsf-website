@@ -104,10 +104,10 @@ export const Footer = () => (
         </div>
 
         <div className="flex flex-col pl-3 xl:pl-6">
-          <Link href="#" className="hover:text-white hover:underline">
+          <Link href="/submit-gig" className="hover:text-white hover:underline">
             Submit GIG
           </Link>
-          <Link href="#" className="hover:text-white hover:underline">
+          <Link href="/leadership" className="hover:text-white hover:underline">
             Leadership
           </Link>
           <Link href="/blog" className="hover:text-white hover:underline">

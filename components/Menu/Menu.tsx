@@ -102,7 +102,7 @@ export const Menu = () => {
       </div>
 
       <div className="flex">
-        <Link href="#" className="bg-yellow-300 p-3 hover:bg-yellow-400">Submit GIG</Link>
+        <Link href="/submit-gig" className="bg-yellow-300 p-3 hover:bg-yellow-400">Submit GIG</Link>
       </div>
     </div>
   );

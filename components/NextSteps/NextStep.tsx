@@ -10,7 +10,7 @@ type Props = {
 
 export const NextStep = ({ item }: Props) => (
   <Link
-    href={item.href}
+    href={`/${item.href}`}
     className="flex h-[60vw] flex-col bg-gray-800 p-3 hover:bg-gray-700 sm:h-[50vw] lg:h-[33vw] xl:h-[25vw] xl:p-6"
   >
     <h2 className="mb-4 text-3xl">{item.title}</h2>
