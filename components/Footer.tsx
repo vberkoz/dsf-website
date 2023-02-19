@@ -90,7 +90,7 @@ export const Footer = () => (
 
         <div className="flex flex-col pl-3 xl:pl-6">
           <Link
-            href="about-us"
+            href="/about-us"
             className="font-bold text-white hover:text-white hover:underline"
           >
             About Us
@@ -110,7 +110,7 @@ export const Footer = () => (
           <Link href="#" className="hover:text-white hover:underline">
             Leadership
           </Link>
-          <Link href="blog" className="hover:text-white hover:underline">
+          <Link href="/blog" className="hover:text-white hover:underline">
             Blog
           </Link>
         </div>

@@ -56,7 +56,7 @@ export const Menu = () => {
                       <MobileMenuItem ddItem={item} onShow={toggleMenu} />
                     ) : (
                       <div className="flex flex-col">
-                        <Link href={item.href} className="grow p-3" onClick={toggleMenu}>{item.title}</Link>
+                        <Link href={`/${item.href}`} className="grow p-3" onClick={toggleMenu}>{item.title}</Link>
                       </div>
                     )}
                   </div>
@@ -80,7 +80,7 @@ export const Menu = () => {
               <div key={key} className="flex flex-col">
                 {item?.subitems ? (
                   <div className="group">
-                    <Link href={item.href} className="flex cursor-pointer p-3 hover:bg-gray-200">
+                    <Link href={`/${item.href}`} className="flex cursor-pointer p-3 hover:bg-gray-200">
                       {item.title}
                       <svg className="m-1" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
                         <path d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"></path>
@@ -88,12 +88,12 @@ export const Menu = () => {
                     </Link>
                     <div className="absolute z-10 hidden flex-col bg-white shadow group-hover:flex">
                       {item.subitems.map((subItem, subItemKey) => (
-                        <Link key={subItemKey} href={subItem.href} className="p-3 hover:bg-gray-200">{subItem.title}</Link>
+                        <Link key={subItemKey} href={`/${subItem.href}`} className="p-3 hover:bg-gray-200">{subItem.title}</Link>
                       ))}
                     </div>
                   </div>
                 ) : (
-                  <Link href={item.href} className="p-3 hover:bg-gray-200">{item.title}</Link>
+                  <Link href={`/${item.href}`} className="p-3 hover:bg-gray-200">{item.title}</Link>
                 )}
               </div>
             ))}
