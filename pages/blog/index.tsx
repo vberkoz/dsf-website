@@ -7,24 +7,7 @@ import { Layout } from "@/components/Layout";
 
 import { getSortedPostsData } from "@/lib/posts";
 import Date from "@/components/Date";
-
-const steps = [
-  {
-    title: "Contact us",
-    description:
-      "Send your questions through our contact form and we'll find the best solution for you",
-  },
-  {
-    title: "Submit GIG",
-    description:
-      "Looking for Sales Prospecting that actually works? Tired of hiring amateur, scripted telemarketers? Looking for Professionals that can find real, revenue-producing leads? Let's talk.",
-  },
-  {
-    title: "Join our team",
-    description:
-      "On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives",
-  },
-];
+import { DefaultNextSteps } from "@/data/DefaultNextSteps";
 
 export default function Posts({
   allPostsData,
@@ -173,7 +156,7 @@ export default function Posts({
           }
         )}
       </div>
-      <NextSteps data={steps} />
+      <NextSteps data={DefaultNextSteps} />
     </Layout>
   );
 }
