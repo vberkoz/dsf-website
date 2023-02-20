@@ -1,158 +1,132 @@
 import Link from "next/link";
+import { Pages, AdditionalPages } from "@/data/data";
 
-export const Footer = () => (
-  <div className="lg:pl-14 bg-gray-900 text-gray-300">
-    <div className="flex flex-col py-8 leading-8">
-      <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+export const Footer = () => {
+  const pagesets = Pages.filter((page) => page.isPrimary);
+  const menuItems = pagesets.map((item) => {
+    const subpages = Pages.filter(
+      (page) => page.pageset === item.pageset && !page.isPrimary
+    );
+    const subitems = subpages.map((page) => ({
+      title: page.title,
+      href: page.slug,
+    }));
+
+    if (subitems.length) {
+      return {
+        title: item.title,
+        href: item.slug,
+        subitems: subitems,
+      };
+    } else {
+      return {
+        title: item.title,
+        href: item.slug,
+      };
+    }
+  });
+
+  const additionalPages = AdditionalPages.map((page) => ({
+    title: page.title,
+    href: page.slug,
+  }));
+
+  const pageset = (pageset: {
+    href: string;
+    title: string;
+    subitems?: { href: string; title: string }[];
+  }) => (
+    <div className="flex flex-col pl-3 xl:pl-6">
+      <Link
+        href={`/${pageset.href}`}
+        className="font-bold text-white hover:text-white hover:underline"
+      >
+        {pageset.title}
+      </Link>
+      {pageset.subitems?.map((item, key) => (
         <Link
-          href="/"
-          className="font-bold text-white hover:text-white hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1 pl-3"
+          key={key}
+          href={`/${item.href}`}
+          className="hover:text-white hover:underline"
         >
-          VO Sales Group
+          {item.title}
         </Link>
+      ))}
+    </div>
+  );
 
-        <div className="flex flex-col pl-3 xl:pl-6">
+  const pages = (pages: { href: string; title: string }[]) => (
+    <div className="flex flex-col pl-3 xl:pl-6">
+      {pages.map((item, key) => (
+        <Link
+          key={key}
+          href={`/${item.href}`}
+          className="hover:text-white hover:underline"
+        >
+          {item.title}
+        </Link>
+      ))}
+    </div>
+  );
+
+  return (
+    <div className="bg-gray-900 text-gray-300 lg:pl-14">
+      <div className="flex flex-col py-8 leading-8">
+        <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <Link
-            href="#"
-            className="font-bold text-white hover:text-white hover:underline"
+            href="/"
+            className="pl-3 font-bold text-white hover:text-white hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1"
           >
-            Solutions
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            International Concierge
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Channel Development
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Vetted Sales Staffing
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Concierge Services
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Marketing 2.0
-          </Link>
-        </div>
-
-        <div className="flex flex-col pl-3 xl:pl-6">
-          <Link
-            href="#"
-            className="font-bold text-white hover:text-white hover:underline"
-          >
-            Industry Focus
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Supply Chain & Automation
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            High-Value Solutions
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Factory Automation
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Enterprise Mobility
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Healthcare
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Retail
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            IoT
-          </Link>
-        </div>
-
-        <div className="flex flex-col pl-3 xl:pl-6">
-          <Link
-            href="#"
-            className="font-bold text-white hover:text-white hover:underline"
-          >
-            Join Our Team
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Sales Agent Program
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Marketing 2.0 Team
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Request Interview
-          </Link>
-          <Link href="#" className="hover:text-white hover:underline">
-            Gig Life
-          </Link>
-        </div>
-
-        <div className="hidden xl:block"></div>
-
-        <div className="flex flex-col pl-3 xl:pl-6">
-          <Link
-            href="/about-us"
-            className="font-bold text-white hover:text-white hover:underline"
-          >
-            About Us
-          </Link>
-          <Link href="on-demand-economy" className="hover:text-white hover:underline">
-            On-Demand Economy
-          </Link>
-          <Link href="our-teams-story-avatars" className="hover:text-white hover:underline">
-            Our Team&apos;s Story - Avatars
-          </Link>
-        </div>
-
-        <div className="flex flex-col pl-3 xl:pl-6">
-          <Link href="/submit-gig" className="hover:text-white hover:underline">
-            Submit GIG
-          </Link>
-          <Link href="/leadership" className="hover:text-white hover:underline">
-            Leadership
-          </Link>
-          <Link href="/blog" className="hover:text-white hover:underline">
-            Blog
-          </Link>
-        </div>
-
-        <div className="flex flex-col pl-3 xl:pl-6">
-          <Link
-            href="#"
-            className="mb-4 flex leading-4 hover:text-white hover:underline"
-          >
-            <svg
-              viewBox="0 0 640 640"
-              fill="currentColor"
-              width="16"
-              height="16"
-              className="mr-2"
-            >
-              <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
-            </svg>
             VO Sales Group
           </Link>
-          <Link
-            href="#"
-            className="flex leading-4 hover:text-white hover:underline"
-          >
-            <svg
-              viewBox="0 0 640 640"
-              fill="currentColor"
-              width="16"
-              height="16"
-              className="mr-2"
-            >
-              <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
-            </svg>
-            Stephen Zarick
-          </Link>
-        </div>
+          {pageset(menuItems[2])}
+          {pageset(menuItems[3])}
+          {pageset(menuItems[1])}
 
-        <div className="hidden xl:block"></div>
-        <div className="border-t border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
-        <div className="hidden xl:block"></div>
-        <div className="flex flex-col pl-3 xl:pl-6">© VO Group, LLC</div>
+          <div className="hidden xl:block"></div>
+          
+          {pages(additionalPages)}
+          {pageset(menuItems[0])}
+
+          <div className="flex flex-col pl-3 xl:pl-6">
+            <Link
+              href="https://www.linkedin.com/company/vo-group/"
+              className="mb-4 flex leading-4 hover:text-white hover:underline"
+            >
+              <svg
+                viewBox="0 0 640 640"
+                fill="currentColor"
+                width="16"
+                height="16"
+                className="mr-2"
+              >
+                <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
+              </svg>
+              VO Sales Group
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/stephenzarick/"
+              className="flex leading-4 hover:text-white hover:underline"
+            >
+              <svg
+                viewBox="0 0 640 640"
+                fill="currentColor"
+                width="16"
+                height="16"
+                className="mr-2"
+              >
+                <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
+              </svg>
+              Stephen Zarick
+            </Link>
+          </div>
+
+          <div className="hidden xl:block"></div>
+          <div className="border-t border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
+          <div className="hidden xl:block"></div>
+          <div className="flex flex-col pl-3 xl:pl-6">© VO Group, LLC</div>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
