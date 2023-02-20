@@ -7,6 +7,7 @@ import { HeroTabs } from "@/components/HeroTabs";
 import { Content121 } from "@/components/Content121";
 import { OurValues } from "@/components/OurValues/OurValues";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
+import { Image121 } from "@/components/Image121";
 
 export default function Page({ page }: any) {
   return (
@@ -40,6 +41,8 @@ export default function Page({ page }: any) {
             );
           case "Content121":
             return <Content121 content={section.data} key={key} />;
+          case "Image121":
+            return <Image121 content={section.data} key={key} />;
           case "OurValues":
             return <OurValues data={section.data} key={key} />;
           case "Map":
