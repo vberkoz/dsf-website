@@ -5,9 +5,9 @@ import { Pages } from "@/data/data";
 import { Layout } from "@/components/Layout";
 import { HeroTabs } from "@/components/HeroTabs";
 import { Content121 } from "@/components/Content121";
-import { OurValues } from "@/components/OurValues/OurValues";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Image121 } from "@/components/Image121";
+import Content1111 from "@/components/Content1111";
 
 export default function Page({ page }: any) {
   return (
@@ -41,10 +41,10 @@ export default function Page({ page }: any) {
             );
           case "Content121":
             return <Content121 content={section.data} key={key} />;
+          case "Content1111":
+            return <Content1111 content={section.data} key={key} />;
           case "Image121":
             return <Image121 content={section.data} key={key} />;
-          case "OurValues":
-            return <OurValues data={section.data} key={key} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,

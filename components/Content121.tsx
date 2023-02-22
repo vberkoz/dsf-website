@@ -20,14 +20,12 @@ export const Content121 = ({ content }: Props) => {
           <div className="font-bold text-white">{item.caption}</div>
           <div className="grid grid-cols-1 gap-4 md:col-span-3 xl:col-span-2">
             <div className="text-3xl text-white">{item.title}</div>
-
             {item.content.map((item, pKey) => {
               if (Array.isArray(item)) {
                 return <ul key={pKey}>{item.map((li, lKey) => <li key={lKey}>{li}</li>)}</ul>
               } else {
                 return <div key={pKey}>{item}</div>
               }
-              
             })}
           </div>
           <div className={`${!item.image && "hidden"} xl:hidden`}></div>

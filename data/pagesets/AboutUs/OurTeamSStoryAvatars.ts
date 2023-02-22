@@ -13,25 +13,22 @@ export const OurTeamSStoryAvatars = {
       id: "HeroTabs",
     },
     {
-      id: "OurValues",
-      data: [
-        {
-          title: "Our Story",
-          content: [
-            "VO Sales Group is a Virtual Organization of sales professionals.",
-            "A collaborative community of people with great backgrounds.",
-            "We are the Giggers, the Taskers. We are Parents. We are Professionals that you can hire On Demand, as needed, by the Project.",
-          ],
-        },
-        {
-          title: "Our Team",
-          content: [
-            "Learn how our Enterprise Sales Development team members provide our customers with qualified Sales Opportunities and valuable market intelligence.",
-            "A collaborative community of people with great backgrounds.",
-            "Click on each avatar in the map below to hear each Salesperson’s story.",
-          ],
-        }
-      ]
+      id: "Content1111",
+      data: {
+        caption: "Our values",
+        title1: "Our Story",
+        title2: "Our Team",
+        col1: [
+          "VO Sales Group is a Virtual Organization of sales professionals.",
+          "A collaborative community of people with great backgrounds.",
+          "We are the Giggers, the Taskers. We are Parents. We are Professionals that you can hire On Demand, as needed, by the Project.",
+        ],
+        col2: [
+          "Learn how our Enterprise Sales Development team members provide our customers with qualified Sales Opportunities and valuable market intelligence.",
+          "A collaborative community of people with great backgrounds.",
+          "Click on each avatar in the map below to hear each Salesperson's story.",
+        ],
+      }
     },
     {
       id: "Map",
