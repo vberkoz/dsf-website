@@ -3,7 +3,7 @@ import { OurValue } from "./OurValue";
 type Props = {
   data: {
     title: string;
-    content: { p: string }[];
+    content: string[];
   }[];
 };
 
