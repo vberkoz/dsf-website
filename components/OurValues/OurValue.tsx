@@ -1,7 +1,7 @@
 type Props = {
   data: {
     title: string;
-    content: { p: string }[];
+    content: string[];
   };
 };
 
@@ -10,7 +10,7 @@ export const OurValue = ({ data }: Props) => (
     <div className="text-3xl text-white">{data.title}</div>
 
     {data.content.map((item, k) => (
-      <div key={k}>{item.p}</div>
+      <div key={k}>{item}</div>
     ))}
   </div>
 );

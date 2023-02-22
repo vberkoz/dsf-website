@@ -77,11 +77,7 @@ export async function getStaticPaths() {
   return { paths, fallback: false };
 }
 
-type Params = {
-  params: { slug: string };
-};
-
-export async function getStaticProps({ params }: Params) {
+export async function getStaticProps({ params }: { params: { slug: string } }) {
   const page = Pages.find((page) => page.slug === params.slug);
   return { props: { page } };
 }

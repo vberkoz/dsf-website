@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.post ul {
+ul {
   list-style-type: none;
   padding-left: 20px;
 }
 
-.post ul li:before {
+ul li:before {
   content: '\2014';
   position: absolute;
   margin-left: -20px;
