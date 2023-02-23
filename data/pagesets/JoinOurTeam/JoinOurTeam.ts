@@ -45,39 +45,11 @@ export const JoinOurTeam = {
         },
       ]
     },
-    // {
-    //   id: "Content1111",
-    //   data: {
-    //     caption: "Interview",
-    //     title1: "Qualifications",
-    //     title2: "Minimum Requirements",
-    //     col1: [
-    //       [
-    //         "Minimum 10 years in business solutions sales, if for the Sales team",
-    //         "Minimum 5 years of digital marketing, if for a Marketing contractor",
-    //         "Professional home office setup to meet our expectations",
-    //         "If you are looking for a Sales Gig please contact us",
-    //         "Self-motivated and performance-driven",
-    //         "Computer and Internet literate",
-    //       ],
-    //     ],
-    //     col2: [
-    //       [
-    //         "Landline for phone calls (Cell Phone/VoIP is not acceptable)",
-    //         "Familiarity with CRM, Google Docs, MS Office, or OpenOffice",
-    //         "Familiarity with Spreadsheets is a must",
-    //         "Dedicated business computer system",
-    //         "Broadband Internet access",
-    //         "Professional voice mail",
-    //       ],
-    //     ],
-    //   },
-    // },
     {
       id: "Content121",
       data: [
         {
-          caption: "Interview",
+          caption: "Who we are looking for",
           title: "Qualifications",
           content: [
             [
@@ -105,7 +77,7 @@ export const JoinOurTeam = {
           ],
         },
         {
-          caption: "",
+          caption: "Interview",
           title: "Application and Interview Process",
           content: [
             [
@@ -118,7 +90,7 @@ export const JoinOurTeam = {
           ],
           link: {
             caption: "Request interview",
-            href: "#",
+            href: "/request-interview",
           }
         },
       ],
