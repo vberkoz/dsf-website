@@ -1,4 +1,5 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 type Props = {
   content: {
@@ -6,6 +7,10 @@ type Props = {
     title: string;
     content: (string[] | string)[];
     image?: StaticImageData;
+    link?: {
+      caption: string;
+      href: string;
+    };
   }[];
 };
 
@@ -33,6 +38,22 @@ export const Content121 = ({ content }: Props) => {
                 return <div key={pKey}>{item}</div>;
               }
             })}
+            {item.link && (
+              <Link
+              href={item.link.href}
+              className="flex w-fit cursor-pointer text-yellow-400 hover:underline"
+            >
+              <span className="mr-4 leading-[1.2rem]">{item.link.caption}</span>
+              <svg
+                fill="currentColor"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+              >
+                <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+              </svg>
+            </Link>
+            )}
           </div>
           <div className={`${!item.image && "hidden"} xl:hidden`}></div>
           {item.image && (
