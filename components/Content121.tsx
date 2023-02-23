@@ -15,16 +15,22 @@ export const Content121 = ({ content }: Props) => {
       {content.map((item, key) => (
         <div
           key={key}
-          className="mb-16 grid gap-4 p-3 text-gray-400 md:grid-cols-4"
+          className="mb-16 grid grid-cols-1 gap-4 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4"
         >
           <div className="font-bold text-white">{item.caption}</div>
-          <div className="grid grid-cols-1 gap-4 md:col-span-3 xl:col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:col-span-3 lg:col-span-2">
             <div className="text-3xl text-white">{item.title}</div>
             {item.content.map((item, pKey) => {
               if (Array.isArray(item)) {
-                return <ul key={pKey}>{item.map((li, lKey) => <li key={lKey}>{li}</li>)}</ul>
+                return (
+                  <ul key={pKey}>
+                    {item.map((li, lKey) => (
+                      <li key={lKey}>{li}</li>
+                    ))}
+                  </ul>
+                );
               } else {
-                return <div key={pKey}>{item}</div>
+                return <div key={pKey}>{item}</div>;
               }
             })}
           </div>
