@@ -8,6 +8,7 @@ import { Content121 } from "@/components/Content121";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Image121 } from "@/components/Image121";
 import Content1111 from "@/components/Content1111";
+import Testimonials from "@/components/Testimonials";
 
 export default function Page({ page }: any) {
   return (
@@ -61,6 +62,8 @@ export default function Page({ page }: any) {
                 <div></div>
               </div>
             );
+          case "Testimonials":
+            return <Testimonials data={section.data} key={key} />;
           case "NextSteps":
             return <NextSteps data={section.steps} key={key} />;
         }
