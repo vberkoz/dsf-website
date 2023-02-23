@@ -33,8 +33,8 @@ const testimonial = (item: {
   position: string;
   image: StaticImageData;
 }) => (
-  <div className="mb-16 flex flex-col text-gray-400">
-    <p className="mb-8 italic">{`"${item.body}"`}</p>
+  <div className="mb-8 flex flex-col text-gray-400">
+    <p className="mb-4 italic">{`"${item.body}"`}</p>
     <div className="grow"></div>
     <div className="flex">
       <Image
