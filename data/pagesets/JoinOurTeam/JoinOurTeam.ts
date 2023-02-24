@@ -49,7 +49,7 @@ export const JoinOurTeam = {
       id: "Content121",
       data: [
         {
-          caption: "Who we are looking for",
+          caption: ["Who we are looking for"],
           title: "Qualifications",
           content: [
             [
@@ -63,7 +63,7 @@ export const JoinOurTeam = {
           ],
         },
         {
-          caption: "",
+          caption: [""],
           title: "Minimum Requirements",
           content: [
             [
@@ -77,7 +77,7 @@ export const JoinOurTeam = {
           ],
         },
         {
-          caption: "Interview",
+          caption: ["Interview"],
           title: "Application and Interview Process",
           content: [
             [

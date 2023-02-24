@@ -51,7 +51,7 @@ export const IndustryFocus = {
       id: "Content121",
       data: [
         {
-          caption: "",
+          caption: [""],
           title: "Enterprise Sales Prospecting",
           content: [
             "Our approach allows us to cross many industries by utilizing strategic selling styles and questioning techniques to find opportunities.",

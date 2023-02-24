@@ -17,7 +17,7 @@ export const AboutUs = {
       id: "Content121",
       data: [
         {
-          caption: "Family-first environment",
+          caption: ["Family-first environment"],
           title: "A Virtual Organization",
           content: [
             "VO Sales Group was started by Stephen Zarick when he was a single father and wanted to create a work-life balance around a family-first environment - a work-at-home environment.",
@@ -31,7 +31,7 @@ export const AboutUs = {
           ],
         },
         {
-          caption: "Marketing solutions",
+          caption: ["Marketing solutions"],
           title: "On-Demand Sales",
           content: [
             "For our customers, Solution Vendors, VO Sales Group represents a suite of sales and marketing solutions for Lead Generation and Sales Development.",
@@ -42,7 +42,7 @@ export const AboutUs = {
           image: funnel,
         },
         {
-          caption: "Unique model",
+          caption: ["Unique model"],
           title: "Self-Employment Opportunity",
           content: [
             "VO Sales Group offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually.",

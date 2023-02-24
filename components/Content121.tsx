@@ -3,7 +3,7 @@ import Link from "next/link";
 
 type Props = {
   content: {
-    caption: string;
+    caption: (string[] | string)[];
     title: string;
     content: (string[] | string)[];
     image?: StaticImageData;
@@ -16,13 +16,31 @@ type Props = {
 
 export const Content121 = ({ content }: Props) => {
   return (
-    <div className="bg-gray-900 py-4 lg:pl-14">
+    <div className="bg-gray-900 py-8 lg:pl-14">
       {content.map((item, key) => (
         <div
           key={key}
-          className="mb-16 grid grid-cols-1 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4"
+          className="my-8 grid grid-cols-1 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4"
         >
-          <div className="font-bold text-white">{item.caption}</div>
+          <div className="font-bold text-white">
+            {item.caption.map((item, pKey) => {
+              if (Array.isArray(item)) {
+                return (
+                  <ul key={pKey} className="font-normal text-gray-400">
+                    {item.map((li, lKey) => (
+                      <li key={lKey}>{li}</li>
+                    ))}
+                  </ul>
+                );
+              } else {
+                return (
+                  <div key={pKey} className={`${pKey !== 0 && "font-normal text-gray-400"}`}>
+                    {item}
+                  </div>
+                );
+              }
+            })}
+          </div>
           <div className="grid grid-cols-1 gap-4 md:col-span-3 lg:col-span-2">
             <div className="text-3xl text-white">{item.title}</div>
             {item.content.map((item, pKey) => {

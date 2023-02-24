@@ -16,7 +16,7 @@ export const OnDemandEconomy = {
       id: "Content121",
       data: [
         {
-          caption: "VO Sales Group",
+          caption: ["VO Sales Group"],
           title: "The On-Demand Economy",
           content: [
             "Virtual Organization that embraces the On-Demand Economy for Sales and Marketing as it relates to Lead Generation.",
@@ -26,7 +26,7 @@ export const OnDemandEconomy = {
           ],
         },
         {
-          caption: "On-Demand Sales and Marketing Projects",
+          caption: ["On-Demand Sales and Marketing Projects"],
           title: "Submit a Project",
           content: [
             "VO Sales Group caters to vendors that need Sales, Sales Leads, Appointments, Traffic, Revenue, and all the Internet Marketing that leads up to that.",

@@ -18,7 +18,7 @@ export const Solutions = {
       id: "Content121",
       data: [
         {
-          caption: "Revenue Producing",
+          caption: ["Revenue Producing"],
           title: "VO Sales Group Solutions",
           content: [
             [
