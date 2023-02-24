@@ -2,7 +2,7 @@ export const DefaultNextSteps = [
   {
     title: "Contact us",
     description: "Send your questions through our contact form and we'll find the best solution for you",
-    href: "#"
+    href: "contact-us"
   },
   {
     title: "Submit GIG",

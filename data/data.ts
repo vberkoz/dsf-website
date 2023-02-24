@@ -1,6 +1,7 @@
 import { AboutUs } from "./pagesets/AboutUs/AboutUs";
-import { OnDemandEconomy } from "./pagesets/AboutUs/OnDemandEconomy";
 import { OurTeamSStoryAvatars } from "./pagesets/AboutUs/OurTeamSStoryAvatars";
+import { OnDemandEconomy } from "./pagesets/AboutUs/OnDemandEconomy";
+import { ContactUs } from "./pagesets/AboutUs/ContactUs";
 
 import { Solutions } from "./pagesets/Solutions/Solutions";
 import { InternationalConcierge } from "./pagesets/Solutions/InternationalConcierge";
@@ -35,6 +36,7 @@ export const Pages = [
   AboutUs,
   OurTeamSStoryAvatars,
   OnDemandEconomy,
+  ContactUs,
 
   Solutions,
   InternationalConcierge,
