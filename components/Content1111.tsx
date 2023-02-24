@@ -16,7 +16,7 @@ export default function Content1111({ content }: Props) {
           {content.caption}
         </div>
 
-        <div className="flex flex-col text-gray-400 mb-16">
+        <div className="flex flex-col text-gray-400">
           <div className="mb-4 text-3xl text-white">{content.title1}</div>
           {content.col1.map((i, k) => {
             if (Array.isArray(i)) {
