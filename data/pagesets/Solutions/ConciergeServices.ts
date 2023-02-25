@@ -18,42 +18,48 @@ export const ConciergeServices = {
     },
     {
       id: "Content121",
-      data: [
-        {
-          caption: ["Premier approach"],
-          title: "Sales Development Solutions",
-          content: [
-            "A Premier Approach for High Value Technology and Business Solutions companies. VO Sales Group’s goals are to Generate Qualified Sales Opportunities that are revenue producing.",
-            "Our Professional Sales Prospecting Services are to be revenue producing as opposed to being just a marketing expense as other marketing activity. Our focus on high value solutions where there are many points of contacts to penetrate a company to identify the buying team and the sales opportunities within.",
-          ],
-          image: salesPlan,
-        },
-        {
-          caption: [],
-          title: "VO Sales Group Concierge",
-          content: [
-            "VO Concierge is a “white glove” Sales Prospecting/Demand Generation service.",
-            [
-              "You will be assigned a Team Manager and a Project Leader",
-              "We will build a Sales Plan that includes Revenue Goals",
-              "A Value Proposition Exercise is held to review your offering",
-              "Call List Services are available",
-              "A Professional Salesperson is assigned to your account",
-              "A Customer Satisfaction and Delivery Manager is assigned to your campaign",
-              "We do everything for you. We manage the whole process",
-            ],
-          ],
-        },
-        {
-          caption: [],
-          title: "On-Demand Sales Professionals",
-          content: [
-            "Outsourcing with VO allows you to have a contract Virtual Sales Team by creating a Virtual Organization (VO) of professional salespeople generating prospects and sales opportunities for you. VO becomes your on-demand sales workforce.",
-            "VO Sales Group's Concierge Sales Team professionals run their own campaigns, have a proven track record with VO Sales Group, and report directly to you.",
-            "The salesperson assigned to your account is held accountable for your project, as you would expect a salesperson to be held accountable.",
-          ],
-        },
+      caption: ["Premier approach"],
+      title: "Sales Development Solutions",
+      content: [
+        "A Premier Approach for High Value Technology and Business Solutions companies. VO Sales Group’s goals are to Generate Qualified Sales Opportunities that are revenue producing.",
+        "Our Professional Sales Prospecting Services are to be revenue producing as opposed to being just a marketing expense as other marketing activity. Our focus on high value solutions where there are many points of contacts to penetrate a company to identify the buying team and the sales opportunities within.",
       ],
+      link: "",
+      href: "#",
+      image: salesPlan,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "VO Sales Group Concierge",
+      content: [
+        "VO Concierge is a “white glove” Sales Prospecting/Demand Generation service.",
+        [
+          "You will be assigned a Team Manager and a Project Leader",
+          "We will build a Sales Plan that includes Revenue Goals",
+          "A Value Proposition Exercise is held to review your offering",
+          "Call List Services are available",
+          "A Professional Salesperson is assigned to your account",
+          "A Customer Satisfaction and Delivery Manager is assigned to your campaign",
+          "We do everything for you. We manage the whole process",
+        ],
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "On-Demand Sales Professionals",
+      content: [
+        "Outsourcing with VO allows you to have a contract Virtual Sales Team by creating a Virtual Organization (VO) of professional salespeople generating prospects and sales opportunities for you. VO becomes your on-demand sales workforce.",
+        "VO Sales Group's Concierge Sales Team professionals run their own campaigns, have a proven track record with VO Sales Group, and report directly to you.",
+        "The salesperson assigned to your account is held accountable for your project, as you would expect a salesperson to be held accountable.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
     },
     {
       id: "Content1111",
@@ -102,42 +108,49 @@ export const ConciergeServices = {
     },
     {
       id: "Content121",
-      data: [
-        {
-          caption: ["Benefits"],
-          title: "Why Engage VO Concierge?",
-          content: [
-            [
-              "We reduce your cost per sales call",
-              'Hire us as you need us - "Fractional Ownership" of a Professional Sales Team',
-              "We accelerate your market penetration",
-              "Our clients recognize that Prospecting is a separate skill set from Selling",
-            ],
-          ],
-        },
-        {
-          caption: [],
-          title: "Benefits of VO Concierge",
-          content: [
-            [
-              "We prospect - You sell",
-              "We are hired to complement sales teams and should be hired by your sales team",
-              "We will enhance your current sales message and effort",
-              "In many cases, we actually re-shape your technical message to get the attention of the prospect to at least lead us to an executive-level conversation",
-              "Many companies use VO Sales Group to augment their Sales Retention efforts",
-            ],
-          ],
-        },
-        {
-          caption: [],
-          title: "Strategic Sales Partner",
-          content: [
-            "As your Strategic Sales Partner, we work with you to provide solutions that Integrate with your current organization - whether or not you have a current salesforce or use a sales channel.",
-            "We are senior-level people working for you.",
-            "Let VO Sales Group start Prospecting today for net new revenue.",
-          ],
-        },
+      caption: ["Benefits"],
+      title: "Why Engage VO Concierge?",
+      content: [
+        [
+          "We reduce your cost per sales call",
+          'Hire us as you need us - "Fractional Ownership" of a Professional Sales Team',
+          "We accelerate your market penetration",
+          "Our clients recognize that Prospecting is a separate skill set from Selling",
+        ],
       ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Benefits of VO Concierge",
+      content: [
+        [
+          "We prospect - You sell",
+          "We are hired to complement sales teams and should be hired by your sales team",
+          "We will enhance your current sales message and effort",
+          "In many cases, we actually re-shape your technical message to get the attention of the prospect to at least lead us to an executive-level conversation",
+          "Many companies use VO Sales Group to augment their Sales Retention efforts",
+        ],
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Strategic Sales Partner",
+      content: [
+        "As your Strategic Sales Partner, we work with you to provide solutions that Integrate with your current organization - whether or not you have a current salesforce or use a sales channel.",
+        "We are senior-level people working for you.",
+        "Let VO Sales Group start Prospecting today for net new revenue.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
     },
     {
       id: "Hero1",

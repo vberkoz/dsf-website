@@ -4,7 +4,7 @@ import { Pages } from "@/data/data";
 
 import { Layout } from "@/components/Layout";
 import { HeroTabs } from "@/components/HeroTabs";
-import { Content121 } from "@/components/Content121";
+import Content121 from "@/components/Content121";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Image121 } from "@/components/Image121";
 import Content1111 from "@/components/Content1111";
@@ -44,7 +44,7 @@ export default function Page({ page }: any) {
           case "Hero":
             return <Hero data={section} key={key} />
           case "Content121":
-            return <Content121 content={section.data} key={key} />;
+            return <Content121 data={section} key={key} />;
           case "Content1111":
             return <Content1111 content={section.data} key={key} />;
           case "Image121":

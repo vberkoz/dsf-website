@@ -49,16 +49,15 @@ export const IndustryFocus = {
     },
     {
       id: "Content121",
-      data: [
-        {
-          caption: [""],
-          title: "Enterprise Sales Prospecting",
-          content: [
-            "Our approach allows us to cross many industries by utilizing strategic selling styles and questioning techniques to find opportunities.",
-            "While most use what we call WE Statements to establish their credibility, our style is to Ask Pertinent Questions to Establish our Credibility and to get a Stranger to admit to another Stranger that they indeed have some compelling reason to talk to a salesperson.",
-          ],
-        },
+      caption: [],
+      title: "Enterprise Sales Prospecting",
+      content: [
+        "Our approach allows us to cross many industries by utilizing strategic selling styles and questioning techniques to find opportunities.",
+        "While most use what we call WE Statements to establish their credibility, our style is to Ask Pertinent Questions to Establish our Credibility and to get a Stranger to admit to another Stranger that they indeed have some compelling reason to talk to a salesperson.",
       ],
+      link: "",
+      href: "#",
+      image: null,
     },
     {
       id: "NextSteps",

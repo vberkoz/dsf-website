@@ -47,53 +47,56 @@ export const JoinOurTeam = {
     },
     {
       id: "Content121",
-      data: [
-        {
-          caption: ["Who we are looking for"],
-          title: "Qualifications",
-          content: [
-            [
-              "Minimum 10 years in business solutions sales, if for the Sales team",
-              "Minimum 5 years of digital marketing, if for a Marketing contractor",
-              "Professional home office setup to meet our expectations",
-              "If you are looking for a Sales Gig please contact us",
-              "Self-motivated and performance-driven",
-              "Computer and Internet literate",
-            ]
-          ],
-        },
-        {
-          caption: [""],
-          title: "Minimum Requirements",
-          content: [
-            [
-              "Landline for phone calls (Cell Phone/VoIP is not acceptable)",
-              "Familiarity with CRM, Google Docs, MS Office, or OpenOffice",
-              "Familiarity with Spreadsheets is a must",
-              "Dedicated business computer system",
-              "Broadband Internet access",
-              "Professional voice mail",
-            ]
-          ],
-        },
-        {
-          caption: ["Interview"],
-          title: "Application and Interview Process",
-          content: [
-            [
-              "Submit a resume or bio with a brief outline of product knowledge focus",
-              "Phone interview with VO management; there may be several",
-              "Review of the VO Agent Contract and NDA that needs to be signed and accepted",
-              "Once invited to the VO Sales Group sales team, it may take some time to place you on a project",
-              "You are always welcome to bring projects to the team, and VO Sales Group management will assist in closing the new client",
-            ]
-          ],
-          link: {
-            caption: "Request interview",
-            href: "/request-interview",
-          }
-        },
+      caption: ["Who we are looking for"],
+      title: "Qualifications",
+      content: [
+        [
+          "Minimum 10 years in business solutions sales, if for the Sales team",
+          "Minimum 5 years of digital marketing, if for a Marketing contractor",
+          "Professional home office setup to meet our expectations",
+          "If you are looking for a Sales Gig please contact us",
+          "Self-motivated and performance-driven",
+          "Computer and Internet literate",
+        ]
       ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Minimum Requirements",
+      content: [
+        [
+          "Landline for phone calls (Cell Phone/VoIP is not acceptable)",
+          "Familiarity with CRM, Google Docs, MS Office, or OpenOffice",
+          "Familiarity with Spreadsheets is a must",
+          "Dedicated business computer system",
+          "Broadband Internet access",
+          "Professional voice mail",
+        ]
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: ["Interview"],
+      title: "Application and Interview Process",
+      content: [
+        [
+          "Submit a resume or bio with a brief outline of product knowledge focus",
+          "Phone interview with VO management; there may be several",
+          "Review of the VO Agent Contract and NDA that needs to be signed and accepted",
+          "Once invited to the VO Sales Group sales team, it may take some time to place you on a project",
+          "You are always welcome to bring projects to the team, and VO Sales Group management will assist in closing the new client",
+        ]
+      ],
+      link: "Request interview",
+      href: "/request-interview",
+      image: null,
     },
     {
       id: "NextSteps",

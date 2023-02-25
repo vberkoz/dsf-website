@@ -14,90 +14,97 @@ export const XitStrategy = {
     },
     {
       id: "Content121",
-      data: [
-        {
-          caption: [
-            "Looking",
-            [
-              "For More Sales to Raise your Valuation?",
-              "To Raise Growth Capital?",
-              "For a Strategic Partner?",
-              "For an Exit Strategy?",
-              "For M&A Advisory?",
-            ]
-          ],
-          title: "VO Sales Group has a sister company called XIT Group",
-          content: [
-            [
-              "Exit Strategies and Plans",
-              "Exit Sales Strategies",
-              "Strategies to Raise your Valuation",
-              "Exit Checklists and more",
-            ],
-            "VO's XIT Group can help you raise your Valuation before your Exit.",
-          ],
-        },
-        {
-          caption: [],
-          title: "Types of Capital",
-          content: [
-            [
-              "Growth Capital",
-              "Commercial Credit",
-              "Equity Capital ",
-              "Private Equity",
-              "M&A Advisory & Finance",
-              "EXIT Strategies and Plans",
-            ]
-          ],
-          link: {
-            caption: "Let us find a Strategic Partner to sell to",
-            href: "https://xit.company/",
-          }
-        },
-        {
-          caption: [],
-          title: "Solutions",
-          content: [
-            "If you are developing an Enterprise Application in the following areas, we'd be interested in talking with you.",
-            [
-              "Supply Chain and Automation Solutions",
-              "Industrial/Factory Automation",
-              "Industrial Internet of Things",
-              "Fleet Management",
-              "Asset Tracking",
-              "Billing Solutions (M2M), such as Utility Metering, Parking Meters, and more",
-              "TeleHealth - mHealth - Mobile Healthcare",
-              "Mobility for Retail Management and Mobile POS",
-              "Retail Mobile Payment Systems ",
-              "Cashierless Checkout Solutions",
-              "Robotics",
-            ]
-          ]
-        },
-        {
-          caption: [],
-          title: "Capital strategy",
-          content: [
-            "VO Sales Group will put together a small team to help you package your offering for Raising Capital or for Exit.",
-            "We help with all things needed for your pitch deck.",
-            "Stuff the Sales Pipe, Sales, Sales Plan, Getting in front of Strategic Partners, Prepping, Role Playing, Presentations, and more.",
-          ],
-          link: {
-            caption: "Let's schedule time to discuss",
-            href: "/join-our-team",
-          }
-        },
-        {
-          caption: [],
-          title: "Matchmaker",
-          content: [
-            "VO Sales Group represents you, the entrepreneur.",
-            "Our job is to help you with positioning, revenue, your pitch, strategy, and to get you prepped and in front of Strategic Partners.",
-            "VO Sales Group, your Consultant, and Pitchman.",
-          ],
-        },
+      caption: [
+        "Looking",
+        [
+          "For More Sales to Raise your Valuation?",
+          "To Raise Growth Capital?",
+          "For a Strategic Partner?",
+          "For an Exit Strategy?",
+          "For M&A Advisory?",
+        ]
       ],
+      title: "VO Sales Group has a sister company called XIT Group",
+      content: [
+        [
+          "Exit Strategies and Plans",
+          "Exit Sales Strategies",
+          "Strategies to Raise your Valuation",
+          "Exit Checklists and more",
+        ],
+        "VO's XIT Group can help you raise your Valuation before your Exit.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Types of Capital",
+      content: [
+        [
+          "Growth Capital",
+          "Commercial Credit",
+          "Equity Capital ",
+          "Private Equity",
+          "M&A Advisory & Finance",
+          "EXIT Strategies and Plans",
+        ]
+      ],
+      link: "Let us find a Strategic Partner to sell to",
+      href: "https://xit.company/",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Solutions",
+      content: [
+        "If you are developing an Enterprise Application in the following areas, we'd be interested in talking with you.",
+        [
+          "Supply Chain and Automation Solutions",
+          "Industrial/Factory Automation",
+          "Industrial Internet of Things",
+          "Fleet Management",
+          "Asset Tracking",
+          "Billing Solutions (M2M), such as Utility Metering, Parking Meters, and more",
+          "TeleHealth - mHealth - Mobile Healthcare",
+          "Mobility for Retail Management and Mobile POS",
+          "Retail Mobile Payment Systems ",
+          "Cashierless Checkout Solutions",
+          "Robotics",
+        ],
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Capital strategy",
+      content: [
+        "VO Sales Group will put together a small team to help you package your offering for Raising Capital or for Exit.",
+        "We help with all things needed for your pitch deck.",
+        "Stuff the Sales Pipe, Sales, Sales Plan, Getting in front of Strategic Partners, Prepping, Role Playing, Presentations, and more.",
+      ],
+      link: "Let's schedule time to discuss",
+      href: "/join-our-team",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Matchmaker",
+      content: [
+        "VO Sales Group represents you, the entrepreneur.",
+        "Our job is to help you with positioning, revenue, your pitch, strategy, and to get you prepped and in front of Strategic Partners.",
+        "VO Sales Group, your Consultant, and Pitchman.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
     },
     {
       id: "Content1111",

@@ -16,23 +16,22 @@ export const Solutions = {
     },
     {
       id: "Content121",
-      data: [
-        {
-          caption: ["Revenue Producing"],
-          title: "VO Sales Group Solutions",
-          content: [
-            [
-              "International Sales Development for non-US companies",
-              "Vetted Sales Staffing",
-              "Channel Development",
-              "Sales Prospecting",
-              "Marketing 2.0"
-            ],
-            "If you are a company looking for Revenue Producing Sales Leads, our Sales and Marketing Solutions are meant for you.",
-            "You can submit a Sales or Marketing Project on each of the Solutions pages above or contact us to work with an account manager.",
-          ],
-        },
+      caption: ["Revenue Producing"],
+      title: "VO Sales Group Solutions",
+      content: [
+        [
+          "International Sales Development for non-US companies",
+          "Vetted Sales Staffing",
+          "Channel Development",
+          "Sales Prospecting",
+          "Marketing 2.0"
+        ],
+        "If you are a company looking for Revenue Producing Sales Leads, our Sales and Marketing Solutions are meant for you.",
+        "You can submit a Sales or Marketing Project on each of the Solutions pages above or contact us to work with an account manager.",
       ],
+      link: "",
+      href: "#",
+      image: null,
     },
     {
       id: "Image121",
