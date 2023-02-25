@@ -20,7 +20,7 @@ export const Home = {
           description:
             "VO Sales Group offers a full suite of Lead Generation Solutions, Sales Development, Digital Marketing and Channel Solutions.",
           button: "VO Solutions",
-          href: "#",
+          href: "/solutions",
         },
         {
           image: map.src,
@@ -28,7 +28,7 @@ export const Home = {
           description:
             "VO Sales Group offers a unique sales approach to generate high quality opportunities for your organization.",
           button: "Learn More",
-          href: "#",
+          href: "/concierge-services",
         },
         {
           image: road.src,
@@ -36,7 +36,7 @@ export const Home = {
           description:
             "The On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives.",
           button: "Sales Prospecting",
-          href: "#",
+          href: "/concierge-services",
         },
       ],
     },
