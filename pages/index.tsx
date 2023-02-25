@@ -2,10 +2,11 @@ import { Home as page } from "@/data/pagesets/Home";
 
 import { Benefits } from "@/components/Benefits/Benefits";
 import { Slides } from "@/components/Slides/Slides";
-import { Features } from "@/components/Features/Features";
 import { Hero } from "@/components/Hero";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Layout } from "@/components/Layout";
+
+import Content121 from "@/components/Content121";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
         switch (section.id) {
           case "Slides":
             return <Slides data={section.slides} key={key} />;
-          case "Features":
-            return <Features key={key} />;
+          case "Content121":
+            return <Content121 data={section} key={key} />;
           case "Hero":
             return <Hero data={section} key={key} />;
           case "Benefits":
