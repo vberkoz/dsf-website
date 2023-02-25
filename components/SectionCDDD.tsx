@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image, {StaticImageData} from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type Props = {
   section: {
@@ -12,47 +12,45 @@ type Props = {
       link: string;
       href: string;
     }[];
-  }
+  };
 };
 
 export default function SectionCDDD({ section }: Props) {
   return (
     <div className="bg-gray-900 text-white lg:p-14">
-      <div className="grid grid-cols-1 gap-x-8 gap-y-20 px-3 py-8 md:grid-cols-2 xl:grid-cols-4">
-        <div className="font-bold md:col-span-2 xl:col-span-1">
-          <div className="font-bold text-white">
-            {section.caption.map((item, pKey) => {
-              if (Array.isArray(item)) {
-                return (
-                  <ul key={pKey} className="font-normal text-gray-400">
-                    {item.map((li, lKey) => (
-                      <li key={lKey}>{li}</li>
-                    ))}
-                  </ul>
-                );
-              } else {
-                return (
-                  <div
-                    key={pKey}
-                    className={`${pKey !== 0 && "font-normal text-gray-400"}`}
-                  >
-                    {item}
-                  </div>
-                );
-              }
-            })}
-          </div>
+      <div className="grid grid-cols-1 gap-x-8 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="font-bold md:col-span-2 lg:col-span-3 xl:col-span-1">
+          {section.caption.map((item, pKey) => {
+            if (Array.isArray(item)) {
+              return (
+                <ul key={pKey} className="font-normal text-gray-400">
+                  {item.map((li, lKey) => (
+                    <li key={lKey}>{li}</li>
+                  ))}
+                </ul>
+              );
+            } else {
+              return (
+                <div
+                  key={pKey}
+                  className={`${pKey !== 0 && "font-normal text-gray-400"}`}
+                >
+                  {item}
+                </div>
+              );
+            }
+          })}
         </div>
 
         <Item data={section.data[0]} />
         <Item data={section.data[1]} />
-        <div className="col-span-2 hidden border-t border-gray-700 md:block xl:hidden"></div>
+        <div className="col-span-2 hidden border-t border-gray-700 md:block lg:hidden"></div>
         <Item data={section.data[2]} />
         <div className="hidden xl:block"></div>
-        <div className="col-span-3 hidden border-t border-gray-700 xl:block"></div>
+        <div className="col-span-3 hidden border-t border-gray-700 lg:block"></div>
         <div className="hidden xl:block"></div>
         <Item data={section.data[3]} />
-        <div className="col-span-2 hidden border-t border-gray-700 md:block xl:hidden"></div>
+        <div className="col-span-2 hidden border-t border-gray-700 md:block lg:hidden"></div>
         <Item data={section.data[4]} />
         <Item data={section.data[5]} />
       </div>
@@ -71,7 +69,7 @@ type ItemProps = {
 };
 
 const Item = ({ data }: ItemProps) => (
-  <div className="flex flex-col text-gray-400">
+  <div className="flex flex-col py-16 text-gray-400">
     <div className="h-20 text-3xl font-light text-white">{data.title}</div>
 
     <div className="grid grid-cols-1 gap-4">
