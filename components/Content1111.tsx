@@ -17,7 +17,7 @@ export default function Content1111({ content }: Props) {
         </div>
 
         <div className="flex flex-col text-gray-400">
-          <div className="mb-4 text-3xl text-white">{content.title1}</div>
+          <div className="mb-4 text-3xl text-white min-h-[36px]">{content.title1}</div>
           {content.col1.map((i, k) => {
             if (Array.isArray(i)) {
               return (
@@ -34,7 +34,7 @@ export default function Content1111({ content }: Props) {
         </div>
 
         <div className="flex flex-col text-gray-400">
-          <div className="mb-4 text-3xl text-white">{content.title2}</div>
+          <div className="mb-4 text-3xl text-white min-h-[36px]">{content.title2}</div>
           {content.col2.map((i, k) => {
             if (Array.isArray(i)) {
               return (
