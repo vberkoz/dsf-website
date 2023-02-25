@@ -9,6 +9,7 @@ import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Image121 } from "@/components/Image121";
 import Content1111 from "@/components/Content1111";
 import Testimonials from "@/components/Testimonials";
+import { Hero } from "@/components/Hero";
 
 export default function Page({ page }: any) {
   return (
@@ -40,6 +41,8 @@ export default function Page({ page }: any) {
                 image={page.image}
               />
             );
+          case "Hero":
+            return <Hero data={section} key={key} />
           case "Content121":
             return <Content121 content={section.data} key={key} />;
           case "Content1111":
