@@ -5,12 +5,12 @@ import road from "@/public/home/road.webp";
 import bb1 from "@/public/home/brooklyn-bridge-1.webp";
 import bb2 from "@/public/home/brooklyn-bridge-2.jpeg";
 
-import bulb from "@/public/home/bulb.svg"
-import target from "@/public/home/target.svg"
-import wallet from "@/public/home/wallet.svg"
-import brand from "@/public/home/brand.svg"
-import speaker from "@/public/home/speaker.svg"
-import key from "@/public/home/key.svg"
+import bulb from "@/public/home/bulb.svg";
+import target from "@/public/home/target.svg";
+import wallet from "@/public/home/wallet.svg";
+import brand from "@/public/home/brand.svg";
+import speaker from "@/public/home/speaker.svg";
+import key from "@/public/home/key.svg";
 
 import { DefaultNextSteps } from "../DefaultNextSteps";
 
@@ -106,12 +106,12 @@ export const Home = {
           title: "Professional Sales Prospecting",
           image: bulb.src,
           content: [
-            "VO Concierge is VO Sales Group's \"white glove\" service that incorporates all facets of the comprehensive VO Sales Group Sales Prospecting approach.",
+            'VO Concierge is VO Sales Group\'s "white glove" service that incorporates all facets of the comprehensive VO Sales Group Sales Prospecting approach.',
             "With this service, you have one go-to company for all of your Demand Generation needs.",
             "You will have an account manager/project manager as we pull together a team with multiple skill sets to help you achieve your goals.",
           ],
           link: "Professional prospecting",
-          href: "/concierge-services"
+          href: "/concierge-services",
         },
         {
           title: "Demand generation",
@@ -121,7 +121,7 @@ export const Home = {
             "Keywords: Sales Lead, Lead Generation, Demand Generation, Prospecting.",
           ],
           link: "Sales 360 services",
-          href: "/solutions"
+          href: "/solutions",
         },
         {
           title: "Channel Development",
@@ -131,7 +131,7 @@ export const Home = {
             "If Channel Portals and a Channel community are part of your offering VO Sales Group can help.",
           ],
           link: "Channel development",
-          href: "/channel-development"
+          href: "/channel-development",
         },
         {
           title: "Brand Refresh",
@@ -142,7 +142,7 @@ export const Home = {
             "If your Solutions pages are not Mobile-Friendly, Google will not be ranking your pages.",
           ],
           link: "Marketing 2.0",
-          href: "/marketing-2-0"
+          href: "/marketing-2-0",
         },
         {
           title: "Digital Marketing",
@@ -153,7 +153,7 @@ export const Home = {
             "We will design a plan for you, utilizing a multi-touch approach that includes all things internet to complement the human factor.",
           ],
           link: "Marketing 360",
-          href: "/marketing-2-0"
+          href: "/marketing-2-0",
         },
         {
           title: "All Things Sales",
@@ -163,8 +163,8 @@ export const Home = {
             "With the shorter ramp-up times and less overhead, you can utilize our early adoption of the Gig Economy to your benefit and leverage our world-class sales and sales marketing team to advance your revenue.",
           ],
           link: "Professional prospecting",
-          href: "/international-concierge"
-        }
+          href: "/international-concierge",
+        },
       ],
     },
     {

@@ -15,10 +15,62 @@ type Props = {
   };
 };
 
+/*
+
+{
+  id: "SectionCDDD",
+  caption: ["SectionCDDD"],
+  data: [
+    {
+      title: "Title",
+      image: bulb.src,
+      content: ["SectionCDDD content"],
+      link: "Link",
+      href: "#",
+    },
+    {
+      title: "Title",
+      image: bulb.src,
+      content: ["SectionCDDD content"],
+      link: "Link",
+      href: "#",
+    },
+    {
+      title: "Title",
+      image: bulb.src,
+      content: ["SectionCDDD content"],
+      link: "Link",
+      href: "#",
+    },
+    {
+      title: "Title",
+      image: bulb.src,
+      content: ["SectionCDDD content"],
+      link: "Link",
+      href: "#",
+    },
+    {
+      title: "Title",
+      image: bulb.src,
+      content: ["SectionCDDD content"],
+      link: "Link",
+      href: "#",
+    },
+    {
+      title: "Title",
+      image: bulb.src,
+      content: ["SectionCDDD content"],
+      link: "Link",
+      href: "#",
+    },
+  ],
+},
+*/
+
 export default function SectionCDDD({ section }: Props) {
   return (
-    <div className="bg-gray-900 text-white lg:p-14">
-      <div className="grid grid-cols-1 gap-x-8 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="bg-gray-900 text-white lg:pl-14 py-4">
+      <div className="grid grid-cols-1 gap-x-8 gap-y-16 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold md:col-span-2 lg:col-span-3 xl:col-span-1">
           {section.caption.map((item, pKey) => {
             if (Array.isArray(item)) {
@@ -69,7 +121,7 @@ type ItemProps = {
 };
 
 const Item = ({ data }: ItemProps) => (
-  <div className="flex flex-col py-16 text-gray-400">
+  <div className="flex flex-col text-gray-400">
     <div className="h-20 text-3xl font-light text-white">{data.title}</div>
 
     <div className="grid grid-cols-1 gap-4">
@@ -77,8 +129,8 @@ const Item = ({ data }: ItemProps) => (
         <Image
           src={data.image}
           alt={data.title}
-          width={50}
-          height={50}
+          width={60}
+          height={60}
           className="mt-auto"
         />
       </div>

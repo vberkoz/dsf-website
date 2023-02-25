@@ -16,14 +16,15 @@ type Props = {
 
 {
   id: "Content121",
-  caption: [],
-  title: "",
-  content: [],
-  link: "",
+  caption: ["Content121"],
+  title: "TItle",
+  content: [
+    "Content121 body"
+  ],
+  link: "Link",
   href: "#",
   image: null,
 },
-
 */
 
 export default function Content121({ data }: Props) {

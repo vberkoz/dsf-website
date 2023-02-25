@@ -5,6 +5,7 @@ import { Pages } from "@/data/data";
 import { Layout } from "@/components/Layout";
 import { HeroTabs } from "@/components/HeroTabs";
 import Content121 from "@/components/Content121";
+import SectionCDDD from "@/components/SectionCDDD";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Image121 } from "@/components/Image121";
 import Content1111 from "@/components/Content1111";
@@ -42,7 +43,9 @@ export default function Page({ page }: any) {
               />
             );
           case "Hero":
-            return <Hero data={section} key={key} />
+            return <Hero data={section} key={key} />;
+          case "SectionCDDD":
+            return <SectionCDDD section={section} key={key} />;
           case "Content121":
             return <Content121 data={section} key={key} />;
           case "Content1111":
