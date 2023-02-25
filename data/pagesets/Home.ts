@@ -111,7 +111,7 @@ export const Home = {
             "You will have an account manager/project manager as we pull together a team with multiple skill sets to help you achieve your goals.",
           ],
           link: "Professional prospecting",
-          href: "#"
+          href: "/concierge-services"
         },
         {
           title: "Demand generation",
@@ -121,7 +121,7 @@ export const Home = {
             "Keywords: Sales Lead, Lead Generation, Demand Generation, Prospecting.",
           ],
           link: "Sales 360 services",
-          href: "#"
+          href: "/solutions"
         },
         {
           title: "Channel Development",
@@ -131,7 +131,7 @@ export const Home = {
             "If Channel Portals and a Channel community are part of your offering VO Sales Group can help.",
           ],
           link: "Channel development",
-          href: "#"
+          href: "/channel-development"
         },
         {
           title: "Brand Refresh",
@@ -142,7 +142,7 @@ export const Home = {
             "If your Solutions pages are not Mobile-Friendly, Google will not be ranking your pages.",
           ],
           link: "Marketing 2.0",
-          href: "#"
+          href: "/marketing-2-0"
         },
         {
           title: "Digital Marketing",
@@ -153,7 +153,7 @@ export const Home = {
             "We will design a plan for you, utilizing a multi-touch approach that includes all things internet to complement the human factor.",
           ],
           link: "Marketing 360",
-          href: "#"
+          href: "/marketing-2-0"
         },
         {
           title: "All Things Sales",
@@ -163,7 +163,7 @@ export const Home = {
             "With the shorter ramp-up times and less overhead, you can utilize our early adoption of the Gig Economy to your benefit and leverage our world-class sales and sales marketing team to advance your revenue.",
           ],
           link: "Professional prospecting",
-          href: "#"
+          href: "/international-concierge"
         }
       ],
     },
