@@ -28,7 +28,7 @@ export const Hero = ({ data }: Prop) => {
             </h1>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3">
-              <div>
+              <div className="grid grid-cols-1 gap-4">
                 {data.content.map((item, pKey) => {
                   if (Array.isArray(item)) {
                     return (
@@ -46,7 +46,7 @@ export const Hero = ({ data }: Prop) => {
                 {data.link && (
                   <Link
                     href={data.href}
-                    className="mt-8 flex w-fit cursor-pointer bg-yellow-300 px-4 py-3 text-black hover:bg-yellow-400"
+                    className="mt-4 flex w-fit cursor-pointer bg-yellow-300 px-4 py-3 text-black hover:bg-yellow-400"
                   >
                     <span className="mr-4 leading-[1.2rem]">{data.link}</span>
                     <svg
