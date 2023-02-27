@@ -16,8 +16,8 @@ type Props = {
 
 {
   id: "Content121",
-  caption: [""],
-  title: "TItle",
+  caption: [],
+  title: "Title",
   content: ["Content121 body"],
   link: "Link",
   href: "#",
