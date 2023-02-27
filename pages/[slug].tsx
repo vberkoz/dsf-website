@@ -51,7 +51,7 @@ export default function Page({ page }: any) {
           case "Content1111":
             return <Content1111 content={section.data} key={key} />;
           case "Image121":
-            return <Image121 content={section.data} key={key} />;
+            return <Image121 data={section} key={key} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,
