@@ -29,7 +29,7 @@ type Props = {
 
 export default function Content121({ data }: Props) {
   return (
-    <div className="bg-gray-900 py-8 lg:pl-14">
+    <div className="bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold text-white">
           {data.caption.map((item, pKey) => {

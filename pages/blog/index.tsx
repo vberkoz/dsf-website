@@ -23,7 +23,7 @@ export default function Posts({
 }) {
   return (
     <Layout>
-      <div className="grid grid-cols-1 gap-px bg-gray-900 pb-[1px] text-white md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-px bg-gray-900 pb-[1px] text-white md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
         {allPostsData.map(
           ({ id, image, title, author, excerpt, date }, key) => {
             switch (key) {
@@ -40,7 +40,7 @@ export default function Posts({
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                       }}
-                      className="h-32 w-full md:h-64 lg:h-1/2"
+                      className="h-32 w-full md:h-64 lg:h-1/3"
                     ></div>
                     <div className="p-3 xl:p-6">
                       <h2 className="mb-2 text-2xl font-light text-gray-200 md:mb-4 md:text-5xl">

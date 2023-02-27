@@ -39,7 +39,7 @@ export default function Post({
         }}
       >
         <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white lg:to-gray-900/0">
-          <div className="grid lg:p-14 xl:grid-cols-4">
+          <div className="grid lg:p-14 xl:grid-cols-4 xl:pr-[108px]">
             <div></div>
             <div className="col-span-2 flex flex-col p-3">
               <h1 className="mb-4 pb-16 text-5xl font-medium sm:text-5xl">
@@ -59,7 +59,7 @@ export default function Post({
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-3 xl:grid-cols-4 bg-gray-900 lg:p-14">
+      <div className="grid bg-gray-900 lg:grid-cols-3 lg:p-14 xl:grid-cols-4 xl:pr-[108px]">
         <div className="flex">
           <div className="flex lg:flex-col">
             <Link
@@ -116,7 +116,7 @@ export default function Post({
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-gray-900 pb-[1px] lg:pl-14">
+      <div className="grid gap-px bg-gray-900 pb-[1px] md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
         <div className="hidden lg:block"></div>
         <Link
           href={`/blog/${postData.prev}`}

@@ -11,15 +11,15 @@ type Props = {
 
 export const Image121 = ({ content }: Props) => {
   return (
-    <div className="bg-gray-900 py-8 lg:pl-14">
+    <div className="bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
       {content.map((item, key) => {
         return (
           <div
             key={key}
-            className="mb-16 grid gap-4 p-3 text-gray-400 md:grid-cols-4"
+            className="mb-16 grid text-gray-400 lg:grid-cols-3 xl:grid-cols-4"
           >
             <div className="font-bold text-white">{item.caption}</div>
-            <div className="grid grid-cols-1 gap-4 md:col-span-3 xl:col-span-2">
+            <div className="grid gap-4 lg:col-span-2">
               <div className="text-3xl text-white">{item.title}</div>
 
               {item.image && (

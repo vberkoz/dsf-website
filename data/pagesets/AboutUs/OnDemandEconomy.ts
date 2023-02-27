@@ -28,7 +28,7 @@ export const OnDemandEconomy = {
     },
     {
       id: "Content121",
-      caption: ["On-Demand Sales and Marketing Projects"],
+      caption: ["Marketing Projects"],
       title: "Submit a Project",
       content: [
         "VO Sales Group caters to vendors that need Sales, Sales Leads, Appointments, Traffic, Revenue, and all the Internet Marketing that leads up to that.",

@@ -69,7 +69,7 @@ type Props = {
 
 export default function SectionCDDD({ section }: Props) {
   return (
-    <div className="bg-gray-900 text-white lg:pl-14 py-4">
+    <div className="bg-gray-900 py-4 text-white lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold md:col-span-2 lg:col-span-3 xl:col-span-1">
           {section.caption.map((item, pKey) => {
