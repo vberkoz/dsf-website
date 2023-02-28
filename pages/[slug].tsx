@@ -11,6 +11,7 @@ import { Image121 } from "@/components/Image121";
 import Content1111 from "@/components/Content1111";
 import Testimonials from "@/components/Testimonials";
 import { Hero } from "@/components/Hero";
+import NextSteps4 from "@/components/NextSteps4";
 
 export default function Page({ page }: any) {
   return (
@@ -58,7 +59,7 @@ export default function Page({ page }: any) {
             });
             return (
               <div
-                className="grid bg-gray-900 lg:pl-14 xl:pr-[108px] lg:grid-cols-3 xl:grid-cols-4"
+                className="grid bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
                 key={key}
               >
                 <div></div>
@@ -72,6 +73,8 @@ export default function Page({ page }: any) {
             return <Testimonials data={section.data} key={key} />;
           case "NextSteps":
             return <NextSteps data={section.steps} key={key} />;
+          case "NextSteps4":
+            return <NextSteps4 data={section.steps} key={key} />;
         }
       })}
     </Layout>
