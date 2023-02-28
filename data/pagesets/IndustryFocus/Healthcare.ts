@@ -1,20 +1,130 @@
 import { DefaultNextSteps } from "@/data/DefaultNextSteps";
 import doctors from "@/public/industry_focus/doctors.webp";
+import gadgets from "@/public/industry_focus/gadgets.webp";
 
 export const Healthcare = {
   title: "Healthcare",
   slug: "healthcare",
   pageset: "industry-focus",
   isPrimary: false,
-  description: "eHealth, Connected Hospital, EMR/EHR, Security, Patient Tracking, Clinical Supply Chain, Nurse Call, Patient Engagement, LAB, RCM",
+  description:
+    "eHealth, Connected Hospital, EMR/EHR, Security, Patient Tracking, Clinical Supply Chain, Nurse Call, Patient Engagement, LAB, RCM",
   image: doctors.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
+      id: "Content121",
+      caption: [],
+      title: "Healthcare Sales Prospecting",
+      content: [
+        "VO Sales Group offers Sales Prospecting for all things Healthcare. With a finite market of only 6000 hospitals, there is a race for market share. Let VO Sales Group help you win that race.",
+        [
+          "Healthcare Sales Leads",
+          "EHR/EMR",
+          "Collaboration Solutions",
+          "LAB Solutions",
+          "Data Hosting Solutions",
+          "Patient Tracking",
+          "Revenue Cycle Management/Financial Solutions",
+          "Patient Acquisition and Patient Retention Solutions",
+          "Self Check-in Solutions and Kiosks",
+          "Surgery and ER Solutions",
+          "Clinical Supply Chain",
+          "Anything mHealth for Asset Tracking, Patient Tracking, Pharma Tracking",
+          "Workforce Management",
+          "Workflow Management",
+        ],
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "VO Healthcare Solutions",
+      content: [
+        "VO does not sell your Healthcare offering. Instead, VO will help you identify the buyer and then probe for compelling reasons to talk to your sales team.",
+        "VO Prospects. You Sell.",
+        "VO strives to stuff the Sales Pipeline with Sales Opportunities to raise capital.",
+        "Partner with VO Sales Group for your investment strategies to grow your mHealth business.",
+        "VO Sales Group is looking for investment opportunities in new technologies in Healthcare.",
+      ],
+      link: "",
+      href: "#",
+      image: gadgets,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "TeleHealth Sales Development",
+      content: [
+        "TeleHealth is an industry of industries.",
+        "Applications for mHealth:",
+        [
+          "Patient Monitors",
+          "Equipment Monitors",
+          "Mobile Telemedicine/Telecare Devices",
+          "Virtual LAB Solutions",
+          "Patient Portals",
+          "Senior Care",
+          "Nurse Call",
+          "Home Health and Remote Support",
+          "Air Quality Sensing",
+          "Education, Data Collection, Diagnostic, and Treatment",
+          "Disease and Epidemic Outbreak Tracking",
+          "Patient Readmission",
+          "Patient Acceleration",
+        ],
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "vHealth Sales Development",
+      content: [
+        "vHealth - Virtual Healthcare - is the hottest market right now. Many in this space are start-ups or emerging vendors.",
+        "VO Sales Group has a track record of producing Healthcare Sales Leads and Sales Opportunities for emerging healthcare solution providers.",
+        "Let us devise a plan for you, and let's starting finding revenue.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Messaging",
+      content: [
+        "With so many new entrants into the Healthcare space, many companies hire VO Sales Group not only to canvass for Sales Opportunities, but to refine their Sales Message and Brand.",
+        "Our seasoned Sales team can offer you weekly feedback on what is resonating and what is not.",
+        "Many start-ups in Healthcare have hired VO Sales Group’s Concierge team.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
+      id: "Content121",
+      caption: [],
+      title: "Healthcare Sales Development",
+      content: [
+        "VO is focused on Healthcare Sales Development and HIMSS Sales Leads.",
+        "VO Team Members regularly attend the HIMSS Conference and are up-to-date on the latest solutions in Healthcare.",
+        "We can help you with Call List Services, Niche Lists, and development of a Sales and Marketing Strategy to properly canvas this space.",
+      ],
+      link: "",
+      href: "#",
+      image: null,
+    },
+    {
       id: "NextSteps",
-      steps: DefaultNextSteps
+      steps: DefaultNextSteps,
     },
   ],
 };
