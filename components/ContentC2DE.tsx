@@ -115,7 +115,7 @@ export default function ContentC2DE({ data }: Props) {
         <div className={`${!data.image && "hidden"} xl:hidden`}></div>
 
         {data.image && (
-          <div className="flex flex-col justify-end md:col-span-3 lg:col-span-2 xl:col-span-1">
+          <div className="flex flex-col justify-end md:col-span-3 lg:col-span-2 xl:col-span-1 xl:pl-4">
             <Image src={data.image} alt={""} className="w-full" />
           </div>
         )}
