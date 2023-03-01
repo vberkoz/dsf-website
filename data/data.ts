@@ -24,6 +24,7 @@ import { SalesTeamTestimonials } from "./pagesets/JoinOurTeam/SalesTeamTestimoni
 import { SalesAgentProgram } from "./pagesets/JoinOurTeam/SalesAgentProgram";
 import { RequestInterview } from "./pagesets/JoinOurTeam/RequestInterview";
 import { Marketing20Team } from "./pagesets/JoinOurTeam/Marketing20Team";
+import { SalesAgentFAQs } from "./pagesets/JoinOurTeam/SalesAgentFAQs";
 import { Sales360Team } from "./pagesets/JoinOurTeam/Sales360Team";
 import { GigLife } from "./pagesets/JoinOurTeam/GigLife";
 
@@ -59,6 +60,7 @@ export const Pages = [
   SalesAgentProgram,
   Marketing20Team,
   RequestInterview,
+  SalesAgentFAQs,
   Sales360Team,
   GigLife,
 
