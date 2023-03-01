@@ -1,8 +1,6 @@
 import { DefaultNextSteps } from "@/data/DefaultNextSteps";
 import nyc from "@/public/solutions/nyc.webp";
 
-import bulb from "@/public/home/bulb.svg";
-
 import folder from "@/public/solutions/folder.svg";
 import email from "@/public/solutions/email.svg";
 import message from "@/public/solutions/message.svg";

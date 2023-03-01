@@ -2,12 +2,12 @@ import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
 type Props = {
-  section: {
+  data: {
     id: string;
     caption: (string[] | string)[];
     data: {
       title: string;
-      image: StaticImageData;
+      svg: StaticImageData;
       content: (string[] | string)[];
       link: string;
       href: string;
@@ -17,49 +17,20 @@ type Props = {
 
 /*
 
-import bulb from "@/public/home/bulb.svg";
 {
-  id: "SectionCDDD",
-  caption: ["SectionCDDD"],
+  id: "ContentCDDE",
+  caption: [],
   data: [
     {
       title: "",
-      image: bulb.src,
+      svg: null,
       content: [],
       link: "",
       href: "#",
     },
     {
       title: "",
-      image: bulb.src,
-      content: [],
-      link: "",
-      href: "#",
-    },
-    {
-      title: "",
-      image: bulb.src,
-      content: [],
-      link: "",
-      href: "#",
-    },
-    {
-      title: "",
-      image: bulb.src,
-      content: [],
-      link: "",
-      href: "#",
-    },
-    {
-      title: "",
-      image: bulb.src,
-      content: [],
-      link: "",
-      href: "#",
-    },
-    {
-      title: "",
-      image: bulb.src,
+      svg: null,
       content: [],
       link: "",
       href: "#",
@@ -68,12 +39,12 @@ import bulb from "@/public/home/bulb.svg";
 },
 */
 
-export default function SectionCDDD({ section }: Props) {
+export default function ContentCDDE({ data }: Props) {
   return (
     <div className="bg-gray-900 py-4 text-white lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="font-bold md:col-span-2 lg:col-span-3 xl:col-span-1">
-          {section.caption.map((item, pKey) => {
+        <div className="font-bold md:col-span-2 lg:col-span-1">
+          {data.caption.map((item, pKey) => {
             if (Array.isArray(item)) {
               return (
                 <ul key={pKey} className="font-normal text-gray-400">
@@ -95,17 +66,9 @@ export default function SectionCDDD({ section }: Props) {
           })}
         </div>
 
-        <Item data={section.data[0]} />
-        <Item data={section.data[1]} />
-        <div className="col-span-2 hidden border-t border-gray-700 md:block lg:hidden"></div>
-        <Item data={section.data[2]} />
+        <Item data={data.data[0]} />
+        <Item data={data.data[1]} />
         <div className="hidden xl:block"></div>
-        <div className="col-span-3 hidden border-t border-gray-700 lg:block"></div>
-        <div className="hidden xl:block"></div>
-        <Item data={section.data[3]} />
-        <div className="col-span-2 hidden border-t border-gray-700 md:block lg:hidden"></div>
-        <Item data={section.data[4]} />
-        <Item data={section.data[5]} />
       </div>
     </div>
   );
@@ -114,7 +77,7 @@ export default function SectionCDDD({ section }: Props) {
 type ItemProps = {
   data: {
     title: string;
-    image: StaticImageData;
+    svg: StaticImageData;
     content: (string[] | string)[];
     link: string;
     href: string;
@@ -128,7 +91,7 @@ const Item = ({ data }: ItemProps) => (
     <div className="grid grid-cols-1 gap-4">
       <div className="flex h-16 flex-col">
         <Image
-          src={data.image}
+          src={data.svg}
           alt={data.title}
           width={60}
           height={60}

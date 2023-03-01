@@ -8,9 +8,23 @@ type Props = {
   };
 };
 
+/*
+
+{
+  id: "Content1111",
+  data: {
+    caption: "",
+    title1: "",
+    title2: "",
+    col1: [],
+    col2: [],
+  }
+},
+*/
+
 export default function Content1111({ content }: Props) {
   return (
-    <div className="bg-gray-900 py-8 text-white lg:pl-14">
+    <div className="bg-gray-900 py-8 text-white lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 gap-4 p-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold sm:col-span-2 lg:col-span-1">
           {content.caption}

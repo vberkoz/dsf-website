@@ -11,6 +11,10 @@ import { Image121 } from "@/components/Image121";
 import Content1111 from "@/components/Content1111";
 import Testimonials from "@/components/Testimonials";
 import { Hero } from "@/components/Hero";
+import NextSteps4 from "@/components/NextSteps4";
+import ContentC2DE from "@/components/ContentC2DE";
+import ContentCDDE from "@/components/ContentCDDE";
+import FAQ from "@/components/FAQ";
 
 export default function Page({ page }: any) {
   return (
@@ -48,17 +52,23 @@ export default function Page({ page }: any) {
             return <SectionCDDD section={section} key={key} />;
           case "Content121":
             return <Content121 data={section} key={key} />;
+          case "ContentC2DE":
+            return <ContentC2DE data={section} key={key} />;
+          case "FAQ":
+            return <FAQ data={section} key={key} />;
+          case "ContentCDDE":
+            return <ContentCDDE data={section} key={key} />;
           case "Content1111":
             return <Content1111 content={section.data} key={key} />;
           case "Image121":
-            return <Image121 content={section.data} key={key} />;
+            return <Image121 data={section} key={key} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,
             });
             return (
               <div
-                className="grid bg-gray-900 lg:pl-14 xl:grid-cols-4"
+                className="grid bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
                 key={key}
               >
                 <div></div>
@@ -72,6 +82,8 @@ export default function Page({ page }: any) {
             return <Testimonials data={section.data} key={key} />;
           case "NextSteps":
             return <NextSteps data={section.steps} key={key} />;
+          case "NextSteps4":
+            return <NextSteps4 data={section.steps} key={key} />;
         }
       })}
     </Layout>

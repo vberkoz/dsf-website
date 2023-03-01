@@ -5,6 +5,7 @@ type Props = {
   data: {
     caption: (string[] | string)[];
     title: string;
+    svg: StaticImageData | null;
     content: (string[] | string)[];
     image: StaticImageData | null;
     link: string;
@@ -15,9 +16,10 @@ type Props = {
 /*
 
 {
-  id: "Content121",
+  id: "ContentC2DE",
   caption: [],
   title: "",
+  svg: null,
   content: [],
   link: "",
   href: "#",
@@ -25,7 +27,7 @@ type Props = {
 },
 */
 
-export default function Content121({ data }: Props) {
+export default function ContentC2DE({ data }: Props) {
   return (
     <div className="bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4">
@@ -54,6 +56,16 @@ export default function Content121({ data }: Props) {
 
         <div className="grid grid-cols-1 gap-4 pb-4 md:col-span-3 lg:col-span-2">
           <div className="text-3xl text-white">{data.title}</div>
+          
+          {data.svg && (
+            <Image
+              src={data.svg}
+              alt={data.title}
+              width={60}
+              height={60}
+              className="mt-auto"
+            />
+          )}
 
           {data.content.map((item, pKey) => {
             if (Array.isArray(item)) {
@@ -103,7 +115,7 @@ export default function Content121({ data }: Props) {
         <div className={`${!data.image && "hidden"} xl:hidden`}></div>
 
         {data.image && (
-          <div className="flex flex-col justify-end md:col-span-3 lg:col-span-2 xl:col-span-1">
+          <div className="flex flex-col justify-end md:col-span-3 lg:col-span-2 xl:col-span-1 xl:pl-4">
             <Image src={data.image} alt={""} className="w-full" />
           </div>
         )}

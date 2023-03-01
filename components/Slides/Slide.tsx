@@ -34,7 +34,7 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
       }}
       className={`${isActive ? "block" : "hidden"}`}
     >
-      <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/0 text-left text-white/80">
+      <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/0 text-left text-white/80 xl:pr-[108px]">
         <div className="lg:p-14">
           <div className="h-80 p-3">
             <h1 className="mb-4 text-4xl font-light sm:text-5xl">

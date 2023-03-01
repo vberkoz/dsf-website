@@ -35,13 +35,9 @@ export const Solutions = {
     },
     {
       id: "Image121",
-      data: [
-        {
-          caption: "",
-          title: "",
-          image: funnel,
-        },
-      ],
+      caption: "",
+      title: "",
+      image: funnel,
     },
     {
       id: "NextSteps",
