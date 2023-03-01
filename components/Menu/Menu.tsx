@@ -36,7 +36,7 @@ export const Menu = () => {
   });
 
   return (
-    <div style={{ zIndex: 2000 }} className="sticky top-0 flex justify-between bg-white text-black">
+    <div style={{ zIndex: 2001 }} className="sticky top-0 flex justify-between bg-white text-black">
       <div onClick={toggleMenu} className={`${ opened ? "block" : "hidden" } absolute top-0 left-0 z-0 h-[100vh] w-[100vw] bg-black/50`}></div>
 
       <div className="flex">
