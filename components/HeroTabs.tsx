@@ -36,7 +36,7 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
       </div>
 
       {tabs && (
-        <div className="sticky top-12 z-10 max-h-[50px] whitespace-nowrap border-b-2 border-gray-800 bg-gray-900">
+        <div style={{ zIndex: 2000 }} className="sticky top-12 max-h-[50px] whitespace-nowrap border-b-2 border-gray-800 bg-gray-900">
           <div className="flex overflow-x-scroll text-white lg:ml-14">
             {tabs.map((tab, key) => (
               <Link
