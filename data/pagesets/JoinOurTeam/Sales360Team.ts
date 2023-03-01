@@ -1,4 +1,3 @@
-import { DefaultNextSteps } from "@/data/DefaultNextSteps";
 import writing from "@/public/join_our_team/writing.webp";
 import team from "@/public/join_our_team/team.webp";
 
@@ -9,8 +8,6 @@ import university from "@/public/join_our_team/university.svg";
 import support from "@/public/join_our_team/support.svg";
 import presentation from "@/public/join_our_team/presentation.svg";
 import tools from "@/public/join_our_team/tools.svg";
-
-import bulb from "@/public/home/bulb.svg";
 
 export const Sales360Team = {
   title: "Sales 360 team",
@@ -187,8 +184,32 @@ export const Sales360Team = {
       ],
     },
     {
-      id: "NextSteps",
-      steps: DefaultNextSteps,
+      id: "NextSteps4",
+      steps: [
+        {
+          title: "Contact us",
+          description:
+            "Send your questions through our contact form and we'll find the best solution for you",
+          href: "contact-us",
+        },
+        {
+          title: "Submit GIG",
+          description:
+            "Looking for Sales Prospecting that actually works? Tired of hiring amateur, scripted telemarketers? Looking for Professionals that can find real, revenue-producing leads? Let's talk.",
+          href: "submit-gig",
+        },
+        {
+          title: "Join our team",
+          description:
+            "On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives",
+          href: "join-our-team",
+        },
+        {
+          title: "FAQ",
+          description: "VO Sales Group Sales Agent FAQs",
+          href: "#",
+        },
+      ],
     },
   ],
 };
