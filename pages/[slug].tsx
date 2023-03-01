@@ -12,6 +12,8 @@ import Content1111 from "@/components/Content1111";
 import Testimonials from "@/components/Testimonials";
 import { Hero } from "@/components/Hero";
 import NextSteps4 from "@/components/NextSteps4";
+import ContentC2DE from "@/components/ContentC2DE";
+import ContentCDDE from "@/components/ContentCDDE";
 
 export default function Page({ page }: any) {
   return (
@@ -49,6 +51,10 @@ export default function Page({ page }: any) {
             return <SectionCDDD section={section} key={key} />;
           case "Content121":
             return <Content121 data={section} key={key} />;
+          case "ContentC2DE":
+            return <ContentC2DE data={section} key={key} />;
+          case "ContentCDDE":
+            return <ContentCDDE data={section} key={key} />;
           case "Content1111":
             return <Content1111 content={section.data} key={key} />;
           case "Image121":
