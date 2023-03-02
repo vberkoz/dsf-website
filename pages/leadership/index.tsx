@@ -13,7 +13,8 @@ export default function LeadershipPage() {
               <HeroTabs
                 key={key}
                 title={Leadership.title}
-                description={Leadership.description}
+                description1={Leadership.description1}
+                description2={Leadership.description2}
                 image={Leadership.image}
               />
             );

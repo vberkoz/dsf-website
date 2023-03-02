@@ -6,7 +6,8 @@ export const Leadership = {
   slug: "leadership",
   pageset: "leadership",
   isPrimary: true,
-  description: "Stephen Zarick, President and Owner of VO Sales Group also runs XIT.company, a company offering Exit Strategies",
+  description1: ["Stephen Zarick, President and Owner of VO Sales Group also runs XIT.company, a company offering Exit Strategies"],
+  description2: [],
   image: leadership.src,
   sections: [
     {

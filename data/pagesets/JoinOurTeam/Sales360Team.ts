@@ -14,8 +14,8 @@ export const Sales360Team = {
   slug: "sales-360-team",
   pageset: "join-our-team",
   isPrimary: false,
-  description:
-    "VO Group allows an environment for the professional to have the Gig Life",
+  description1: ["VO Group allows an environment for the professional to have the Gig Life"],
+  description2: [],
   image: writing.src,
   sections: [
     {

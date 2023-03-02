@@ -6,8 +6,8 @@ export const SalesAgentFAQs = {
   slug: "sales-agent-fa-qs",
   pageset: "join-our-team",
   isPrimary: false,
-  description:
-    "Find answer to common question and contact us if you still have questions",
+  description1: ["Find answer to common question and contact us if you still have questions"],
+  description2: [],
   image: question.src,
   sections: [
     {

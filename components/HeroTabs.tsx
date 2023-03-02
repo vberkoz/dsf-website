@@ -3,7 +3,8 @@ import { useRouter } from "next/router";
 
 type Props = {
   title: string;
-  description: string;
+  description1: (string[] | string)[];
+  description2: (string[] | string)[];
   image: string;
   tabs?: {
     title: string;
@@ -11,7 +12,7 @@ type Props = {
   }[];
 };
 
-export const HeroTabs = ({ title, description, image, tabs }: Props) => {
+export const HeroTabs = ({ title, description1, description2, image, tabs }: Props) => {
   const router = useRouter();
   return (
     <>
@@ -21,14 +22,42 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className=""
       >
         <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white/80 lg:to-gray-900/0">
           <div className="h-80 lg:p-14">
             <div className="p-3">
               <h1 className="mb-4 text-4xl font-light sm:text-5xl">{title}</h1>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3">
-                <p className="text-white/80">{description}</p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-white/80">
+                <div className="grid gap-4">
+                  {description1.map((item, pKey) => {
+                    if (Array.isArray(item)) {
+                      return (
+                        <ul key={pKey}>
+                          {item.map((li, lKey) => (
+                            <li key={lKey}>{li}</li>
+                          ))}
+                        </ul>
+                      );
+                    } else {
+                      return <div key={pKey}>{item}</div>;
+                    }
+                  })}
+                </div>
+                <div className="grid gap-4">
+                  {description2.map((item, pKey) => {
+                    if (Array.isArray(item)) {
+                      return (
+                        <ul key={pKey}>
+                          {item.map((li, lKey) => (
+                            <li key={lKey}>{li}</li>
+                          ))}
+                        </ul>
+                      );
+                    } else {
+                      return <div key={pKey}>{item}</div>;
+                    }
+                  })}
+                </div>
               </div>
             </div>
           </div>
@@ -36,7 +65,10 @@ export const HeroTabs = ({ title, description, image, tabs }: Props) => {
       </div>
 
       {tabs && (
-        <div style={{ zIndex: 2000 }} className="sticky top-12 max-h-[50px] whitespace-nowrap border-b-2 border-gray-800 bg-gray-900">
+        <div
+          style={{ zIndex: 2000 }}
+          className="sticky top-12 max-h-[50px] whitespace-nowrap border-b-2 border-gray-800 bg-gray-900"
+        >
           <div className="flex overflow-x-scroll text-white lg:ml-14">
             {tabs.map((tab, key) => (
               <Link

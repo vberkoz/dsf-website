@@ -12,7 +12,8 @@ export const SalesAgentProgram = {
   slug: "sales-agent-program",
   pageset: "join-our-team",
   isPrimary: false,
-  description: "We give you the tools to grow your own business",
+  description1: ["We give you the tools to grow your own business"],
+  description2: [],
   image: map.src,
   sections: [
     {

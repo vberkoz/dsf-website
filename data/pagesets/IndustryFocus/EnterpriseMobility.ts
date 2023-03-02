@@ -6,8 +6,23 @@ export const EnterpriseMobility = {
   slug: "enterprise-mobility",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "Logistics, POD/DSD, Device Management/BYOD, YMS, Asset Tracking, TMS, GPS, Filed Service/Field Worker, Fleet Management",
+  description1: [
+    [
+      "Logistics",
+      "POD / DSD",
+      "Device Management / BYOD",
+      "YMS",
+      "Asset Tracking",
+    ],
+  ],
+  description2: [
+    [
+      "TMS",
+      "GPS",
+      "Filed Service / Field Worker",
+      "Fleet Management",
+    ],
+  ],
   image: trucks.src,
   sections: [
     {

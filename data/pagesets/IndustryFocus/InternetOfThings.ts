@@ -7,8 +7,22 @@ export const InternetOfThings = {
   slug: "internet-of-things",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "Monitoring, Industry 4.0/IIoT, Asset Tracking, Metering, Billing, Fleet Management, 5G, Smart Supply Chain",
+  description1: [
+    [
+      "Monitoring",
+      "Industry 4.0 / IIoT",
+      "Asset Tracking",
+      "Metering",
+    ],
+  ],
+  description2: [
+    [
+      "Billing",
+      "Fleet Management",
+      "5G",
+      "Smart Supply Chain",
+    ],
+  ],
   image: tower.src,
   sections: [
     {

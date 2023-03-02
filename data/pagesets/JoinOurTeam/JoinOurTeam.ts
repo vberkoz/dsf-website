@@ -10,7 +10,8 @@ export const JoinOurTeam = {
   slug: "join-our-team",
   pageset: "join-our-team",
   isPrimary: true,
-  description: "On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives",
+  description1: ["On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives"],
+  description2: [],
   image: iphone.src,
   sections: [
     {

@@ -7,7 +7,8 @@ export const ChannelDevelopment = {
   slug: "channel-development",
   pageset: "solutions",
   isPrimary: false,
-  description: "VO Sales Group can help you Grow your Channel",
+  description1: ["VO Sales Group can help you Grow your Channel"],
+  description2: [],
   image: meeting.src,
   sections: [
     {

@@ -6,7 +6,8 @@ export const OnDemandEconomy = {
   slug: "on-demand-economy",
   pageset: "about-us",
   isPrimary: false,
-  description: "Provides flexible approaches to gain result",
+  description1: ["Provides flexible approaches to gain result"],
+  description2: [],
   image: demand.src,
   sections: [
     {

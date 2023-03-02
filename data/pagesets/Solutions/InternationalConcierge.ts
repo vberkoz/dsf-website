@@ -6,8 +6,8 @@ export const InternationalConcierge = {
   slug: "international-concierge",
   pageset: "solutions",
   isPrimary: false,
-  description:
-    "Concierge Service for International Companies Looking for Sales in the US",
+  description1: ["Concierge Service for International Companies Looking for Sales in the US"],
+  description2: [],
   image: flag.src,
   sections: [
     {

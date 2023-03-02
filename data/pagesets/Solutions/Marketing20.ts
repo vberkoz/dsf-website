@@ -13,8 +13,8 @@ export const Marketing20 = {
   slug: "marketing-2-0",
   pageset: "solutions",
   isPrimary: false,
-  description:
-    "Comprehensive Marketing Solutions. A 360-Degree Approach to Generating Quality Sales Leads.",
+  description1: ["Comprehensive Marketing Solutions. A 360-Degree Approach to Generating Quality Sales Leads."],
+  description2: [],
   image: nyc.src,
   sections: [
     {

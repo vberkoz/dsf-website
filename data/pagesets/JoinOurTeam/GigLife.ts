@@ -9,7 +9,8 @@ export const GigLife = {
   slug: "gig-life",
   pageset: "join-our-team",
   isPrimary: false,
-  description: "A community of taskers or giggers that have chosen the anti-corporation route to make a living in the On-Demand economy",
+  description1: ["A community of taskers or giggers that have chosen the anti-corporation route to make a living in the On-Demand economy"],
+  description2: [],
   image: idea.src,
   sections: [
     {

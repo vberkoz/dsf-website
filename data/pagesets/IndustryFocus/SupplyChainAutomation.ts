@@ -7,7 +7,26 @@ export const SupplyChainAutomation = {
   slug: "supply-chain-automation",
   pageset: "industry-focus",
   isPrimary: false,
-  description: "Distribution, Robotics, Picking Solutions, Material Handling, AS/RS, Autonomus Vehicles, Packaging, Logistics, WMS, BOPUS/BOPIS, AGV/AMR/SGV, DTC",
+  description1: [
+    [
+      "Distribution",
+      "Robotics",
+      "Picking Solutions",
+      "Material Handling",
+      "AS / RS",
+      "Autonomus Vehicles",
+    ],
+  ],
+  description2: [
+    [
+      "Packaging",
+      "Logistics",
+      "WMS",
+      "BOPUS / BOPIS",
+      "AGV / AMR / SGV",
+      "DTC",
+    ],
+  ],
   image: port.src,
   sections: [
     {
@@ -41,7 +60,7 @@ export const SupplyChainAutomation = {
           "Pick Pack Ship",
           "Automation and Robotics",
           "Intralogistics",
-        ]
+        ],
       ],
       link: "",
       href: "#",
@@ -62,7 +81,7 @@ export const SupplyChainAutomation = {
           "Fulfillment Solutions",
           "Supply Chain Consulting",
           "eCommerce Supply Chain Solutions",
-        ]
+        ],
       ],
       link: "",
       href: "#",
@@ -80,7 +99,7 @@ export const SupplyChainAutomation = {
           "Dock Management Solutions",
           "Yard Management Solutions",
           "Loading and Routing Solutions",
-        ]
+        ],
       ],
       link: "",
       href: "#",
@@ -132,7 +151,7 @@ export const SupplyChainAutomation = {
     },
     {
       id: "NextSteps",
-      steps: DefaultNextSteps
+      steps: DefaultNextSteps,
     },
   ],
 };

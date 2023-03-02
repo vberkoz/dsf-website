@@ -6,7 +6,8 @@ export const VettedSalesStaffing = {
   slug: "vetted-sales-staffing",
   pageset: "solutions",
   isPrimary: false,
-  description: "A Sales Company offering Sales Giggers a Hybrid Approach to Generating  Sales and Sales Leads",
+  description1: ["A Sales Company offering Sales Giggers a Hybrid Approach to Generating Sales and Sales Leads"],
+  description2: [],
   image: woman.src,
   sections: [
     {

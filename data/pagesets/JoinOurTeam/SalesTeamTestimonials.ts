@@ -6,7 +6,8 @@ export const SalesTeamTestimonials = {
   slug: "sales-team-testimonials",
   pageset: "join-our-team",
   isPrimary: false,
-  description: "Why I work at VO Sales Group",
+  description1: ["Why I work at VO Sales Group"],
+  description2: [],
   image: typing.src,
   sections: [
     {

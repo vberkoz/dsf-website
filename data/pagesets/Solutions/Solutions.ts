@@ -7,8 +7,8 @@ export const Solutions = {
   slug: "solutions",
   pageset: "solutions",
   isPrimary: true,
-  description:
-    "VO Sales Group offers a full suite of Sales Prospecting, Lead Generation & Channel Development Solutions",
+  description1: ["VO Sales Group offers a full suite of Sales Prospecting, Lead Generation & Channel Development Solutions"],
+  description2: [],
   image: plants.src,
   sections: [
     {

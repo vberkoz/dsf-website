@@ -6,8 +6,25 @@ export const Retail = {
   slug: "retail",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "Inventory, Demand Forecasting, Security, POS, BOPUS/BOPIS, Supply Chain, Mobile Payment, Logistics, Customer Engagement, Traffic Counting, Electronic Shelf Labels",
+  description1: [
+    [
+      "Inventory",
+      "Demand Forecasting",
+      "Security",
+      "POS",
+      "BOPUS / BOPIS",
+      "Supply Chain",
+    ],
+  ],
+  description2: [
+    [
+      "Mobile Payment",
+      "Logistics",
+      "Customer Engagement",
+      "Traffic Counting",
+      "Electronic Shelf Labels",
+    ],
+  ],
   image: mall.src,
   sections: [
     {

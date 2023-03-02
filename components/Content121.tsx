@@ -33,7 +33,7 @@ export default function Content121({ data }: Props) {
           {data.caption.map((item, pKey) => {
             if (Array.isArray(item)) {
               return (
-                <ul key={pKey} className="font-normal text-gray-400">
+                <ul key={pKey} className="font-normal text-gray-400 xl:pr-4">
                   {item.map((li, lKey) => (
                     <li key={lKey}>{li}</li>
                   ))}

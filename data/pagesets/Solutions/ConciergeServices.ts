@@ -9,8 +9,8 @@ export const ConciergeServices = {
   slug: "concierge-services",
   pageset: "solutions",
   isPrimary: false,
-  description:
-    "A Premier Approach for High Value Technology and Business Solutions companies",
+  description1: ["A Premier Approach for High Value Technology and Business Solutions companies"],
+  description2: [],
   image: leaves.src,
   sections: [
     {

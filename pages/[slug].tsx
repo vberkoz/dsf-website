@@ -32,7 +32,8 @@ export default function Page({ page }: any) {
                 <HeroTabs
                   key={key}
                   title={page.title}
-                  description={page.description}
+                  description1={page.description1}
+                  description2={page.description2}
                   image={page.image}
                   tabs={pageset}
                 />
@@ -42,7 +43,8 @@ export default function Page({ page }: any) {
               <HeroTabs
                 key={key}
                 title={page.title}
-                description={page.description}
+                description1={page.description1}
+                description2={page.description2}
                 image={page.image}
               />
             );

@@ -6,8 +6,8 @@ export const IndustryFocus = {
   slug: "industry-focus",
   pageset: "industry-focus",
   isPrimary: true,
-  description:
-    "Our approach allows us to cross many industries by utilizing strategic selling styles and questioning techniques to find opportunities",
+  description1: ["Our approach allows us to cross many industries by utilizing strategic selling styles and questioning techniques to find opportunities"],
+  description2: [""],
   image: gears.src,
   sections: [
     {

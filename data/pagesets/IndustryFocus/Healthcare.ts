@@ -7,8 +7,18 @@ export const Healthcare = {
   slug: "healthcare",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "eHealth, Connected Hospital, EMR/EHR, Security, Patient Tracking, Clinical Supply Chain, Nurse Call, Patient Engagement, LAB, RCM",
+  description1: [
+    [
+      "eHealth",
+      "Connected Hospital",
+      "EMR / EHR",
+      "Security",
+      "Patient Tracking",
+    ],
+  ],
+  description2: [
+    ["Clinical Supply Chain", "Nurse Call", "Patient Engagement", "LAB", "RCM"],
+  ],
   image: doctors.src,
   sections: [
     {

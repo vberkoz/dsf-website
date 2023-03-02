@@ -6,8 +6,8 @@ export const Marketing20Team = {
   slug: "marketing-2-0-team",
   pageset: "join-our-team",
   isPrimary: false,
-  description:
-    "VO Sales Group offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually",
+  description1: ["VO Sales Group offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually"],
+  description2: [],
   image: markers.src,
   sections: [
     {

@@ -13,7 +13,8 @@ export default function SubmitGigPage() {
               <HeroTabs
                 key={key}
                 title={SubmitGig.title}
-                description={SubmitGig.description}
+                description1={SubmitGig.description1}
+                description2={SubmitGig.description2}
                 image={SubmitGig.image}
               />
             );

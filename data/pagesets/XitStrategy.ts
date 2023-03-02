@@ -6,7 +6,16 @@ export const XitStrategy = {
   slug: "xit-strategy",
   pageset: "xit-strategy",
   isPrimary: true,
-  description: "ALL THINGS CAPITAL: EXIT Strategies, Intellectual Property, Looking to sell your company, Stuff your Sales Pipe to Raise Capital",
+  description1: [
+    "ALL THINGS CAPITAL:",
+    [
+      "EXIT Strategies",
+      "Intellectual Property",
+      "Looking to sell your company",
+      "Stuff your Sales Pipe to Raise Capital",
+    ],
+  ],
+  description2: [],
   image: xitStrategy.src,
   sections: [
     {
@@ -22,7 +31,7 @@ export const XitStrategy = {
           "For a Strategic Partner?",
           "For an Exit Strategy?",
           "For M&A Advisory?",
-        ]
+        ],
       ],
       title: "VO Sales Group has a sister company called XIT Group",
       content: [
@@ -50,7 +59,7 @@ export const XitStrategy = {
           "Private Equity",
           "M&A Advisory & Finance",
           "EXIT Strategies and Plans",
-        ]
+        ],
       ],
       link: "Let us find a Strategic Partner to sell to",
       href: "https://xit.company/",
@@ -122,7 +131,7 @@ export const XitStrategy = {
     },
     {
       id: "NextSteps",
-      steps: DefaultNextSteps
+      steps: DefaultNextSteps,
     },
   ],
 };

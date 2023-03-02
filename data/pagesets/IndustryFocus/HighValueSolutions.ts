@@ -7,7 +7,23 @@ export const HighValueSolutions = {
   slug: "high-value-solutions",
   pageset: "industry-focus",
   isPrimary: false,
-  description: "Enterprise Solutions, Analytics, Gaming, Customer Engagement, Labor Management, Greenfield/Brownfield, Optimizing Tools, Planning-Executing-Forecasting, Consulting",
+  description1: [
+    [
+      "Enterprise Solutions",
+      "Analytics",
+      "Gaming",
+      "Customer Engagement",
+      "Labor Management",
+    ],
+  ],
+  description2: [
+    [
+      "Greenfield / Brownfield",
+      "Optimizing Tools",
+      "Planning-Executing-Forecasting",
+      "Consulting",
+    ],
+  ],
   image: ship.src,
   sections: [
     {
@@ -43,7 +59,7 @@ export const HighValueSolutions = {
           "Telecommunications",
           "Solutions for Critical Infrastructure",
           "Analytics Solutions",
-        ]
+        ],
       ],
       link: "",
       href: "#",
@@ -65,7 +81,7 @@ export const HighValueSolutions = {
     },
     {
       id: "NextSteps",
-      steps: DefaultNextSteps
+      steps: DefaultNextSteps,
     },
   ],
 };

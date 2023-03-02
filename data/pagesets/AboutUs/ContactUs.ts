@@ -6,7 +6,12 @@ export const ContactUs = {
   slug: "contact-us",
   pageset: "about-us",
   isPrimary: false,
-  description: "VO Sales Group Louisville, KY Phone: 502.899.3227 Fax: 866.510.0690",
+  description1: [
+    "VO Sales Group Louisville, KY",
+    "Phone: 502.899.3227",
+    "Fax: 866.510.0690",
+  ],
+  description2: [],
   image: smartphone.src,
   sections: [
     {

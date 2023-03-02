@@ -7,8 +7,17 @@ export const FactoryAutomation = {
   slug: "factory-automation",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "Demand Planning, Robotics, Cobots, Material Handling, Kitting, Labor Management, Packaging, RPA, IIoT, MRP, MES",
+  description1: [
+    [
+      "Demand Planning",
+      "Robotics",
+      "Cobots",
+      "Material Handling",
+      "Kitting",
+      "Labor Management",
+    ],
+  ],
+  description2: [["Packaging", "RPA", "IIoT", "MRP", "MES"]],
   image: factory.src,
   sections: [
     {
@@ -70,12 +79,7 @@ export const FactoryAutomation = {
       id: "Content121",
       caption: [],
       title: "Material Handling Systems",
-      content: [
-        [
-          "Intralogistics",
-          "Inbound Supply Chains/Sourcing",
-        ],
-      ],
+      content: [["Intralogistics", "Inbound Supply Chains/Sourcing"]],
       link: "",
       href: "#",
       image: null,
