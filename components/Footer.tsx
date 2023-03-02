@@ -39,7 +39,7 @@ export const Footer = () => {
     <div className="flex flex-col pl-3 xl:pl-6">
       <Link
         href={`/${pageset.href}`}
-        className="font-bold text-white hover:text-white hover:underline"
+        className="font-bold hover:underline"
       >
         {pageset.title}
       </Link>
@@ -47,7 +47,7 @@ export const Footer = () => {
         <Link
           key={key}
           href={`/${item.href}`}
-          className="hover:text-white hover:underline"
+          className="text-gray-600 dark:text-gray-400 hover:underline"
         >
           {item.title}
         </Link>
@@ -61,7 +61,7 @@ export const Footer = () => {
         <Link
           key={key}
           href={`/${item.href}`}
-          className="hover:text-white hover:underline"
+          className="text-gray-600 dark:text-gray-400 hover:underline"
         >
           {item.title}
         </Link>
@@ -70,12 +70,12 @@ export const Footer = () => {
   );
 
   return (
-    <div className="bg-gray-900 text-gray-300 lg:pl-14 xl:pr-[108px]">
+    <div className="bg-gray-100 dark:bg-gray-900 lg:pl-14 xl:pr-[108px] text-gray-900 dark:text-gray-100">
       <div className="flex flex-col py-8 leading-8">
         <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <Link
             href="/"
-            className="pl-3 font-bold text-white hover:text-white hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1"
+            className="pl-3 font-bold hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1"
           >
             VO Sales Group
           </Link>
@@ -91,7 +91,7 @@ export const Footer = () => {
           <div className="flex flex-col pl-3 xl:pl-6">
             <Link
               href="https://www.linkedin.com/company/vo-group/"
-              className="mb-4 flex leading-4 hover:text-white hover:underline"
+              className="text-gray-600 dark:text-gray-400 mb-4 flex leading-4 hover:underline"
             >
               <svg
                 viewBox="0 0 640 640"
@@ -104,9 +104,10 @@ export const Footer = () => {
               </svg>
               VO Sales Group
             </Link>
+
             <Link
               href="https://www.linkedin.com/in/stephenzarick/"
-              className="flex leading-4 hover:text-white hover:underline"
+              className="text-gray-600 dark:text-gray-400 flex leading-4 hover:underline"
             >
               <svg
                 viewBox="0 0 640 640"
@@ -122,7 +123,7 @@ export const Footer = () => {
           </div>
 
           <div className="hidden xl:block"></div>
-          <div className="border-t border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
+          <div className="border-t-2 border-gray-200 dark:border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
           <div className="hidden xl:block"></div>
           <div className="flex flex-col pl-3 xl:pl-6">© VO Group, LLC</div>
         </div>

@@ -23,7 +23,7 @@ export default function Posts({
 }) {
   return (
     <Layout>
-      <div className="grid grid-cols-1 gap-px bg-gray-900 pb-[1px] text-white md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
+      <div className="grid grid-cols-1 gap-px bg-gray-100 dark:bg-gray-900 pb-[1px] text-gray-900 dark:text-gray-100 md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
         {allPostsData.map(
           ({ id, image, title, author, excerpt, date }, key) => {
             switch (key) {
@@ -32,7 +32,7 @@ export default function Posts({
                   <Link
                     key={key}
                     href={`/blog/${id}`}
-                    className="col-span-1 row-span-1 flex flex-col bg-gray-800 hover:bg-gray-700 md:col-span-2 lg:h-[60vw] xl:row-span-2 xl:h-[70vw]"
+                    className="col-span-1 row-span-1 flex flex-col bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 md:col-span-2 lg:h-[60vw] xl:row-span-2 xl:h-[70vw]"
                   >
                     <div
                       style={{
@@ -43,7 +43,7 @@ export default function Posts({
                       className="h-32 w-full md:h-64 lg:h-1/3"
                     ></div>
                     <div className="p-3 xl:p-6">
-                      <h2 className="mb-2 text-2xl font-light text-gray-200 md:mb-4 md:text-5xl">
+                      <h2 className="mb-2 text-2xl font-light text-gray-700 dark:text-gray-200 md:mb-4 md:text-5xl">
                         {title}
                       </h2>
                       <p className="mb-2 text-sm text-gray-500 md:mb-4">
@@ -52,7 +52,7 @@ export default function Posts({
                       <p className="mb-2 text-sm text-gray-500 md:mb-4">
                         6 min read
                       </p>
-                      <p className="text-gray-400">{excerpt}</p>
+                      <p className="text-gray-600 dark:text-gray-400">{excerpt}</p>
                     </div>
                     <div className="grow"></div>
                     <div className="flex w-full p-3 xl:p-6">
@@ -76,7 +76,7 @@ export default function Posts({
                   <Link
                     key={key}
                     href={`/blog/${id}`}
-                    className="flex h-full flex-col bg-gray-800 hover:bg-gray-700"
+                    className="flex h-full flex-col bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
                   >
                     <div
                       style={{
@@ -87,12 +87,12 @@ export default function Posts({
                       className="h-32 w-full lg:h-1/2"
                     ></div>
                     <div className="p-3 xl:p-6">
-                      <h2 className="mb-2 text-2xl font-light text-gray-200">
+                      <h2 className="mb-2 text-2xl font-light text-gray-700 dark:text-gray-200">
                         {title}
                       </h2>
                       <p className="mb-2 text-sm text-gray-500">By: {author}</p>
                       <p className="mb-2 text-sm text-gray-500">6 min read</p>
-                      <p className="text-gray-400">{excerpt}</p>
+                      <p className="text-gray-600 dark:text-gray-400">{excerpt}</p>
                     </div>
                     <div className="grow"></div>
                     <div className="flex w-full p-3 xl:p-6">
@@ -117,7 +117,7 @@ export default function Posts({
                   <Link
                     key={key}
                     href={`/blog/${id}`}
-                    className="flex h-full flex-col bg-gray-800 hover:bg-gray-700"
+                    className="flex h-full flex-col bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
                   >
                     <div
                       style={{
@@ -128,12 +128,12 @@ export default function Posts({
                       className="h-32 w-full xl:h-1/2"
                     ></div>
                     <div className="p-3 xl:p-6">
-                      <h2 className="mb-2 text-2xl font-light text-gray-200">
+                      <h2 className="mb-2 text-2xl font-light text-gray-700 dark:text-gray-200">
                         {title}
                       </h2>
                       <p className="mb-2 text-sm text-gray-500">By: {author}</p>
                       <p className="mb-2 text-sm text-gray-500">6 min read</p>
-                      <p className="text-gray-400">{excerpt}</p>
+                      <p className="text-gray-600 dark:text-gray-400">{excerpt}</p>
                     </div>
                     <div className="grow"></div>
                     <div className="flex w-full p-3 xl:p-6">

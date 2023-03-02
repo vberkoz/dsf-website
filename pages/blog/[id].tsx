@@ -38,7 +38,7 @@ export default function Post({
           backgroundPosition: "center",
         }}
       >
-        <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/50 text-left text-white lg:to-gray-900/0">
+        <div className="bg-gradient-to-r from-gray-100/100 to-gray-100/50 dark:from-gray-900/100 dark:to-gray-900/50 text-left text-gray-900 dark:text-gray-100 lg:to-gray-100/0 dark:lg:to-gray-900/0">
           <div className="grid lg:p-14 xl:grid-cols-4 xl:pr-[108px]">
             <div></div>
             <div className="col-span-2 flex flex-col p-3">
@@ -47,10 +47,10 @@ export default function Post({
               </h1>
 
               <div className="grow"></div>
-              <p className="text-sm text-gray-200">
+              <p className="text-sm text-gray-800 dark:text-gray-200">
                 <Date dateString={postData.date} /> 6 min read
               </p>
-              <p className="mb-2 text-sm text-gray-200 md:mb-4">
+              <p className="mb-2 text-sm text-gray-800 dark:text-gray-200 md:mb-4">
                 By: {postData.author}
               </p>
             </div>
@@ -59,12 +59,12 @@ export default function Post({
         </div>
       </div>
 
-      <div className="grid bg-gray-900 lg:grid-cols-3 lg:p-14 xl:grid-cols-4 xl:pr-[108px]">
+      <div className="grid bg-gray-100 dark:bg-gray-900 lg:grid-cols-3 lg:p-14 xl:grid-cols-4 xl:pr-[108px]">
         <div className="flex">
           <div className="flex lg:flex-col">
             <Link
               href="https://www.facebook.com/VO-Group-137855302900377/"
-              className="m-3 text-gray-400 hover:text-gray-200"
+              className="m-3 text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
             >
               <svg
                 fill="currentColor"
@@ -78,7 +78,7 @@ export default function Post({
             </Link>
             <Link
               href="https://www.linkedin.com/company/244169?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A680837921446585156063%2CVSRPtargetId%3A244169%2CVSRPcmpt%3Aprimary"
-              className="m-3 text-gray-400 hover:text-gray-200"
+              className="m-3 text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
             >
               <svg
                 fill="currentColor"
@@ -92,7 +92,7 @@ export default function Post({
             </Link>
             <Link
               href="https://twitter.com/StephenZarick"
-              className="m-3 text-gray-400 hover:text-gray-200"
+              className="m-3 text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
             >
               <svg
                 fill="currentColor"
@@ -107,7 +107,7 @@ export default function Post({
           </div>
         </div>
 
-        <div className="col-span-2 p-3 text-white">
+        <div className="col-span-2 p-3 text-gray-900 dark:text-gray-100">
           <h2 className="mb-6 text-2xl">{postData.excerpt}</h2>
           <div
             className="post"
@@ -116,21 +116,21 @@ export default function Post({
         </div>
       </div>
 
-      <div className="grid gap-px bg-gray-900 pb-[1px] md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
+      <div className="grid gap-px bg-gray-100 dark:bg-gray-900 pb-[1px] md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
         <div className="hidden lg:block"></div>
         <Link
           href={`/blog/${postData.prev}`}
-          className="col-span-1 flex h-32 flex-col bg-gray-800 p-3 hover:bg-gray-700 xl:pl-6"
+          className="col-span-1 flex h-32 flex-col bg-gray-200 dark:bg-gray-800 p-3 hover:bg-gray-300 dark:hover:bg-gray-700 xl:pl-6"
         >
-          <p className="text-sm text-gray-400">Previous</p>
-          <p className="text-2xl text-gray-200">{postData.prevCap}</p>
+          <p className="text-sm text-gray-600 dark:text-gray-400">Previous</p>
+          <p className="text-2xl text-gray-800 dark:text-gray-200">{postData.prevCap}</p>
         </Link>
         <Link
           href={`/blog/${postData.next}`}
-          className="col-span-1 flex h-32 flex-col bg-gray-800 p-3 hover:bg-gray-700 xl:pl-6"
+          className="col-span-1 flex h-32 flex-col bg-gray-200 dark:bg-gray-800 p-3 hover:bg-gray-300 dark:hover:bg-gray-700 xl:pl-6"
         >
-          <p className="text-sm text-gray-400">Next</p>
-          <p className="text-2xl text-gray-200">{postData.nextCap}</p>
+          <p className="text-sm text-gray-600 dark:text-gray-400">Next</p>
+          <p className="text-2xl text-gray-800 dark:text-gray-200">{postData.nextCap}</p>
         </Link>
         <div className="hidden xl:block"></div>
       </div>

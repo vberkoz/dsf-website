@@ -10,7 +10,7 @@ type NextSteps4Props = {
 
 export default function NextSteps4({ data }: NextSteps4Props) {
   return (
-    <div className="bg-gray-900 text-white lg:pl-14 xl:pr-[108px]">
+    <div className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 lg:pl-14 xl:pr-[108px]">
       <div className="grid gap-px sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="col-span-1 mb-8 mt-8 p-3 font-bold sm:col-span-2 lg:col-span-1 xl:mt-0">
           Next steps
@@ -37,10 +37,10 @@ type NextStepProps = {
 const NextStep = ({ item }: NextStepProps) => (
   <Link
     href={`/${item.href}`}
-    className="flex h-[60vw] flex-col bg-gray-800 p-3 hover:bg-gray-700 sm:h-[50vw] lg:h-[33vw] xl:h-[25vw] xl:p-6"
+    className="flex h-[60vw] flex-col bg-gray-200 dark:bg-gray-800 p-3 hover:bg-gray-300 dark:hover:bg-gray-700 sm:h-[50vw] lg:h-[33vw] xl:h-[25vw] xl:p-6"
   >
     <h2 className="mb-4 text-3xl">{item.title}</h2>
-    <p className="text-gray-400">{item.description}</p>
+    <p className="text-gray-600 dark:text-gray-400">{item.description}</p>
     <div className="grow"></div>
     <svg
       className="self-end"

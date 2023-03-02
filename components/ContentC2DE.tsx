@@ -29,13 +29,13 @@ type Props = {
 
 export default function ContentC2DE({ data }: Props) {
   return (
-    <div className="bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
-      <div className="grid grid-cols-1 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="font-bold text-white">
+    <div className="bg-gray-100 dark:bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
+      <div className="grid grid-cols-1 p-3 text-gray-600 dark:text-gray-400 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="font-bold text-gray-900 dark:text-gray-100">
           {data.caption.map((item, pKey) => {
             if (Array.isArray(item)) {
               return (
-                <ul key={pKey} className="font-normal text-gray-400">
+                <ul key={pKey} className="font-normal text-gray-600 dark:text-gray-400">
                   {item.map((li, lKey) => (
                     <li key={lKey}>{li}</li>
                   ))}
@@ -45,7 +45,7 @@ export default function ContentC2DE({ data }: Props) {
               return (
                 <div
                   key={pKey}
-                  className={`${pKey !== 0 && "font-normal text-gray-400"}`}
+                  className={`${pKey !== 0 && "font-normal text-gray-600 dark:text-gray-400"}`}
                 >
                   {item}
                 </div>
@@ -55,7 +55,7 @@ export default function ContentC2DE({ data }: Props) {
         </div>
 
         <div className="grid grid-cols-1 gap-4 pb-4 md:col-span-3 lg:col-span-2">
-          <div className="text-3xl text-white">{data.title}</div>
+          <div className="text-3xl text-gray-900 dark:text-gray-100">{data.title}</div>
           
           {data.svg && (
             <Image
@@ -84,7 +84,7 @@ export default function ContentC2DE({ data }: Props) {
           {data.link && (
             <Link
               href={data.href}
-              className="flex w-fit cursor-pointer text-yellow-400 hover:underline"
+              className="flex w-fit cursor-pointer text-green-600 dark:text-yellow-400 hover:underline"
             >
               <span className="mr-4 leading-[1.2rem]">{data.link}</span>
               {data.href.toLowerCase().includes("http") ? (

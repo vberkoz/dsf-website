@@ -70,7 +70,7 @@ export default function Page({ page }: any) {
             });
             return (
               <div
-                className="grid bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
+                className="grid bg-gray-100 dark:bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
                 key={key}
               >
                 <div></div>

@@ -41,13 +41,13 @@ type Props = {
 
 export default function ContentCDDE({ data }: Props) {
   return (
-    <div className="bg-gray-900 py-4 text-white lg:pl-14 xl:pr-[108px]">
+    <div className="bg-gray-100 dark:bg-gray-900 py-4 text-gray-900 dark:text-gray-100 lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold md:col-span-2 lg:col-span-1">
           {data.caption.map((item, pKey) => {
             if (Array.isArray(item)) {
               return (
-                <ul key={pKey} className="font-normal text-gray-400">
+                <ul key={pKey} className="font-normal text-gray-600 dark:text-gray-400">
                   {item.map((li, lKey) => (
                     <li key={lKey}>{li}</li>
                   ))}
@@ -57,7 +57,7 @@ export default function ContentCDDE({ data }: Props) {
               return (
                 <div
                   key={pKey}
-                  className={`${pKey !== 0 && "font-normal text-gray-400"}`}
+                  className={`${pKey !== 0 && "font-normal text-gray-600 dark:text-gray-400"}`}
                 >
                   {item}
                 </div>
@@ -85,8 +85,8 @@ type ItemProps = {
 };
 
 const Item = ({ data }: ItemProps) => (
-  <div className="flex flex-col text-gray-400">
-    <div className="h-20 text-3xl font-light text-white">{data.title}</div>
+  <div className="flex flex-col text-gray-600 dark:text-gray-400">
+    <div className="h-20 text-3xl font-light text-gray-900 dark:text-gray-100">{data.title}</div>
 
     <div className="grid grid-cols-1 gap-4">
       <div className="flex h-16 flex-col">
@@ -119,7 +119,7 @@ const Item = ({ data }: ItemProps) => (
     {data.link && (
       <Link
         href={data.href}
-        className="flex w-fit cursor-pointer text-yellow-400 hover:underline"
+        className="flex w-fit cursor-pointer text-green-600 dark:text-yellow-400 hover:underline"
       >
         <span className="mr-4 leading-[1.2rem]">{data.link}</span>
         {data.href.toLowerCase().includes("http") ? (

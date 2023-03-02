@@ -20,7 +20,7 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
     rows.push(
       <span
         key={i}
-        className={`${k === i && "pt-4"} mr-1 bg-white px-3`}
+        className={`${k === i && "pt-4"} mr-1 bg-green-600 dark:bg-yellow-300 px-3`}
         onClick={() => onShow(i)}
       ></span>
     );
@@ -34,7 +34,7 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
       }}
       className={`${isActive ? "block" : "hidden"}`}
     >
-      <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/0 text-left text-white/80 xl:pr-[108px]">
+      <div className="bg-gradient-to-r from-gray-100/100 to-gray-100/0 text-left text-gray-900/90 dark:from-gray-900/100 dark:to-gray-900/0 dark:text-gray-100/90 xl:pr-[108px]">
         <div className="lg:p-14">
           <div className="h-80 p-3">
             <h1 className="mb-4 text-4xl font-light sm:text-5xl">
@@ -48,14 +48,14 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
         </div>
 
         <div className="grid h-32 grid-cols-2 md:grid-cols-4">
-          <div className="md:col-span-3 flex flex-col justify-end">
+          <div className="flex flex-col justify-end md:col-span-3">
             <div className="lg:pl-14">
               <nav className="p-3">{rows}</nav>
             </div>
           </div>
           <Link
             href={item.href}
-            className="flex cursor-pointer flex-col bg-yellow-300 p-3 text-black hover:bg-yellow-400"
+            className="flex cursor-pointer flex-col bg-green-600 p-3 text-gray-100 hover:bg-green-500 dark:bg-yellow-300 dark:text-gray-900 dark:hover:bg-yellow-400"
           >
             {item.button}
             <div className="grow"></div>
