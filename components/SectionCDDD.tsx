@@ -132,7 +132,7 @@ const Item = ({ data }: ItemProps) => (
           alt={data.title}
           width={60}
           height={60}
-          className="mt-auto text-gray-900 dark:text-gray-100"
+          className="svg-icon mt-auto"
         />
       </div>
 

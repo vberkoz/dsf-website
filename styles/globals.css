@@ -12,3 +12,13 @@ ul li:before {
   position: absolute;
   margin-left: -20px;
 }
+
+.svg-icon {
+  fill: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  .svg-icon {
+    filter: invert(1);
+  }
+}

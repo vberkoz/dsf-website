@@ -63,7 +63,7 @@ export default function ContentC2DE({ data }: Props) {
               alt={data.title}
               width={60}
               height={60}
-              className="mt-auto"
+              className="mt-auto svg-icon"
             />
           )}
 
