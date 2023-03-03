@@ -85,8 +85,8 @@ export const Footer = () => {
 
           <div className="hidden xl:block"></div>
           
-          {pages(additionalPages)}
           {pageset(menuItems[0])}
+          {pages(additionalPages)}
 
           <div className="flex flex-col pl-3 xl:pl-6">
             <Link

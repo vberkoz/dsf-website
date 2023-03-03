@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const Banner = () => (
-  <div className="w-full bg-red-600 p-3 text-white">
+  <div className="w-full bg-red-600 p-3 text-gray-100">
     <Link href="/join-our-team" className="hover:underline lg:pl-14">
       <span className="font-bold">Now hiring!</span> We are currently looking
       for new people to grow our business
