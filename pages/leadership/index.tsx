@@ -1,12 +1,14 @@
+import ContentC2DE from "@/components/ContentC2DE";
 import { HeroTabs } from "@/components/HeroTabs";
 import { Layout } from "@/components/Layout";
+import LinksC2DE from "@/components/LinksC2DE";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Leadership } from "@/data/pagesets/Leadership";
 
 export default function LeadershipPage() {
   return (
     <Layout>
-      {Leadership.sections.map((section, key) => {
+      {Leadership.sections.map((section: any, key: number) => {
         switch (section.id) {
           case "HeroTabs":
             return (
@@ -18,10 +20,14 @@ export default function LeadershipPage() {
                 image={Leadership.image}
               />
             );
+          case "ContentC2DE":
+            return <ContentC2DE data={section} key={key} />;
+          case "LinksC2DE":
+            return <LinksC2DE data={section} key={key} />;
           case "NextSteps":
             return <NextSteps data={section.steps!} key={key} />;
         }
       })}
     </Layout>
-  )
+  );
 }
