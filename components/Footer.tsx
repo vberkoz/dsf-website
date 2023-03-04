@@ -48,9 +48,8 @@ export const Footer = () => {
         </Link>
       </div>
       {pageset.subitems?.map((item, key) => (
-        <div>
+        <div key={key}>
           <Link
-            key={key}
             href={`/${item.href}`}
             className="
             hover:underline
@@ -68,9 +67,8 @@ export const Footer = () => {
   const pages = (pages: { href: string; title: string }[]) => (
     <div className="flex flex-col pl-3 xl:pl-6">
       {pages.map((item, key) => (
-        <div>
+        <div key={key}>
           <Link
-            key={key}
             href={`/${item.href}`}
             className="
             hover:underline
