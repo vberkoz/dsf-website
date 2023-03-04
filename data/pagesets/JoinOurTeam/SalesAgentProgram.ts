@@ -20,9 +20,10 @@ export const SalesAgentProgram = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Offers"],
       title: "Career Self Employment",
+      svg: null,
       content: [
         "The VO Sales Agent Team is comprised of Professional Salespeople, seasoned in making high-level calls into an organization.",
         "VO Sales Group's Career Self Employment opportunity allows for self-employed professionals to work at home…to have the Gig Life in today's on-demand economy.",
@@ -34,9 +35,10 @@ export const SalesAgentProgram = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Sales Agent Program",
+      svg: null,
       content: [
         "This is an agency program, as opposed to a franchise model. The VO Sales Group agency model is one of Finder's Fees and Commissions. We give you the tools to grow your own business if you wish.",
         "With our national reputation, you can have your own lead generation business. We will give you the tools and resources to be successful, if you can sell.",
@@ -47,7 +49,7 @@ export const SalesAgentProgram = {
       image: null,
     },
     {
-      id: "SectionCDDD",
+      id: "SectionCTTTx2",
       caption: ["Features"],
       data: [
         {
@@ -127,9 +129,10 @@ export const SalesAgentProgram = {
       ],
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Benefits"],
       title: "Tools to Grow Your Business",
+      svg: null,
       content: [
         "We help you with all the tools necessary to have a Sales Agency.",
         [
@@ -150,9 +153,10 @@ export const SalesAgentProgram = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Administrative Support",
+      svg: null,
       content: [
         "VO gives you access to our pool of contractors when you are ready to manage an account and grow your own business.",
         [
@@ -169,9 +173,10 @@ export const SalesAgentProgram = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Marketing and Sales Support",
+      svg: null,
       content: [
         [
           "We supply you with Training.",

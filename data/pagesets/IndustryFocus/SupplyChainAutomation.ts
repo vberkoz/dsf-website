@@ -33,9 +33,10 @@ export const SupplyChainAutomation = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Supply Chain space"],
       title: "Supply Chain Prospecting",
+      svg: null,
       content: [
         "Are you looking for Supply Chain Lead Generation? Sales Prospecting is Sales when your solution is $100K or better.",
         "VO Sales Group's company roots come from the Supply Chain space.",
@@ -47,9 +48,10 @@ export const SupplyChainAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Robotics and Automation Solutions",
+      svg: null,
       content: [
         [
           "Micro Fulfillment - Last Mile",
@@ -67,9 +69,10 @@ export const SupplyChainAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Factory Automation",
+      svg: null,
       content: [
         [
           "Material Handling Systems",
@@ -88,9 +91,10 @@ export const SupplyChainAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Transportation and Logistics",
+      svg: null,
       content: [
         [
           "Last Mile",
@@ -106,9 +110,10 @@ export const SupplyChainAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Intralogistics & Automation",
+      svg: null,
       content: [
         "Intralogistics, Supply Chain, Automation, Robotics  & Factory Automation Sales Opportunities.",
         [
@@ -132,9 +137,10 @@ export const SupplyChainAutomation = {
       image: storage,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Jump Start the Channel",
+      svg: null,
       content: [
         "VO is involved in Sales Development as well as Business Development activities for Supply Chain Solution Providers.",
         "Our differentiation is that we are not trying to be all things to all people.",

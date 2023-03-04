@@ -21,9 +21,10 @@ export const Marketing20 = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Services"],
       title: "Branding, Positioning & Strategic Marketing",
+      svg: null,
       content: [
         "If you want to change the look of your company, your logo, your brand, your positioning and seemingly have an inconsistent message, VO can help.",
         "Our team includes professionals who have worked with large and small companies in the field of strategic marketing or CMO On-Demand.",
@@ -33,9 +34,10 @@ export const Marketing20 = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Website Refresh",
+      svg: null,
       content: [
         "VO recognizes that a website is a tool that every company needs in today's digital world.",
         "A company website can act as a salesperson, delivering information 24/7.",
@@ -46,9 +48,10 @@ export const Marketing20 = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Search Engine Optimization",
+      svg: null,
       content: [
         "VO understands and embraces the new marketing landscape.",
         "A healthy Digital Marketing Strategy must incorporate Search Engine Optimization (SEO).",
@@ -59,7 +62,7 @@ export const Marketing20 = {
       image: null,
     },
     {
-      id: "SectionCDDD",
+      id: "SectionCTTTx2",
       caption: ["Features"],
       data: [
         {

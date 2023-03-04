@@ -31,9 +31,10 @@ export const Retail = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Retail Sales Prospecting",
+      svg: null,
       content: [
         "VO offers Sales Prospecting in all facets of Retail:",
         [
@@ -56,9 +57,10 @@ export const Retail = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Retail Direct to Consumer",
+      svg: null,
       content: [
         "VO is actively involved in Retail Sales Development and Retail Sales Prospecting for All Things Retail.",
         [
@@ -76,9 +78,10 @@ export const Retail = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Retail Solutions",
+      svg: null,
       content: [
         "Retail Sales Leads. NRF Sales Leads. It is our job to help you identify the buyer and then probe for compelling reasons to talk to your sales team. We Prospect. You Sell.",
         "Partner with VO to Stuff your Sales Pipe for Retail Solutions and sales strategies to grow your Retail sales business.",

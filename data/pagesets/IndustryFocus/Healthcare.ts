@@ -25,9 +25,10 @@ export const Healthcare = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Healthcare Sales Prospecting",
+      svg: null,
       content: [
         "VO Sales Group offers Sales Prospecting for all things Healthcare. With a finite market of only 6000 hospitals, there is a race for market share. Let VO Sales Group help you win that race.",
         [
@@ -52,9 +53,10 @@ export const Healthcare = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Healthcare Solutions",
+      svg: null,
       content: [
         "VO does not sell your Healthcare offering. Instead, VO will help you identify the buyer and then probe for compelling reasons to talk to your sales team.",
         "VO Prospects. You Sell.",
@@ -67,9 +69,10 @@ export const Healthcare = {
       image: gadgets,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "TeleHealth Sales Development",
+      svg: null,
       content: [
         "TeleHealth is an industry of industries.",
         "Applications for mHealth:",
@@ -94,9 +97,10 @@ export const Healthcare = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "vHealth Sales Development",
+      svg: null,
       content: [
         "vHealth - Virtual Healthcare - is the hottest market right now. Many in this space are start-ups or emerging vendors.",
         "VO Sales Group has a track record of producing Healthcare Sales Leads and Sales Opportunities for emerging healthcare solution providers.",
@@ -107,9 +111,10 @@ export const Healthcare = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Messaging",
+      svg: null,
       content: [
         "With so many new entrants into the Healthcare space, many companies hire VO Sales Group not only to canvass for Sales Opportunities, but to refine their Sales Message and Brand.",
         "Our seasoned Sales team can offer you weekly feedback on what is resonating and what is not.",
@@ -120,9 +125,10 @@ export const Healthcare = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Healthcare Sales Development",
+      svg: null,
       content: [
         "VO is focused on Healthcare Sales Development and HIMSS Sales Leads.",
         "VO Team Members regularly attend the HIMSS Conference and are up-to-date on the latest solutions in Healthcare.",

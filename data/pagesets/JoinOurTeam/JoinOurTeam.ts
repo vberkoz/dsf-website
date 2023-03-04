@@ -47,9 +47,10 @@ export const JoinOurTeam = {
       ]
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Who we are looking for"],
       title: "Qualifications",
+      svg: null,
       content: [
         [
           "Minimum 10 years in business solutions sales, if for the Sales team",
@@ -65,9 +66,10 @@ export const JoinOurTeam = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Minimum Requirements",
+      svg: null,
       content: [
         [
           "Landline for phone calls (Cell Phone/VoIP is not acceptable)",
@@ -83,9 +85,10 @@ export const JoinOurTeam = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Interview"],
       title: "Application and Interview Process",
+      svg: null,
       content: [
         [
           "Submit a resume or bio with a brief outline of product knowledge focus",

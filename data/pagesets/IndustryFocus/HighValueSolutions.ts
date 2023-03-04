@@ -30,9 +30,10 @@ export const HighValueSolutions = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Strategic Selling"],
       title: "High-Value Solutions Selling",
+      svg: null,
       content: [
         "Prospecting is Sales when your solution is $100K or better.",
         "Many of our customers have $100K to $1M+ solutions. These offerings typically require a Sales skill set - Strategic Selling skills to properly Identify the Buyer and to go Deep and Broad.",
@@ -44,9 +45,10 @@ export const HighValueSolutions = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "High-Value Solutions Markets",
+      svg: null,
       content: [
         [
           "Robotics & Automation",
@@ -66,9 +68,10 @@ export const HighValueSolutions = {
       image: robot,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Sales Group Supports Vendors",
+      svg: null,
       content: [
         "VO is involved in Business Development activity for High-Value Solution Providers.",
         "Our differentiator is that we are not trying to be all things to all people.",

@@ -4,15 +4,14 @@ import { Pages } from "@/data/data";
 
 import { Layout } from "@/components/Layout";
 import { HeroTabs } from "@/components/HeroTabs";
-import Content121 from "@/components/Content121";
-import SectionCDDD from "@/components/SectionCDDD";
+import SectionCTTTx2 from "@/components/SectionCTTTx2";
 import { NextSteps } from "@/components/NextSteps/NextSteps";
 import { Image121 } from "@/components/Image121";
-import Content1111 from "@/components/Content1111";
+import SectionCTTE from "@/components/SectionCTTE";
 import Testimonials from "@/components/Testimonials";
 import { Hero } from "@/components/Hero";
 import NextSteps4 from "@/components/NextSteps4";
-import ContentC2DE from "@/components/ContentC2DE";
+import SectionC2TI from "@/components/SectionC2TI";
 import ContentCDDE from "@/components/ContentCDDE";
 import FAQ from "@/components/FAQ";
 
@@ -50,18 +49,16 @@ export default function Page({ page }: any) {
             );
           case "Hero":
             return <Hero data={section} key={key} />;
-          case "SectionCDDD":
-            return <SectionCDDD section={section} key={key} />;
-          case "Content121":
-            return <Content121 data={section} key={key} />;
-          case "ContentC2DE":
-            return <ContentC2DE data={section} key={key} />;
+          case "SectionCTTTx2":
+            return <SectionCTTTx2 section={section} key={key} />;
+          case "SectionC2TI":
+            return <SectionC2TI data={section} key={key} />;
           case "FAQ":
             return <FAQ data={section} key={key} />;
           case "ContentCDDE":
             return <ContentCDDE data={section} key={key} />;
-          case "Content1111":
-            return <Content1111 content={section.data} key={key} />;
+          case "SectionCTTE":
+            return <SectionCTTE content={section.data} key={key} />;
           case "Image121":
             return <Image121 data={section} key={key} />;
           case "Map":

@@ -14,9 +14,10 @@ export const SalesTeamTestimonials = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Looking to work for VO Sales Group?",
+      svg: null,
       content: [
         "Learn about what it's like to be part of the VO Sales Group Team. Click on each avatar in the map below to hear our Sales team's stories.",
       ],

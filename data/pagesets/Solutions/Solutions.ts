@@ -15,9 +15,10 @@ export const Solutions = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Revenue Producing"],
       title: "VO Sales Group Solutions",
+      svg: null,
       content: [
         [
           "International Sales Development for non-US companies",

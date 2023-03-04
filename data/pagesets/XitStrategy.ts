@@ -22,7 +22,7 @@ export const XitStrategy = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [
         "Looking",
         [
@@ -34,6 +34,7 @@ export const XitStrategy = {
         ],
       ],
       title: "VO Sales Group has a sister company called XIT Group",
+      svg: null,
       content: [
         [
           "Exit Strategies and Plans",
@@ -48,9 +49,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Types of Capital",
+      svg: null,
       content: [
         [
           "Growth Capital",
@@ -66,9 +68,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Solutions",
+      svg: null,
       content: [
         "If you are developing an Enterprise Application in the following areas, we'd be interested in talking with you.",
         [
@@ -90,9 +93,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Capital strategy",
+      svg: null,
       content: [
         "VO Sales Group will put together a small team to help you package your offering for Raising Capital or for Exit.",
         "We help with all things needed for your pitch deck.",
@@ -103,9 +107,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Matchmaker",
+      svg: null,
       content: [
         "VO Sales Group represents you, the entrepreneur.",
         "Our job is to help you with positioning, revenue, your pitch, strategy, and to get you prepped and in front of Strategic Partners.",
@@ -116,7 +121,7 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "",
         title1: "Sales plan",

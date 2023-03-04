@@ -14,7 +14,7 @@ export const OurTeamSStoryAvatars = {
       id: "HeroTabs",
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "Our values",
         title1: "Our Story",

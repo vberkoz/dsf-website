@@ -14,9 +14,10 @@ export const InternationalConcierge = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["International services"],
       title: "Services Offered to International Companies",
+      svg: null,
       content: [
         [
           "Build the Sales Channel (Sales Development)",
@@ -34,9 +35,10 @@ export const InternationalConcierge = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [""],
       title: "Companies that Work with VO Sales Group",
+      svg: null,
       content: [
         [
           "International Companies that need Sales Growth in the United States",
@@ -50,9 +52,10 @@ export const InternationalConcierge = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [""],
       title: "VO Revenue Model",
+      svg: null,
       content: [
         "18 Months to Revenue: For international companies, we work toward a model that allows for sustainable revenue in an 18-month period.",
         "Client-Assisted Commission Model: In our proposal, we will present a creative way to go to market. This method allows for a Commitment Fee by you, but a movement to commissions by us.",
@@ -62,9 +65,10 @@ export const InternationalConcierge = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [""],
       title: "International Concierge",
+      svg: null,
       content: [
         "VO Sales Group is a professional organization of Senior Level Sales Development Professionals that can help a international company with the expansion of its sales into the United States.",
         "Our mission is to consult with international companies on how to do business in the U.S. and assist with what is needed to establish a business entity in the U.S.",

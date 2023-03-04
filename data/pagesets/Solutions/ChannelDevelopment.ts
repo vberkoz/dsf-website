@@ -15,9 +15,10 @@ export const ChannelDevelopment = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Jump Start the Channel",
+      svg: null,
       content: [
         [
           "Jump Start the Channel revenue with an ongoing Lead Generation program",
@@ -32,9 +33,10 @@ export const ChannelDevelopment = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [""],
       title: "Lead Management",
+      svg: null,
       content: [
         "VO Sales Group can manage your leads through the sales process.",
         "Whether your team is working with the leads or your Channel Partners are, we can create a process using what we call Intentional Progression of the Sales Opportunity.",
@@ -45,9 +47,10 @@ export const ChannelDevelopment = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [""],
       title: "Channel Acquisition",
+      svg: null,
       content: [
         "VO Sales Group can help you Grow your Channel.",
         "We have resources to help you acquire new channel partners.",
@@ -70,9 +73,10 @@ export const ChannelDevelopment = {
       image: channel,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Channel Portal Set-Up and Management",
+      svg: null,
       content: [
         "VO Sales Group assists companies with their Channel Portal due diligence, set up, and maintenance.",
         "We have partnered with one of the leading Channel Partner Portal companies that offers the most holistic solutions for all things needed to manage your Partner channel.",
@@ -83,9 +87,10 @@ export const ChannelDevelopment = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Channel Retention",
+      svg: null,
       content: [
         "VO Sales Group is the premier Sales and Marketing Lead Generation company.",
         "Sales Leads are used to focus your Channel Partners on your solutions when they have so many choices.",
@@ -97,9 +102,10 @@ export const ChannelDevelopment = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Channel Strategy",
+      svg: null,
       content: [
         "Channel Development: VO will assist you in setting up your Channel Portal Software, setting up the processes, and managing your Channel Portal, Lead Distribution, and Lead Management.",
         "Lead Management makes sure that the Sales Opportunities that you pushed into the channel actually move to Revenue.",

@@ -14,9 +14,10 @@ export const OnDemandEconomy = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["VO Sales Group"],
       title: "The On-Demand Economy",
+      svg: null,
       content: [
         "Virtual Organization that embraces the On-Demand Economy for Sales and Marketing as it relates to Lead Generation.",
         "The On-Demand Economy is also known as the Project-Based Economy for Services.",
@@ -28,9 +29,10 @@ export const OnDemandEconomy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Marketing Projects"],
       title: "Submit a Project",
+      svg: null,
       content: [
         "VO Sales Group caters to vendors that need Sales, Sales Leads, Appointments, Traffic, Revenue, and all the Internet Marketing that leads up to that.",
         "We have a qualified team of independent contractors, Giggers, and Taskers for you to hire, as needed, ON DEMAND.",

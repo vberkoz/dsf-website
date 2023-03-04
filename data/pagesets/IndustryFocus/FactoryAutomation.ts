@@ -24,9 +24,10 @@ export const FactoryAutomation = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Factory Automation Prospecting",
+      svg: null,
       content: [
         "Are you looking for Factory Automation Lead Generation? Are you looking for Sales Prospecting?",
         "Sales Prospecting is Sales when your solution is $100K or better. VO Sales Group's company roots come from the Supply Chain space. Over time we have provided Sales Opportunities in",
@@ -37,9 +38,10 @@ export const FactoryAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Industrial Automation Solutions",
+      svg: null,
       content: [
         [
           "Industrial IIoT",
@@ -54,9 +56,10 @@ export const FactoryAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Robotic Process Automation (RPA)",
+      svg: null,
       content: [
         [
           "Intralogistics",
@@ -76,18 +79,20 @@ export const FactoryAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Material Handling Systems",
+      svg: null,
       content: [["Intralogistics", "Inbound Supply Chains/Sourcing"]],
       link: "",
       href: "#",
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Industrial Automation Markets",
+      svg: null,
       content: [
         "Supply Chain, Automation, Robotics  & Factory Automation Sales Opportunities.",
         [
@@ -108,9 +113,10 @@ export const FactoryAutomation = {
       image: conveyor,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Jump Start the Channel",
+      svg: null,
       content: [
         "VO is involved in Sales Development as well as Business Development activities for Supply Chain Solution Providers.",
         "Our differentiation is that we are not trying to be all things to all people.",

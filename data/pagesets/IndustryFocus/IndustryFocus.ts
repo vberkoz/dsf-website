@@ -14,7 +14,7 @@ export const IndustryFocus = {
       id: "HeroTabs",
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "Campaign portfolio",
         title1: "Industry",
@@ -48,9 +48,10 @@ export const IndustryFocus = {
       },
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Enterprise Sales Prospecting",
+      svg: null,
       content: [
         "Our approach allows us to cross many industries by utilizing strategic selling styles and questioning techniques to find opportunities.",
         "While most use what we call WE Statements to establish their credibility, our style is to Ask Pertinent Questions to Establish our Credibility and to get a Stranger to admit to another Stranger that they indeed have some compelling reason to talk to a salesperson.",

@@ -29,9 +29,10 @@ export const EnterpriseMobility = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Enterprise Mobility Solution Selling",
+      svg: null,
       content: [
         [
           "M2M Applications",
@@ -54,9 +55,10 @@ export const EnterpriseMobility = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Sales Group Solutions",
+      svg: null,
       content: [
         "VO is involved in Business Development activities for Enterprise Mobility companies in a variety of ways.",
         [
@@ -75,9 +77,10 @@ export const EnterpriseMobility = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Examples of Sales Opportunities",
+      svg: null,
       content: [
         "Leads turned in recently include:",
         [

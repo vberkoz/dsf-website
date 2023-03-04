@@ -19,8 +19,8 @@ type Props = {
 
 import bulb from "@/public/home/bulb.svg";
 {
-  id: "SectionCDDD",
-  caption: ["SectionCDDD"],
+  id: "SectionCTTTx2",
+  caption: ["SectionCTTTx2"],
   data: [
     {
       title: "",
@@ -68,7 +68,7 @@ import bulb from "@/public/home/bulb.svg";
 },
 */
 
-export default function SectionCDDD({ section }: Props) {
+export default function SectionCTTTx2({ section }: Props) {
   return (
     <div className="bg-gray-100 dark:bg-gray-900 py-4 text-gray-100 dark:text-gray-100 lg:pl-14 xl:pr-[108px]">
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

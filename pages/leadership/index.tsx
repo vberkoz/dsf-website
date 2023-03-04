@@ -1,4 +1,4 @@
-import ContentC2DE from "@/components/ContentC2DE";
+import SectionC2TI from "@/components/SectionC2TI";
 import { HeroTabs } from "@/components/HeroTabs";
 import { Layout } from "@/components/Layout";
 import LinksC2DE from "@/components/LinksC2DE";
@@ -20,8 +20,8 @@ export default function LeadershipPage() {
                 image={Leadership.image}
               />
             );
-          case "ContentC2DE":
-            return <ContentC2DE data={section} key={key} />;
+          case "SectionC2TI":
+            return <SectionC2TI data={section} key={key} />;
           case "LinksC2DE":
             return <LinksC2DE data={section} key={key} />;
           case "NextSteps":

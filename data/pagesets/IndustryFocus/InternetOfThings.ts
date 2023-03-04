@@ -29,9 +29,10 @@ export const InternetOfThings = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "M2M - IIoT Sales Prospecting",
+      svg: null,
       content: [
         "Industrial Internet of Things (IIoT) and M2M are in all business solutions that are tracking assets and asset activity.",
         [
@@ -54,9 +55,10 @@ export const InternetOfThings = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "IoT Solutions",
+      svg: null,
       content: [
         "Industrial Internet of Things - IIoT",
         "M2M, IoT, and IIoT will be found in all aspects of our lives, in all industries, both consumer and business.",
@@ -68,9 +70,10 @@ export const InternetOfThings = {
       image: tablet,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "IoT Sales Development",
+      svg: null,
       content: [
         "With IoT still being fairly new to the market, VO finds itself involved in Business Development activity, as well as Sales Channel Development for our customers.",
         "VO is focused on Sales Planning and Sales Development to push an emerging company to the next level, and maybe to the level of gaining investments, or even a liquidity event.",

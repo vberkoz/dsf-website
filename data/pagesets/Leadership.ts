@@ -14,7 +14,7 @@ export const Leadership = {
       id: "HeroTabs",
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Stephen Zarick",
       svg: null,
@@ -28,7 +28,7 @@ export const Leadership = {
       image: null,
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Education",
       svg: null,
@@ -41,7 +41,7 @@ export const Leadership = {
       image: null,
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "International Business",
       svg: null,
@@ -54,7 +54,7 @@ export const Leadership = {
       image: null,
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Life",
       svg: null,

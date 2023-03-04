@@ -14,9 +14,10 @@ export const Marketing20Team = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Marketing and Sales Support",
+      svg: null,
       content: [
         "This is not a self-serve model - you must be interviewed and invited on to the team.",
         [
@@ -36,9 +37,10 @@ export const Marketing20Team = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Get on the VO Sales Group Map",
+      svg: null,
       content: [
         "We are looking for Contractors with aspects of Sales Marketing/Lead Generation skill sets.",
         "If you know:",
@@ -58,9 +60,10 @@ export const Marketing20Team = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Career Self Employment",
+      svg: null,
       content: [
         "The VO Marketing 2.0 Team is comprised of professional marketing people who have extensive backgrounds in all aspects of today's marketing landscape.",
         "VO Sales Group's Career Self Employment Opportunity allows for self-employed professionals to work at home.",
@@ -75,9 +78,10 @@ export const Marketing20Team = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Additional VO Benefits",
+      svg: null,
       content: [
         [
           "We have a back-end team to manage a campaign, to do reporting, and to log time.",

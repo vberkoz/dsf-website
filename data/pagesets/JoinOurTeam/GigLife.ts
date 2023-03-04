@@ -17,7 +17,7 @@ export const GigLife = {
       id: "HeroTabs",
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: ["myGIGlife"],
       title: "Self-employment opportunities",
       svg: null,
@@ -31,7 +31,7 @@ export const GigLife = {
       image: hatFront,
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Work-life balance",
       svg: null,
@@ -47,7 +47,7 @@ export const GigLife = {
       image: socialNetwork,
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Team-based atmosphere",
       svg: null,

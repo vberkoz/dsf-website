@@ -17,9 +17,10 @@ export const ConciergeServices = {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Premier approach"],
       title: "Sales Development Solutions",
+      svg: null,
       content: [
         "A Premier Approach for High Value Technology and Business Solutions companies. VO Sales Group’s goals are to Generate Qualified Sales Opportunities that are revenue producing.",
         "Our Professional Sales Prospecting Services are to be revenue producing as opposed to being just a marketing expense as other marketing activity. Our focus on high value solutions where there are many points of contacts to penetrate a company to identify the buying team and the sales opportunities within.",
@@ -29,9 +30,10 @@ export const ConciergeServices = {
       image: salesPlan,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Sales Group Concierge",
+      svg: null,
       content: [
         "VO Concierge is a “white glove” Sales Prospecting/Demand Generation service.",
         [
@@ -49,9 +51,10 @@ export const ConciergeServices = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "On-Demand Sales Professionals",
+      svg: null,
       content: [
         "Outsourcing with VO allows you to have a contract Virtual Sales Team by creating a Virtual Organization (VO) of professional salespeople generating prospects and sales opportunities for you. VO becomes your on-demand sales workforce.",
         "VO Sales Group's Concierge Sales Team professionals run their own campaigns, have a proven track record with VO Sales Group, and report directly to you.",
@@ -62,7 +65,7 @@ export const ConciergeServices = {
       image: null,
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "",
         title1: "Industry Focus",
@@ -107,9 +110,10 @@ export const ConciergeServices = {
       href: "#",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Benefits"],
       title: "Why Engage VO Concierge?",
+      svg: null,
       content: [
         [
           "We reduce your cost per sales call",
@@ -123,9 +127,10 @@ export const ConciergeServices = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Benefits of VO Concierge",
+      svg: null,
       content: [
         [
           "We prospect - You sell",
@@ -140,9 +145,10 @@ export const ConciergeServices = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Strategic Sales Partner",
+      svg: null,
       content: [
         "As your Strategic Sales Partner, we work with you to provide solutions that Integrate with your current organization - whether or not you have a current salesforce or use a sales channel.",
         "We are senior-level people working for you.",
@@ -153,7 +159,7 @@ export const ConciergeServices = {
       image: null,
     },
     {
-      id: "Hero1",
+      id: "Hero",
       image: diagram.src,
       title: "Outsourced Sales Prospecting",
       content: [
