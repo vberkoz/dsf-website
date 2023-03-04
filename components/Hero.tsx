@@ -20,7 +20,9 @@ export const Hero = ({ data }: Prop) => {
         backgroundPosition: "center",
       }}
     >
-      <div className="bg-gradient-to-r from-gray-100/100 to-gray-100/50 text-left text-gray-900 dark:from-gray-900/100 dark:to-gray-900/50 dark:text-gray-100 lg:to-gray-100/0 dark:lg:to-gray-900/0">
+      <div className="text-left
+        text-gray-900 dark:text-gray-100
+        bg-gradient-to-r from-gray-100/100 to-gray-100/50 dark:from-gray-900/100 dark:to-gray-900/50 lg:to-gray-100/0 dark:lg:to-gray-900/0">
         <div className="lg:p-14">
           <div className="p-3">
             <h1 className="mb-4 pb-40 text-4xl font-light sm:text-5xl">
@@ -46,7 +48,13 @@ export const Hero = ({ data }: Prop) => {
                 {data.link && (
                   <Link
                     href={data.href}
-                    className="mt-4 flex w-fit cursor-pointer px-4 py-3 bg-green-600 text-gray-100 hover:bg-green-500 dark:bg-yellow-300 dark:text-gray-900 dark:hover:bg-yellow-400"
+                    className="
+                      mt-4 flex w-fit cursor-pointer px-4 py-3
+                      text-gray-100 dark:text-gray-900
+                      bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+                      outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+                      border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+                    "
                   >
                     <span className="mr-4 leading-[1.2rem]">{data.link}</span>
                     <svg

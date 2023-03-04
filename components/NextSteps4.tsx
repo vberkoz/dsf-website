@@ -37,7 +37,11 @@ type NextStepProps = {
 const NextStep = ({ item }: NextStepProps) => (
   <Link
     href={`/${item.href}`}
-    className="flex h-[60vw] flex-col bg-gray-200 dark:bg-gray-800 p-3 hover:bg-gray-300 dark:hover:bg-gray-700 sm:h-[50vw] lg:h-[33vw] xl:h-[25vw] xl:p-6"
+    className="
+    flex h-[60vw] flex-col p-3 sm:h-[50vw] lg:h-[33vw] xl:h-[25vw] xl:p-6
+    bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 
+    outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400
+    "
   >
     <h2 className="mb-4 text-3xl">{item.title}</h2>
     <p className="text-gray-600 dark:text-gray-400">{item.description}</p>

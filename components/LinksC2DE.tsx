@@ -61,7 +61,11 @@ export default function LinksC2DE({ data }: Props) {
             <Link
               key={key}
               href={link.href}
-              className="flex w-fit cursor-pointer text-green-600 hover:underline dark:text-yellow-400"
+              className="
+              flex w-fit cursor-pointer hover:underline
+              text-green-600 dark:text-yellow-400
+              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+              "
             >
               <span className="mr-4 leading-[1.2rem]">{link.text}</span>
               {link.href.toLowerCase().includes("http") ? (

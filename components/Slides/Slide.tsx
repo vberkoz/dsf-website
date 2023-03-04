@@ -18,11 +18,21 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
   const rows = [];
   for (let i = 0; i < length; i++) {
     rows.push(
-      <span
+      <Link
+        href="#"
         key={i}
-        className={`${k === i && "pt-4"} mr-1 bg-green-600 dark:bg-yellow-300 px-3`}
+        className={`
+            ${k === i && "pt-4"} mr-1 px-3 
+            bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+            outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+            border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+          `
+        }
         onClick={() => onShow(i)}
-      ></span>
+        onKeyUp={(e) => {
+          return e.key === "Enter" && onShow(i)
+        }}
+      ></Link>
     );
   }
   return (
@@ -34,7 +44,9 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
       }}
       className={`${isActive ? "block" : "hidden"}`}
     >
-      <div className="bg-gradient-to-r from-gray-100/100 to-gray-100/0 text-left text-gray-900/90 dark:from-gray-900/100 dark:to-gray-900/0 dark:text-gray-100/90 xl:pr-[108px]">
+      <div className="text-left xl:pr-[108px]
+        text-gray-900 dark:text-gray-100
+        bg-gradient-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-900/100 dark:to-gray-900/0">
         <div className="lg:p-14">
           <div className="h-80 p-3">
             <h1 className="mb-4 text-4xl font-light sm:text-5xl">
@@ -55,7 +67,13 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
           </div>
           <Link
             href={item.href}
-            className="flex cursor-pointer flex-col bg-green-600 p-3 text-gray-100 hover:bg-green-500 dark:bg-yellow-300 dark:text-gray-900 dark:hover:bg-yellow-400"
+            className="
+              flex cursor-pointer flex-col p-3
+              text-gray-100 dark:text-gray-900 text-xl
+              bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+              outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+              border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+            "
           >
             {item.button}
             <div className="grow"></div>

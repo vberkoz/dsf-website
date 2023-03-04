@@ -23,7 +23,13 @@ export default function Posts({
 }) {
   return (
     <Layout>
-      <div className="grid grid-cols-1 gap-px bg-gray-100 dark:bg-gray-900 pb-[1px] text-gray-900 dark:text-gray-100 md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]">
+      <div 
+        className="
+        grid grid-cols-1 gap-px pb-[1px] md:grid-cols-2 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]
+        bg-gray-100 dark:bg-gray-900
+        text-gray-900 dark:text-gray-100
+        "
+      >
         {allPostsData.map(
           ({ id, image, title, author, excerpt, date }, key) => {
             switch (key) {
@@ -32,7 +38,12 @@ export default function Posts({
                   <Link
                     key={key}
                     href={`/blog/${id}`}
-                    className="col-span-1 row-span-1 flex flex-col bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 md:col-span-2 lg:h-[60vw] xl:row-span-2 xl:h-[70vw]"
+                    className="
+                    post-list-element
+                    col-span-1 row-span-1 flex flex-col md:col-span-2 lg:h-[60vw] xl:row-span-2 xl:h-[70vw]
+                    bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 
+                    outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400
+                    "
                   >
                     <div
                       style={{
@@ -40,7 +51,7 @@ export default function Posts({
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                       }}
-                      className="h-32 w-full md:h-64 lg:h-1/3"
+                      className="post-image h-32 w-full md:h-64 lg:h-1/3"
                     ></div>
                     <div className="p-3 xl:p-6">
                       <h2 className="mb-2 text-2xl font-light text-gray-700 dark:text-gray-200 md:mb-4 md:text-5xl">
@@ -76,7 +87,12 @@ export default function Posts({
                   <Link
                     key={key}
                     href={`/blog/${id}`}
-                    className="flex h-full flex-col bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    className="
+                    post-list-element
+                    flex h-full flex-col 
+                    bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700
+                    outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400
+                    "
                   >
                     <div
                       style={{
@@ -84,7 +100,7 @@ export default function Posts({
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                       }}
-                      className="h-32 w-full lg:h-1/2"
+                      className="post-image h-32 w-full lg:h-1/2"
                     ></div>
                     <div className="p-3 xl:p-6">
                       <h2 className="mb-2 text-2xl font-light text-gray-700 dark:text-gray-200">
@@ -117,7 +133,12 @@ export default function Posts({
                   <Link
                     key={key}
                     href={`/blog/${id}`}
-                    className="flex h-full flex-col bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    className="
+                    post-list-element
+                    flex h-full flex-col 
+                    bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700
+                    outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400
+                    "
                   >
                     <div
                       style={{
@@ -125,7 +146,7 @@ export default function Posts({
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                       }}
-                      className="h-32 w-full xl:h-1/2"
+                      className="post-image h-32 w-full xl:h-1/2"
                     ></div>
                     <div className="p-3 xl:p-6">
                       <h2 className="mb-2 text-2xl font-light text-gray-700 dark:text-gray-200">

@@ -17,7 +17,7 @@ export const Layout = ({ children }: Props) => (
       <link rel="icon" href="logo.svg" type="image/svg+xml" />
     </Head>
 
-    <div className="bg-zinc-100">
+    <div>
       <Menu />
       <Banner />
       {children}

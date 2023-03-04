@@ -73,14 +73,14 @@ export const HeroTabs = ({
       {tabs && (
         <div
           style={{ zIndex: 2000 }}
-          className="sticky top-12 max-h-[50px] whitespace-nowrap border-b-2 border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900"
+          className="sticky top-[50px] max-h-[50px] whitespace-nowrap border-b-2 border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900"
         >
           <div className="flex overflow-x-scroll text-gray-900 dark:text-gray-100 lg:ml-14">
             {tabs.map((tab, key) => (
               <Link
                 key={key}
                 href={tab.slug ? tab.slug.toString() : "/"}
-                className={`${ tab.slug === router.asPath.substring(1) && "border-b-2 border-green-600 dark:border-yellow-400 bg-gray-200 dark:bg-gray-700" } p-3 hover:bg-gray-200 dark:hover:bg-gray-700`}
+                className={`${ tab.slug === router.asPath.substring(1) && "bg-gray-200 dark:bg-gray-700" } p-3 hover:bg-gray-200 dark:hover:bg-gray-700 outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400`}
               >
                 {tab.title}
               </Link>

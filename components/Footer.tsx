@@ -37,20 +37,30 @@ export const Footer = () => {
     subitems?: { href: string; title: string }[];
   }) => (
     <div className="flex flex-col pl-3 xl:pl-6">
-      <Link
-        href={`/${pageset.href}`}
-        className="font-bold hover:underline"
-      >
-        {pageset.title}
-      </Link>
-      {pageset.subitems?.map((item, key) => (
+      <div>
         <Link
-          key={key}
-          href={`/${item.href}`}
-          className="text-gray-600 dark:text-gray-400 hover:underline"
+          href={`/${pageset.href}`}
+          className="
+          font-bold hover:underline 
+          outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400"
         >
-          {item.title}
+          {pageset.title}
         </Link>
+      </div>
+      {pageset.subitems?.map((item, key) => (
+        <div>
+          <Link
+            key={key}
+            href={`/${item.href}`}
+            className="
+            hover:underline
+            text-gray-600 dark:text-gray-400
+            outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+            "
+          >
+            {item.title}
+          </Link>
+        </div>
       ))}
     </div>
   );
@@ -58,27 +68,43 @@ export const Footer = () => {
   const pages = (pages: { href: string; title: string }[]) => (
     <div className="flex flex-col pl-3 xl:pl-6">
       {pages.map((item, key) => (
-        <Link
-          key={key}
-          href={`/${item.href}`}
-          className="text-gray-600 dark:text-gray-400 hover:underline"
-        >
-          {item.title}
-        </Link>
+        <div>
+          <Link
+            key={key}
+            href={`/${item.href}`}
+            className="
+            hover:underline
+            text-gray-600 dark:text-gray-400 
+            outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+            "
+          >
+            {item.title}
+          </Link>
+        </div>
       ))}
     </div>
   );
 
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 lg:pl-14 xl:pr-[108px] text-gray-900 dark:text-gray-100">
+    <div 
+      className="
+      lg:pl-14 xl:pr-[108px]
+      bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100
+      "
+    >
       <div className="flex flex-col py-8 leading-8">
         <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          <Link
-            href="/"
-            className="pl-3 font-bold hover:underline sm:col-span-2 lg:col-span-3 xl:col-span-1"
-          >
-            VO Sales Group
-          </Link>
+          <div className="pl-3 sm:col-span-2 lg:col-span-3 xl:col-span-1">
+            <Link
+              href="/"
+              className="
+              font-bold hover:underline 
+              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+              "
+            >
+              VO Sales Group
+            </Link>
+          </div>
           {pageset(menuItems[2])}
           {pageset(menuItems[3])}
           {pageset(menuItems[1])}
@@ -89,9 +115,14 @@ export const Footer = () => {
           {pages(additionalPages)}
 
           <div className="flex flex-col pl-3 xl:pl-6">
+            <div>
             <Link
               href="https://www.linkedin.com/company/vo-group/"
-              className="text-gray-600 dark:text-gray-400 mb-4 flex leading-4 hover:underline"
+              className="
+              flex mb-4 leading-4 hover:underline
+              text-gray-600 dark:text-gray-400 
+              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+              "
             >
               <svg
                 viewBox="0 0 640 640"
@@ -104,10 +135,16 @@ export const Footer = () => {
               </svg>
               VO Sales Group
             </Link>
+            </div>
 
+            <div>
             <Link
               href="https://www.linkedin.com/in/stephenzarick/"
-              className="text-gray-600 dark:text-gray-400 flex leading-4 hover:underline"
+              className="
+              flex mb-4 leading-4 hover:underline
+              text-gray-600 dark:text-gray-400 
+              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+              "
             >
               <svg
                 viewBox="0 0 640 640"
@@ -120,6 +157,7 @@ export const Footer = () => {
               </svg>
               Stephen Zarick
             </Link>
+            </div>
           </div>
 
           <div className="hidden xl:block"></div>
