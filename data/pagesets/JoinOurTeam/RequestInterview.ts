@@ -6,14 +6,15 @@ export const RequestInterview = {
   slug: "request-interview",
   pageset: "join-our-team",
   isPrimary: false,
-  description: "Start your career with VO Group",
+  description1: ["Start your career with VO Group"],
+  description2: [],
   image: notes.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps
     },
   ],

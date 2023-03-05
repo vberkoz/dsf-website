@@ -7,17 +7,32 @@ export const InternetOfThings = {
   slug: "internet-of-things",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "Monitoring, Industry 4.0/IIoT, Asset Tracking, Metering, Billing, Fleet Management, 5G, Smart Supply Chain",
+  description1: [
+    [
+      "Monitoring",
+      "Industry 4.0 / IIoT",
+      "Asset Tracking",
+      "Metering",
+    ],
+  ],
+  description2: [
+    [
+      "Billing",
+      "Fleet Management",
+      "5G",
+      "Smart Supply Chain",
+    ],
+  ],
   image: tower.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "M2M - IIoT Sales Prospecting",
+      svg: null,
       content: [
         "Industrial Internet of Things (IIoT) and M2M are in all business solutions that are tracking assets and asset activity.",
         [
@@ -40,9 +55,10 @@ export const InternetOfThings = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "IoT Solutions",
+      svg: null,
       content: [
         "Industrial Internet of Things - IIoT",
         "M2M, IoT, and IIoT will be found in all aspects of our lives, in all industries, both consumer and business.",
@@ -54,9 +70,10 @@ export const InternetOfThings = {
       image: tablet,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "IoT Sales Development",
+      svg: null,
       content: [
         "With IoT still being fairly new to the market, VO finds itself involved in Business Development activity, as well as Sales Channel Development for our customers.",
         "VO is focused on Sales Planning and Sales Development to push an emerging company to the next level, and maybe to the level of gaining investments, or even a liquidity event.",
@@ -67,7 +84,7 @@ export const InternetOfThings = {
       image: null,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

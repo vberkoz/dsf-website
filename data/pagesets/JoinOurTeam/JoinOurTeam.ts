@@ -10,7 +10,8 @@ export const JoinOurTeam = {
   slug: "join-our-team",
   pageset: "join-our-team",
   isPrimary: true,
-  description: "On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives",
+  description1: ["On-Demand economy has allowed for self-employment opportunities unlike any other time in our lives"],
+  description2: [],
   image: iphone.src,
   sections: [
     {
@@ -46,9 +47,10 @@ export const JoinOurTeam = {
       ]
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Who we are looking for"],
       title: "Qualifications",
+      svg: null,
       content: [
         [
           "Minimum 10 years in business solutions sales, if for the Sales team",
@@ -64,9 +66,10 @@ export const JoinOurTeam = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Minimum Requirements",
+      svg: null,
       content: [
         [
           "Landline for phone calls (Cell Phone/VoIP is not acceptable)",
@@ -82,9 +85,10 @@ export const JoinOurTeam = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Interview"],
       title: "Application and Interview Process",
+      svg: null,
       content: [
         [
           "Submit a resume or bio with a brief outline of product knowledge focus",
@@ -99,7 +103,7 @@ export const JoinOurTeam = {
       image: null,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps
     },
   ],

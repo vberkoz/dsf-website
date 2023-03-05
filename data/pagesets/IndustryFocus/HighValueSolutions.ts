@@ -7,16 +7,33 @@ export const HighValueSolutions = {
   slug: "high-value-solutions",
   pageset: "industry-focus",
   isPrimary: false,
-  description: "Enterprise Solutions, Analytics, Gaming, Customer Engagement, Labor Management, Greenfield/Brownfield, Optimizing Tools, Planning-Executing-Forecasting, Consulting",
+  description1: [
+    [
+      "Enterprise Solutions",
+      "Analytics",
+      "Gaming",
+      "Customer Engagement",
+      "Labor Management",
+    ],
+  ],
+  description2: [
+    [
+      "Greenfield / Brownfield",
+      "Optimizing Tools",
+      "Planning-Executing-Forecasting",
+      "Consulting",
+    ],
+  ],
   image: ship.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Strategic Selling"],
       title: "High-Value Solutions Selling",
+      svg: null,
       content: [
         "Prospecting is Sales when your solution is $100K or better.",
         "Many of our customers have $100K to $1M+ solutions. These offerings typically require a Sales skill set - Strategic Selling skills to properly Identify the Buyer and to go Deep and Broad.",
@@ -28,9 +45,10 @@ export const HighValueSolutions = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "High-Value Solutions Markets",
+      svg: null,
       content: [
         [
           "Robotics & Automation",
@@ -43,16 +61,17 @@ export const HighValueSolutions = {
           "Telecommunications",
           "Solutions for Critical Infrastructure",
           "Analytics Solutions",
-        ]
+        ],
       ],
       link: "",
       href: "#",
       image: robot,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Sales Group Supports Vendors",
+      svg: null,
       content: [
         "VO is involved in Business Development activity for High-Value Solution Providers.",
         "Our differentiator is that we are not trying to be all things to all people.",
@@ -64,8 +83,8 @@ export const HighValueSolutions = {
       image: null,
     },
     {
-      id: "NextSteps",
-      steps: DefaultNextSteps
+      id: "NextSteps3",
+      steps: DefaultNextSteps,
     },
   ],
 };

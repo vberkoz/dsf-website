@@ -16,11 +16,11 @@ type Props = {
 
 export default function FAQ({ data }: Props) {
   return (
-    <div className="bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
-      <div className="grid grid-cols-1 p-3 text-gray-400 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="bg-gray-100 dark:bg-gray-900 py-8 lg:pl-14 xl:pr-[108px]">
+      <div className="grid grid-cols-1 p-3 text-gray-600 dark:text-gray-400 lg:grid-cols-3 xl:grid-cols-4">
         <div></div>
         <div className="grid grid-cols-1 gap-4 pb-4 md:col-span-3 lg:col-span-2">
-          <div className="text-xl text-white">{data.question}</div>
+          <div className="text-xl text-gray-900 dark:text-gray-100">{data.question}</div>
           {data.answer.map((item, pKey) => {
             if (Array.isArray(item)) {
               return (

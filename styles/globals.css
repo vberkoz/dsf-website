@@ -12,3 +12,25 @@ ul li:before {
   position: absolute;
   margin-left: -20px;
 }
+
+.svg-icon {
+  fill: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  .svg-icon {
+    filter: invert(1);
+  }
+}
+
+.post-list-element:focus .post-image {
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-color: rgb(250 204 21);
+}
+
+input, textarea {
+  border-radius: 0;
+  -webkit-appearance: none;
+}

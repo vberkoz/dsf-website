@@ -6,14 +6,15 @@ export const OurTeamSStoryAvatars = {
   slug: "our-teams-story-avatars",
   pageset: "about-us",
   isPrimary: false,
-  description: "Explore experience of our people",
+  description1: ["Explore experience of our people"],
+  description2: [],
   image: hands.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "Our values",
         title1: "Our Story",
@@ -28,14 +29,14 @@ export const OurTeamSStoryAvatars = {
           "A collaborative community of people with great backgrounds.",
           "Click on each avatar in the map below to hear each Salesperson's story.",
         ],
-      }
+      },
     },
     {
       id: "Map",
     },
     {
-      id: "NextSteps",
-      steps: DefaultNextSteps
+      id: "NextSteps3",
+      steps: DefaultNextSteps,
     },
-  ]
+  ],
 };

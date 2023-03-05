@@ -50,9 +50,10 @@ export const Home = {
       ],
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Features"],
       title: "Professional Sales Prospecting and Demand Generation Group",
+      svg: null,
       content: [
         "VO Sales Group offers a 360 degree Sales approach for Vendors to Generate Quality Sales Opportunities. Outsourcing your Sales and Marketing efforts to VO allows you to have an On-Demand partner for these skill sets.",
         "Your Sales Prospecting, Demand Generation and Marketing efforts will be performed by industry professionals. The VO Sales 360 and Marketing 2.0 teams have a deep understanding across verticals and markets.",
@@ -63,9 +64,10 @@ export const Home = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Unique business approach",
+      svg: null,
       content: [
         "VO Sales Group is a Sales Development company started by Stephen Zarick. The original intent of VO Sales Group was to create an environment for self-employed sales professionals to work in a virtual atmosphere with a virtual team.",
         "VO Sales Group is a unique organization which prides itself on being capitalistic, as opposed to opportunistic, as many of our competitors are. Our style is profoundly unique and represents an early adoption of the now-burgeoning freelance lifestyle.",
@@ -76,9 +78,10 @@ export const Home = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "EXIT Strategies",
+      svg: null,
       content: [
         "VO Sales Group is helping those with Intellectual Property (IP) to combine Sales Development with Growth Capital and then EXIT Strategies.",
         "Many companies need a Sales and Marketing effort and need it now. VO Sale Group can quickly offer you an On-Demand Sales and Marketing team to stuff your sales pipe.",
@@ -99,7 +102,7 @@ export const Home = {
       href: "/concierge-services",
     },
     {
-      id: "SectionCDDD",
+      id: "SectionCTTTx2",
       caption: ["Benefits"],
       data: [
         {
@@ -179,7 +182,7 @@ export const Home = {
       href: "/solutions",
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

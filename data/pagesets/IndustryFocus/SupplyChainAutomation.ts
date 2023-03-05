@@ -7,16 +7,36 @@ export const SupplyChainAutomation = {
   slug: "supply-chain-automation",
   pageset: "industry-focus",
   isPrimary: false,
-  description: "Distribution, Robotics, Picking Solutions, Material Handling, AS/RS, Autonomus Vehicles, Packaging, Logistics, WMS, BOPUS/BOPIS, AGV/AMR/SGV, DTC",
+  description1: [
+    [
+      "Distribution",
+      "Robotics",
+      "Picking Solutions",
+      "Material Handling",
+      "AS / RS",
+      "Autonomus Vehicles",
+    ],
+  ],
+  description2: [
+    [
+      "Packaging",
+      "Logistics",
+      "WMS",
+      "BOPUS / BOPIS",
+      "AGV / AMR / SGV",
+      "DTC",
+    ],
+  ],
   image: port.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Supply Chain space"],
       title: "Supply Chain Prospecting",
+      svg: null,
       content: [
         "Are you looking for Supply Chain Lead Generation? Sales Prospecting is Sales when your solution is $100K or better.",
         "VO Sales Group's company roots come from the Supply Chain space.",
@@ -28,9 +48,10 @@ export const SupplyChainAutomation = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Robotics and Automation Solutions",
+      svg: null,
       content: [
         [
           "Micro Fulfillment - Last Mile",
@@ -41,16 +62,17 @@ export const SupplyChainAutomation = {
           "Pick Pack Ship",
           "Automation and Robotics",
           "Intralogistics",
-        ]
+        ],
       ],
       link: "",
       href: "#",
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Factory Automation",
+      svg: null,
       content: [
         [
           "Material Handling Systems",
@@ -62,16 +84,17 @@ export const SupplyChainAutomation = {
           "Fulfillment Solutions",
           "Supply Chain Consulting",
           "eCommerce Supply Chain Solutions",
-        ]
+        ],
       ],
       link: "",
       href: "#",
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Transportation and Logistics",
+      svg: null,
       content: [
         [
           "Last Mile",
@@ -80,16 +103,17 @@ export const SupplyChainAutomation = {
           "Dock Management Solutions",
           "Yard Management Solutions",
           "Loading and Routing Solutions",
-        ]
+        ],
       ],
       link: "",
       href: "#",
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Intralogistics & Automation",
+      svg: null,
       content: [
         "Intralogistics, Supply Chain, Automation, Robotics  & Factory Automation Sales Opportunities.",
         [
@@ -113,9 +137,10 @@ export const SupplyChainAutomation = {
       image: storage,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Jump Start the Channel",
+      svg: null,
       content: [
         "VO is involved in Sales Development as well as Business Development activities for Supply Chain Solution Providers.",
         "Our differentiation is that we are not trying to be all things to all people.",
@@ -131,8 +156,8 @@ export const SupplyChainAutomation = {
       image: null,
     },
     {
-      id: "NextSteps",
-      steps: DefaultNextSteps
+      id: "NextSteps3",
+      steps: DefaultNextSteps,
     },
   ],
 };

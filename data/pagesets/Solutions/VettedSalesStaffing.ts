@@ -6,16 +6,18 @@ export const VettedSalesStaffing = {
   slug: "vetted-sales-staffing",
   pageset: "solutions",
   isPrimary: false,
-  description: "A Sales Company offering Sales Giggers a Hybrid Approach to Generating  Sales and Sales Leads",
+  description1: ["A Sales Company offering Sales Giggers a Hybrid Approach to Generating Sales and Sales Leads"],
+  description2: [],
   image: woman.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "On-Demand Sales Giggers",
+      svg: null,
       content: [
         "Many Sales and Marketing tasks require different skill sets. VO Sales Group is offering BY THE PROJECT Sales Staffing solutions On Demand.",
         "To complement our Concierge Team we are offering On-Demand Sales Staffing. With Concierge WE run your project. With our Sales Staffing solution, YOU run most of your own projects.",
@@ -26,9 +28,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Sales Tasks On-Demand",
+      svg: null,
       content: [
         "Sales Staffing Tasks might include:",
         [
@@ -49,9 +52,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Outbound Demand Generation",
+      svg: null,
       content: [
         "An integral part of our Sales Staffing is Sales Generation. VO has access to a pool of seasoned sales executives who have embraced opportunities to have freedom in their lives as freelance Sales Professionals.",
         "Utilize our talented pool of contractors for your Sales Generation efforts.",
@@ -64,9 +68,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Sales Recruiting",
+      svg: null,
       content: [
         "VO can assist your company in finding the right sales talent for your organization.",
         "VO has access to a pool of seasoned Sales Professionals who have embraced various opportunities to have freedom in their lives as Freelance Sales professionals.",
@@ -79,9 +84,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Sales Coaching/Training",
+      svg: null,
       content: [
         "VO Sales Strategy Training is offered to our entire Sales Staff. VO Group also offers this training to you for developing your Sales Team. From there we can develop customized training solutions that enable your Sales Team to engage in and execute the most revenue-driven sales activities.",
         "VO Sales Training will partner with you to drive the positive change and, ultimately, the business outcomes through sustained improvement of sales performance and productivity.",
@@ -93,9 +99,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Professional Sales Prospecting",
+      svg: null,
       content: [
         "Sales Staffing 360 allows you to hire from this pool of Sales Professionals, and YOU run your own Sales Campaign.",
         "BENEFIT TO YOU:  You pay the same weekly rate, yet you would get more hours because you are the project manager.",
@@ -106,9 +113,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Event Driven Projects",
+      svg: null,
       content: [
         "VO has Salespeople that can help you with your Event-Driven activities.",
         "Whether it's invites to a Trade Show, a Web Event, or a Road Show - we can supply staff to invite an audience beforehand on a project-by-project basis, or follow up with them afterwards, maybe with a different staff member.",
@@ -119,9 +127,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Inbound Follow up",
+      svg: null,
       content: [
         "What happens when all of your lead generation efforts are successful and you have people interested in your product?",
         "Allow VO to step in and conduct inbound follow up campaigns so you do not miss a potential customer.",
@@ -132,9 +141,10 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Email Projects",
+      svg: null,
       content: [
         "If you have email campaigns or other Sales and Marketing efforts VO's Sales Staffing offering has people that knows these solutions.",
         "We can help with activities such as Newsletters, an email blast to already generated leads, and drip campaigns with Pardot- or Marketo-like solutions.",
@@ -145,7 +155,7 @@ export const VettedSalesStaffing = {
       image: null,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps
     },
   ],

@@ -7,17 +7,18 @@ export const Solutions = {
   slug: "solutions",
   pageset: "solutions",
   isPrimary: true,
-  description:
-    "VO Sales Group offers a full suite of Sales Prospecting, Lead Generation & Channel Development Solutions",
+  description1: ["VO Sales Group offers a full suite of Sales Prospecting, Lead Generation & Channel Development Solutions"],
+  description2: [],
   image: plants.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: ["Revenue Producing"],
       title: "VO Sales Group Solutions",
+      svg: null,
       content: [
         [
           "International Sales Development for non-US companies",
@@ -34,13 +35,13 @@ export const Solutions = {
       image: null,
     },
     {
-      id: "Image121",
+      id: "SectionC2IE",
       caption: "",
       title: "",
       image: funnel,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

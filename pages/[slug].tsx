@@ -2,19 +2,19 @@ import dynamic from "next/dynamic";
 
 import { Pages } from "@/data/data";
 
-import { Layout } from "@/components/Layout";
-import { HeroTabs } from "@/components/HeroTabs";
-import Content121 from "@/components/Content121";
-import SectionCDDD from "@/components/SectionCDDD";
-import { NextSteps } from "@/components/NextSteps/NextSteps";
-import { Image121 } from "@/components/Image121";
-import Content1111 from "@/components/Content1111";
+import Layout from "@/components/Layout";
+import HeroTabs from "@/components/HeroTabs";
+import SectionCTTTx2 from "@/components/SectionCTTTx2";
+import NextSteps3 from "@/components/NextSteps3";
+import SectionC2IE from "@/components/SectionC2IE";
+import SectionCTTE from "@/components/SectionCTTE";
 import Testimonials from "@/components/Testimonials";
-import { Hero } from "@/components/Hero";
+import Hero from "@/components/Hero";
 import NextSteps4 from "@/components/NextSteps4";
-import ContentC2DE from "@/components/ContentC2DE";
-import ContentCDDE from "@/components/ContentCDDE";
+import SectionC2TI from "@/components/SectionC2TI";
+import SectionCDDE from "@/components/SectionCDDE";
 import FAQ from "@/components/FAQ";
+import ContactUsForm from "@/components/ContactUsForm";
 
 export default function Page({ page }: any) {
   return (
@@ -32,7 +32,8 @@ export default function Page({ page }: any) {
                 <HeroTabs
                   key={key}
                   title={page.title}
-                  description={page.description}
+                  description1={page.description1}
+                  description2={page.description2}
                   image={page.image}
                   tabs={pageset}
                 />
@@ -42,33 +43,32 @@ export default function Page({ page }: any) {
               <HeroTabs
                 key={key}
                 title={page.title}
-                description={page.description}
+                description1={page.description1}
+                description2={page.description2}
                 image={page.image}
               />
             );
           case "Hero":
             return <Hero data={section} key={key} />;
-          case "SectionCDDD":
-            return <SectionCDDD section={section} key={key} />;
-          case "Content121":
-            return <Content121 data={section} key={key} />;
-          case "ContentC2DE":
-            return <ContentC2DE data={section} key={key} />;
+          case "SectionCTTTx2":
+            return <SectionCTTTx2 section={section} key={key} />;
+          case "SectionC2TI":
+            return <SectionC2TI data={section} key={key} />;
           case "FAQ":
             return <FAQ data={section} key={key} />;
-          case "ContentCDDE":
-            return <ContentCDDE data={section} key={key} />;
-          case "Content1111":
-            return <Content1111 content={section.data} key={key} />;
-          case "Image121":
-            return <Image121 data={section} key={key} />;
+          case "SectionCDDE":
+            return <SectionCDDE data={section} key={key} />;
+          case "SectionCTTE":
+            return <SectionCTTE content={section.data} key={key} />;
+          case "SectionC2IE":
+            return <SectionC2IE data={section} key={key} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,
             });
             return (
               <div
-                className="grid bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
+                className="grid bg-gray-100 dark:bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
                 key={key}
               >
                 <div></div>
@@ -80,8 +80,10 @@ export default function Page({ page }: any) {
             );
           case "Testimonials":
             return <Testimonials data={section.data} key={key} />;
-          case "NextSteps":
-            return <NextSteps data={section.steps} key={key} />;
+          case "ContactUsForm":
+            return <ContactUsForm />;
+          case "NextSteps3":
+            return <NextSteps3 data={section.steps} key={key} />;
           case "NextSteps4":
             return <NextSteps4 data={section.steps} key={key} />;
         }

@@ -14,15 +14,25 @@ type Props = {
   onShow: Function;
 };
 
-export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
+export default function Slide({ item, k, isActive, length, onShow }: Props) {
   const rows = [];
   for (let i = 0; i < length; i++) {
     rows.push(
-      <span
+      <Link
+        href="#"
         key={i}
-        className={`${k === i && "pt-4"} mr-1 bg-white px-3`}
+        className={`
+            ${k === i && "pt-4"} mr-1 px-3 
+            bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+            outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+            border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+          `
+        }
         onClick={() => onShow(i)}
-      ></span>
+        onKeyUp={(e) => {
+          return e.key === "Enter" && onShow(i)
+        }}
+      ></Link>
     );
   }
   return (
@@ -34,13 +44,18 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
       }}
       className={`${isActive ? "block" : "hidden"}`}
     >
-      <div className="bg-gradient-to-r from-gray-900/100 to-gray-900/0 text-left text-white/80 xl:pr-[108px]">
+      <div 
+        className="
+          text-left xl:pr-[108px]
+          text-gray-900 dark:text-gray-100
+          bg-gradient-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-900/100 dark:to-gray-900/0
+        "
+      >
         <div className="lg:p-14">
           <div className="h-80 p-3">
             <h1 className="mb-4 text-4xl font-light sm:text-5xl">
               {item.title}
             </h1>
-
             <div className="grid xl:grid-cols-4">
               <p className="md:w-[29rem] xl:col-span-2">{item.description}</p>
             </div>
@@ -48,24 +63,24 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
         </div>
 
         <div className="grid h-32 grid-cols-2 md:grid-cols-4">
-          <div className="md:col-span-3 flex flex-col justify-end">
+          <div className="flex flex-col justify-end md:col-span-3">
             <div className="lg:pl-14">
               <nav className="p-3">{rows}</nav>
             </div>
           </div>
           <Link
             href={item.href}
-            className="flex cursor-pointer flex-col bg-yellow-300 p-3 text-black hover:bg-yellow-400"
+            className="
+              flex cursor-pointer flex-col p-3
+              text-gray-100 dark:text-gray-900 text-xl
+              bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+              outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+              border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+            "
           >
             {item.button}
             <div className="grow"></div>
-            <svg
-              className="self-end"
-              fill="currentColor"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-            >
+            <svg className="self-end" fill="currentColor" width="20" height="20" viewBox="0 0 20 20">
               <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
             </svg>
           </Link>

@@ -6,17 +6,33 @@ export const EnterpriseMobility = {
   slug: "enterprise-mobility",
   pageset: "industry-focus",
   isPrimary: false,
-  description:
-    "Logistics, POD/DSD, Device Management/BYOD, YMS, Asset Tracking, TMS, GPS, Filed Service/Field Worker, Fleet Management",
+  description1: [
+    [
+      "Logistics",
+      "POD / DSD",
+      "Device Management / BYOD",
+      "YMS",
+      "Asset Tracking",
+    ],
+  ],
+  description2: [
+    [
+      "TMS",
+      "GPS",
+      "Filed Service / Field Worker",
+      "Fleet Management",
+    ],
+  ],
   image: trucks.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Enterprise Mobility Solution Selling",
+      svg: null,
       content: [
         [
           "M2M Applications",
@@ -39,9 +55,10 @@ export const EnterpriseMobility = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Sales Group Solutions",
+      svg: null,
       content: [
         "VO is involved in Business Development activities for Enterprise Mobility companies in a variety of ways.",
         [
@@ -60,9 +77,10 @@ export const EnterpriseMobility = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Examples of Sales Opportunities",
+      svg: null,
       content: [
         "Leads turned in recently include:",
         [
@@ -82,7 +100,7 @@ export const EnterpriseMobility = {
       image: null,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

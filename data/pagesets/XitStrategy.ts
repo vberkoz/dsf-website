@@ -6,14 +6,23 @@ export const XitStrategy = {
   slug: "xit-strategy",
   pageset: "xit-strategy",
   isPrimary: true,
-  description: "ALL THINGS CAPITAL: EXIT Strategies, Intellectual Property, Looking to sell your company, Stuff your Sales Pipe to Raise Capital",
+  description1: [
+    "ALL THINGS CAPITAL:",
+    [
+      "EXIT Strategies",
+      "Intellectual Property",
+      "Looking to sell your company",
+      "Stuff your Sales Pipe to Raise Capital",
+    ],
+  ],
+  description2: [],
   image: xitStrategy.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [
         "Looking",
         [
@@ -22,9 +31,10 @@ export const XitStrategy = {
           "For a Strategic Partner?",
           "For an Exit Strategy?",
           "For M&A Advisory?",
-        ]
+        ],
       ],
       title: "VO Sales Group has a sister company called XIT Group",
+      svg: null,
       content: [
         [
           "Exit Strategies and Plans",
@@ -39,9 +49,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Types of Capital",
+      svg: null,
       content: [
         [
           "Growth Capital",
@@ -50,16 +61,17 @@ export const XitStrategy = {
           "Private Equity",
           "M&A Advisory & Finance",
           "EXIT Strategies and Plans",
-        ]
+        ],
       ],
       link: "Let us find a Strategic Partner to sell to",
       href: "https://xit.company/",
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Solutions",
+      svg: null,
       content: [
         "If you are developing an Enterprise Application in the following areas, we'd be interested in talking with you.",
         [
@@ -81,9 +93,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Capital strategy",
+      svg: null,
       content: [
         "VO Sales Group will put together a small team to help you package your offering for Raising Capital or for Exit.",
         "We help with all things needed for your pitch deck.",
@@ -94,9 +107,10 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Matchmaker",
+      svg: null,
       content: [
         "VO Sales Group represents you, the entrepreneur.",
         "Our job is to help you with positioning, revenue, your pitch, strategy, and to get you prepped and in front of Strategic Partners.",
@@ -107,7 +121,7 @@ export const XitStrategy = {
       image: null,
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "",
         title1: "Sales plan",
@@ -121,8 +135,8 @@ export const XitStrategy = {
       },
     },
     {
-      id: "NextSteps",
-      steps: DefaultNextSteps
+      id: "NextSteps3",
+      steps: DefaultNextSteps,
     },
   ],
 };

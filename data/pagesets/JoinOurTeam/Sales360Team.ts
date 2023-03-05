@@ -14,15 +14,15 @@ export const Sales360Team = {
   slug: "sales-360-team",
   pageset: "join-our-team",
   isPrimary: false,
-  description:
-    "VO Group allows an environment for the professional to have the Gig Life",
+  description1: ["VO Group allows an environment for the professional to have the Gig Life"],
+  description2: [],
   image: writing.src,
   sections: [
     {
       id: "HeroTabs",
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Career - Self Employment",
       svg: home.src,
@@ -51,9 +51,10 @@ export const Sales360Team = {
       href: "/sales-team-testimonials",
     },
     {
-      id: "Content121",
+      id: "SectionC2TI",
       caption: [],
       title: "Background Knowledge",
+      svg: null,
       content: [
         "We are looking for those who have an understanding of M2M, mHealth, Supply Chain, RFID/Logistics, Security Products, Retail/POS, Enterprise Mobility, Enterprise Level Software Solutions, Managed Services, Cloud Computing and other high-value solutions.",
         "We are also looking for those that understand verticals, such as Retail, Healthcare, Financial, Casinos, Hospitality, Manufacturing, etc.",
@@ -64,7 +65,7 @@ export const Sales360Team = {
       image: null,
     },
     {
-      id: "Content1111",
+      id: "SectionCTTE",
       data: {
         caption: "",
         title1: "Required Skills",
@@ -85,7 +86,7 @@ export const Sales360Team = {
       },
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "VO Group's Model for Success",
       svg: rocket.src,
@@ -108,7 +109,7 @@ export const Sales360Team = {
       image: null,
     },
     {
-      id: "ContentC2DE",
+      id: "SectionC2TI",
       caption: [],
       title: "Additional Benefits",
       svg: archive.src,
@@ -129,7 +130,7 @@ export const Sales360Team = {
       image: null,
     },
     {
-      id: "ContentCDDE",
+      id: "SectionCDDE",
       caption: [],
       data: [
         {
@@ -156,7 +157,7 @@ export const Sales360Team = {
       ],
     },
     {
-      id: "ContentCDDE",
+      id: "SectionCDDE",
       caption: [],
       data: [
         {
