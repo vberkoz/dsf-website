@@ -43,6 +43,9 @@ export const SubmitGig = {
       }
     },
     {
+      id: "SubmitGigForm",
+    },
+    {
       id: "NextSteps3",
       steps: DefaultNextSteps,
     },

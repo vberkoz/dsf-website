@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FormEvent } from "react";
 import Input from "./Input";
 
-export default function ContactUsForm() {
+export default function SubmitGigForm () {
   // Handle the submit event on form submit.
   const handleSubmit = async (event: FormEvent) => {
     // Stop the form from submitting and refreshing the page.
@@ -24,7 +24,7 @@ export default function ContactUsForm() {
     };
 
     // Send the form data to our API and get a response.
-    const response = await fetch("/api/contacts", {
+    const response = await fetch("/api/projects", {
       // Body of the request is the JSON data we created above.
       body: JSON.stringify(data),
       // Tell the server we're sending JSON.
@@ -50,10 +50,10 @@ export default function ContactUsForm() {
       "
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="font-bold pl-3">Contact form</div>
+        <div className="font-bold pl-3">Submit GIG form</div>
 
         <div className="grid grid-cols-1 md:col-span-3 lg:col-span-2 px-3 lg:pr-3 xl:px-0 pt-3 pb-8">
-          <h1 className="text-3xl">Send message</h1>
+          <h1 className="text-3xl">Send project</h1>
 
           <p className="text-sm font-normal mb-10 text-gray-600 dark:text-gray-400">
             All fields are required unless marked optional.
@@ -62,19 +62,18 @@ export default function ContactUsForm() {
           <form onSubmit={handleSubmit}>
             <div className="grid sm:grid-cols-2 gap-8 mb-8">
               <Input name="first" label="Name" />
-              <Input name="term" label="Title (optional)" />
               <Input name="mail" label="Email address" />
-              <Input name="phone" label="Phone number (optional)" />
-              <Input name="company" label="Company (optional)" />
-              <Input name="website" label="Website URL (optional)" />
+              <Input name="phone" label="Phone number" />
+              <Input name="service" label="Requested VO Sales Group service" />
+              <Input name="company" label="Company" />
+              <Input name="website" label="Company website" />
             </div>
 
             <div className="grid grid-cols-1 gap-8">
-              <Input name="subject" label="Subject" />
+              <Input name="budget" label="Estimated budget (optional)" />
               <div className="flex flex-col">
-                <label htmlFor="comments" className="text-sm mb-2 text-gray-600 dark:text-gray-400">Questions / Comments</label>
-                <textarea id="comments" name="comments" rows={5} className="py-3 px-4 bg-gray-200 dark:bg-gray-800 outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 border-b focus:border-0 border-gray-500"></textarea>
-                <p className="text-sm mt-2 text-gray-600 dark:text-gray-400">All VO applicants must submit their info through the <Link href="/join-our-team" className="cursor-pointer hover:underline text-green-600 dark:text-yellow-400 outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400">Join Our Team</Link> section, not below</p>
+                <label htmlFor="overview" className="text-sm mb-2 text-gray-600 dark:text-gray-400">GIG overview / Additional information</label>
+                <textarea id="overview" name="overview" rows={5} className="py-3 px-4 bg-gray-200 dark:bg-gray-800 outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 border-b focus:border-0 border-gray-500"></textarea>
               </div>
             </div>
 
@@ -89,8 +88,8 @@ export default function ContactUsForm() {
                   border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
                 "
               >
-                <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32"><path d="M28,6H4A2,2,0,0,0,2,8V24a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V8A2,2,0,0,0,28,6ZM25.8,8,16,14.78,6.2,8ZM4,24V8.91l11.43,7.91a1,1,0,0,0,1.14,0L28,8.91V24Z"></path><title>Email</title></svg>
-                <span className="ml-4 leading-[1.2rem]">Send</span>
+                <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32"><path d="M28 13h-2v-2c0-2.8-2.2-5-5-5h-3V4h3c3.9 0 7 3.1 7 7V13zM22 20H25V22H22zM22 24H25V26H22z"></path><path d="M27 30h-5v-2h5V18h-7v9c0 1.7-1.3 3-3 3s-3-1.3-3-3v-3h2v3c0 .6.4 1 1 1s1-.4 1-1V16h11v12C29 29.1 28.1 30 27 30zM12 28h-1c-3.9 0-7-3.1-7-7v-4h2v4c0 2.8 2.2 5 5 5h1V28zM11 10v2h3c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4C2.9 2 2 2.9 2 4v6c0 1.1.9 2 2 2h2.4l1.7 3 1.7-1-2.3-4H4V4h10v6H11z"></path><title>IBM Watson® Orders</title></svg>
+                <span className="ml-4 leading-[1.2rem]">Submit</span>
               </button>
             </div>
           </form>
