@@ -67,7 +67,7 @@ export const ChannelDevelopment = {
       image: null,
     },
     {
-      id: "Image121",
+      id: "SectionC2IE",
       caption: "",
       title: "",
       image: channel,
@@ -116,7 +116,7 @@ export const ChannelDevelopment = {
       image: null,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

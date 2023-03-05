@@ -100,7 +100,7 @@ export const EnterpriseMobility = {
       image: null,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

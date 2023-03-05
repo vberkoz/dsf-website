@@ -130,7 +130,7 @@ export const Sales360Team = {
       image: null,
     },
     {
-      id: "ContentCDDE",
+      id: "SectionCDDE",
       caption: [],
       data: [
         {
@@ -157,7 +157,7 @@ export const Sales360Team = {
       ],
     },
     {
-      id: "ContentCDDE",
+      id: "SectionCDDE",
       caption: [],
       data: [
         {

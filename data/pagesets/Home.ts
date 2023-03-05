@@ -182,7 +182,7 @@ export const Home = {
       href: "/solutions",
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

@@ -135,7 +135,7 @@ export const XitStrategy = {
       },
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

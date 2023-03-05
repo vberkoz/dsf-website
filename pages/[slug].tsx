@@ -2,17 +2,17 @@ import dynamic from "next/dynamic";
 
 import { Pages } from "@/data/data";
 
-import { Layout } from "@/components/Layout";
-import { HeroTabs } from "@/components/HeroTabs";
+import Layout from "@/components/Layout";
+import HeroTabs from "@/components/HeroTabs";
 import SectionCTTTx2 from "@/components/SectionCTTTx2";
-import { NextSteps } from "@/components/NextSteps/NextSteps";
-import { Image121 } from "@/components/Image121";
+import NextSteps3 from "@/components/NextSteps3";
+import SectionC2IE from "@/components/SectionC2IE";
 import SectionCTTE from "@/components/SectionCTTE";
 import Testimonials from "@/components/Testimonials";
-import { Hero } from "@/components/Hero";
+import Hero from "@/components/Hero";
 import NextSteps4 from "@/components/NextSteps4";
 import SectionC2TI from "@/components/SectionC2TI";
-import ContentCDDE from "@/components/ContentCDDE";
+import SectionCDDE from "@/components/SectionCDDE";
 import FAQ from "@/components/FAQ";
 
 export default function Page({ page }: any) {
@@ -55,12 +55,12 @@ export default function Page({ page }: any) {
             return <SectionC2TI data={section} key={key} />;
           case "FAQ":
             return <FAQ data={section} key={key} />;
-          case "ContentCDDE":
-            return <ContentCDDE data={section} key={key} />;
+          case "SectionCDDE":
+            return <SectionCDDE data={section} key={key} />;
           case "SectionCTTE":
             return <SectionCTTE content={section.data} key={key} />;
-          case "Image121":
-            return <Image121 data={section} key={key} />;
+          case "SectionC2IE":
+            return <SectionC2IE data={section} key={key} />;
           case "Map":
             const MapWithNoSSR = dynamic(() => import("@/components/Map"), {
               ssr: false,
@@ -79,8 +79,8 @@ export default function Page({ page }: any) {
             );
           case "Testimonials":
             return <Testimonials data={section.data} key={key} />;
-          case "NextSteps":
-            return <NextSteps data={section.steps} key={key} />;
+          case "NextSteps3":
+            return <NextSteps3 data={section.steps} key={key} />;
           case "NextSteps4":
             return <NextSteps4 data={section.steps} key={key} />;
         }

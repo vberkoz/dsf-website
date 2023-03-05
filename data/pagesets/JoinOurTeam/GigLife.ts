@@ -63,7 +63,7 @@ export const GigLife = {
       image: hatRear,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps
     },
   ],

@@ -35,13 +35,13 @@ export const Solutions = {
       image: null,
     },
     {
-      id: "Image121",
+      id: "SectionC2IE",
       caption: "",
       title: "",
       image: funnel,
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

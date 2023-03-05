@@ -35,7 +35,7 @@ export const OurTeamSStoryAvatars = {
       id: "Map",
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

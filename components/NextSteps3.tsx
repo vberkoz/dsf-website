@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-type NextSteps4Props = {
+type NextSteps3Props = {
   data: {
     title: string;
     description: string;
@@ -8,7 +8,7 @@ type NextSteps4Props = {
   }[];
 };
 
-export default function NextSteps4({ data }: NextSteps4Props) {
+export default function NextSteps3({ data }: NextSteps3Props) {
   return (
     <div 
       className="
@@ -17,16 +17,13 @@ export default function NextSteps4({ data }: NextSteps4Props) {
         text-gray-900 dark:text-gray-100 
       "
     >
-      <div className="grid gap-px sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="col-span-1 mb-8 mt-8 p-3 font-bold sm:col-span-2 lg:col-span-1 xl:mt-0">
+      <div className="grid grid-cols-1 gap-px sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="col-span-1 mb-8 mt-8 p-3 font-bold lg:col-span-3 xl:col-span-1 xl:mt-0">
           Next steps
         </div>
-        <NextStep item={data[0]} />
-        <NextStep item={data[1]} />
-        <div className="hidden xl:block"></div>
-        <div className="hidden lg:block"></div>
-        <NextStep item={data[2]} />
-        <NextStep item={data[3]} />
+        {data.map((item, key) => (
+          <NextStep item={item} key={key} />
+        ))}
       </div>
     </div>
   );
@@ -40,12 +37,12 @@ type NextStepProps = {
   };
 };
 
-const NextStep = ({ item }: NextStepProps) => (
+export const NextStep = ({ item }: NextStepProps) => (
   <Link
     href={`/${item.href}`}
     className="
       flex h-[60vw] flex-col p-3 sm:h-[50vw] lg:h-[33vw] xl:h-[25vw] xl:p-6
-      bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 
+      bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 
       outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400
     "
   >

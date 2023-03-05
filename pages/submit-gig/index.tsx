@@ -1,6 +1,6 @@
-import { HeroTabs } from "@/components/HeroTabs";
-import { Layout } from "@/components/Layout";
-import { NextSteps } from "@/components/NextSteps/NextSteps";
+import HeroTabs from "@/components/HeroTabs";
+import Layout from "@/components/Layout";
+import NextSteps3 from "@/components/NextSteps3";
 import { SubmitGig } from "@/data/pagesets/SubmitGig";
 
 export default function SubmitGigPage() {
@@ -18,8 +18,8 @@ export default function SubmitGigPage() {
                 image={SubmitGig.image}
               />
             );
-          case "NextSteps":
-            return <NextSteps data={section.steps!} key={key} />;
+          case "NextSteps3":
+            return <NextSteps3 data={section.steps!} key={key} />;
         }
       })}
     </Layout>

@@ -29,7 +29,7 @@ export const SalesTeamTestimonials = {
       id: "Map",
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps
     },
   ],

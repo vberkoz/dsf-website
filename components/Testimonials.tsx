@@ -11,7 +11,13 @@ type Props = {
 
 export default function Testimonials({ data }: Props) {
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 py-8 text-gray-900 dark:text-gray-100 lg:pl-14 xl:pr-[108px]">
+    <div 
+      className="
+        py-8 lg:pl-14 xl:pr-[108px]
+        bg-gray-100 dark:bg-gray-900
+        text-gray-900 dark:text-gray-100
+      "
+    >
       <div className="grid grid-cols-1 gap-y-16 gap-x-4 p-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold sm:col-span-2 lg:col-span-1">
           Testimonials

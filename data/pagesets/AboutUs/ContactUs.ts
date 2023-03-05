@@ -18,7 +18,7 @@ export const ContactUs = {
       id: "HeroTabs",
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

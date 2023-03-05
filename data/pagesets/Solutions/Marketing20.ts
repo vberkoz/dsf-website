@@ -147,7 +147,7 @@ export const Marketing20 = {
       ],
     },
     {
-      id: "NextSteps",
+      id: "NextSteps3",
       steps: DefaultNextSteps,
     },
   ],

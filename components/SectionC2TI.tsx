@@ -85,9 +85,9 @@ export default function SectionC2TI({ data }: Props) {
             <Link
               href={data.href}
               className="
-              flex w-fit cursor-pointer hover:underline
-              text-green-600 dark:text-yellow-400
-              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+                flex w-fit cursor-pointer hover:underline
+                text-green-600 dark:text-yellow-400
+                outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
               "
             >
               <span className="mr-4 leading-[1.2rem]">{data.link}</span>

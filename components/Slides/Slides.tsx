@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Slide } from "./Slide";
+import Slide from "./Slide";
 
 type Props = {
   data: {
@@ -11,7 +11,7 @@ type Props = {
   }[];
 };
 
-export const Slides = ({ data }: Props) => {
+export default function Slides({ data }: Props) {
   const [activeIndex, setActiveIndex] = useState(0);
   const slides = data;
 

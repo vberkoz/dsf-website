@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Pages, AdditionalPages } from "@/data/data";
 
-export const Footer = () => {
+export default function Footer() {
   const pagesets = Pages.filter((page) => page.isPrimary);
   const menuItems = pagesets.map((item) => {
     const subpages = Pages.filter(
@@ -86,8 +86,8 @@ export const Footer = () => {
   return (
     <div 
       className="
-      lg:pl-14 xl:pr-[108px]
-      bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100
+        lg:pl-14 xl:pr-[108px]
+        bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100
       "
     >
       <div className="flex flex-col py-8 leading-8">
@@ -96,65 +96,48 @@ export const Footer = () => {
             <Link
               href="/"
               className="
-              font-bold hover:underline 
-              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+                font-bold hover:underline 
+                outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
               "
-            >
-              VO Sales Group
-            </Link>
+            >VO Sales Group</Link>
           </div>
           {pageset(menuItems[2])}
           {pageset(menuItems[3])}
           {pageset(menuItems[1])}
-
           <div className="hidden xl:block"></div>
-          
           {pageset(menuItems[0])}
           {pages(additionalPages)}
-
           <div className="flex flex-col pl-3 xl:pl-6">
             <div>
-            <Link
-              href="https://www.linkedin.com/company/vo-group/"
-              className="
-              flex mb-4 leading-4 hover:underline
-              text-gray-600 dark:text-gray-400 
-              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
-              "
-            >
-              <svg
-                viewBox="0 0 640 640"
-                fill="currentColor"
-                width="16"
-                height="16"
-                className="mr-2"
+              <Link
+                href="https://www.linkedin.com/company/vo-group/"
+                className="
+                  flex mb-4 leading-4 hover:underline
+                  text-gray-600 dark:text-gray-400 
+                  outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+                "
               >
-                <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
-              </svg>
-              VO Sales Group
-            </Link>
+                <svg className="mr-2" viewBox="0 0 640 640" fill="currentColor" width="16" height="16">
+                  <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
+                </svg>
+                VO Sales Group
+              </Link>
             </div>
 
             <div>
-            <Link
-              href="https://www.linkedin.com/in/stephenzarick/"
-              className="
-              flex mb-4 leading-4 hover:underline
-              text-gray-600 dark:text-gray-400 
-              outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
-              "
-            >
-              <svg
-                viewBox="0 0 640 640"
-                fill="currentColor"
-                width="16"
-                height="16"
-                className="mr-2"
+              <Link
+                href="https://www.linkedin.com/in/stephenzarick/"
+                className="
+                  flex mb-4 leading-4 hover:underline
+                  text-gray-600 dark:text-gray-400 
+                  outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+                "
               >
-                <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
-              </svg>
-              Stephen Zarick
-            </Link>
+                <svg className="mr-2" viewBox="0 0 640 640" fill="currentColor" width="16" height="16">
+                  <path d="M579.999 0H60C27 0 0 27 0 60v520c0 33 27 60 60 60h519.999c33 0 60-27 60-60V60c0-33-27-60-60-60zM239.991 519.999h-79.985V239.992h79.985v280.007zm-40.004-320.012c-22.11 0-39.993-17.882-39.993-39.993 0-22.122 17.882-40.004 39.993-40.004 22.122 0 40.004 17.882 40.004 40.004 0 22.11-17.882 39.993-40.004 39.993zm320.012 320.012h-79.986V360.005c0-22.122-17.893-40.004-40.004-40.004-22.122 0-40.004 17.882-40.004 40.004v159.994h-80.01V239.992h80.01v49.642c16.476-22.654 41.752-49.642 69.993-49.642 49.76 0 90 44.764 90 100.005v180.002z"></path>
+                </svg>
+                Stephen Zarick
+              </Link>
             </div>
           </div>
 

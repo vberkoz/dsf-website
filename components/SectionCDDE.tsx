@@ -18,7 +18,7 @@ type Props = {
 /*
 
 {
-  id: "ContentCDDE",
+  id: "SectionCDDE",
   caption: [],
   data: [
     {
@@ -39,9 +39,15 @@ type Props = {
 },
 */
 
-export default function ContentCDDE({ data }: Props) {
+export default function SectionCDDE({ data }: Props) {
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 py-4 text-gray-900 dark:text-gray-100 lg:pl-14 xl:pr-[108px]">
+    <div 
+      className="
+        py-4 lg:pl-14 xl:pr-[108px]
+        bg-gray-100 dark:bg-gray-900
+        text-gray-900 dark:text-gray-100
+      "
+    >
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 px-3 py-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold md:col-span-2 lg:col-span-1">
           {data.caption.map((item, pKey) => {

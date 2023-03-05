@@ -14,7 +14,7 @@ type Props = {
   onShow: Function;
 };
 
-export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
+export default function Slide({ item, k, isActive, length, onShow }: Props) {
   const rows = [];
   for (let i = 0; i < length; i++) {
     rows.push(
@@ -44,15 +44,18 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
       }}
       className={`${isActive ? "block" : "hidden"}`}
     >
-      <div className="text-left xl:pr-[108px]
-        text-gray-900 dark:text-gray-100
-        bg-gradient-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-900/100 dark:to-gray-900/0">
+      <div 
+        className="
+          text-left xl:pr-[108px]
+          text-gray-900 dark:text-gray-100
+          bg-gradient-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-900/100 dark:to-gray-900/0
+        "
+      >
         <div className="lg:p-14">
           <div className="h-80 p-3">
             <h1 className="mb-4 text-4xl font-light sm:text-5xl">
               {item.title}
             </h1>
-
             <div className="grid xl:grid-cols-4">
               <p className="md:w-[29rem] xl:col-span-2">{item.description}</p>
             </div>
@@ -77,13 +80,7 @@ export const Slide = ({ item, k, isActive, length, onShow }: Props) => {
           >
             {item.button}
             <div className="grow"></div>
-            <svg
-              className="self-end"
-              fill="currentColor"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-            >
+            <svg className="self-end" fill="currentColor" width="20" height="20" viewBox="0 0 20 20">
               <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
             </svg>
           </Link>
