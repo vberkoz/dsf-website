@@ -96,13 +96,15 @@ const Item = ({ data }: ItemProps) => (
 
     <div className="grid grid-cols-1 gap-4">
       <div className="flex h-16 flex-col">
-        <Image
-          src={data.svg}
-          alt={data.title}
-          width={60}
-          height={60}
-          className="mt-auto svg-icon"
-        />
+        {data.svg && (
+          <Image
+            src={data.svg}
+            alt={data.title}
+            width={60}
+            height={60}
+            className="mt-auto svg-icon"
+          />
+        )}
       </div>
 
       {data.content.map((item, pKey) => {

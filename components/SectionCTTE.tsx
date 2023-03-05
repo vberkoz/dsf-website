@@ -32,12 +32,14 @@ export default function SectionCTTE({ content }: Props) {
       "
     >
       <div className="grid grid-cols-1 gap-4 p-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="font-bold sm:col-span-2 lg:col-span-1">
+        <div className="font-bold sm:col-span-2 lg:col-span-1 lg:pr-4">
           {content.caption}
         </div>
 
         <div className="flex flex-col text-gray-600 dark:text-gray-400">
-          <div className="mb-4 text-3xl text-gray-900 dark:text-gray-100 min-h-[36px]">{content.title1}</div>
+          {content.title1 && (
+            <div className="mb-4 text-3xl text-gray-900 dark:text-gray-100 min-h-[36px]">{content.title1}</div>
+          )}
           {content.col1.map((i, k) => {
             if (Array.isArray(i)) {
               return (
@@ -54,7 +56,9 @@ export default function SectionCTTE({ content }: Props) {
         </div>
 
         <div className="flex flex-col text-gray-600 dark:text-gray-400">
-          <div className="mb-4 text-3xl text-gray-900 dark:text-gray-100 min-h-[36px]">{content.title2}</div>
+          {content.title2 && (
+            <div className="mb-4 text-3xl text-gray-900 dark:text-gray-100 min-h-[36px]">{content.title2}</div>
+          )}
           {content.col2.map((i, k) => {
             if (Array.isArray(i)) {
               return (
