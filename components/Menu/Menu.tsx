@@ -59,7 +59,7 @@ export default function Menu() {
       ></div>
 
       <div className="flex">
-        <div className="z-10 float-left lg:hidden">
+        <div className="z-10 float-left lg:hidden border-b-2 border-gray-200 dark:border-gray-800">
           <div 
             onClick={toggleMenu} 
             className="
@@ -106,7 +106,7 @@ export default function Menu() {
           </div>
         </div>
 
-        <div className="my-3 border-r border-gray-200 dark:border-gray-800"></div>
+        <div className="my-3 border-r-2 border-gray-200 dark:border-gray-800"></div>
 
         <Link 
           href="/"
@@ -114,7 +114,8 @@ export default function Menu() {
             py-2 px-3 
             hover:bg-gray-200 dark:hover:bg-gray-800 
             outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
-            border-b-2 border-gray-200 dark:border-gray-800" 
+            border-b-2 border-gray-200 dark:border-gray-800
+          " 
         >
           <Image src={logo} alt="VO Group" width={30} height={30} />
         </Link>

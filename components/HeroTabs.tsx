@@ -26,7 +26,7 @@ export default function HeroTabs({ title, description1, description2, image, tab
         <div 
           className="
             text-left 
-            text-gray-900/80 dark:text-gray-100/80
+            text-gray-900 dark:text-gray-100
             bg-gradient-to-r from-gray-100/100 to-gray-50/50 dark:from-gray-900/100 dark:to-gray-900/50 
             lg:to-gray-100/0 lg:dark:to-gray-900/0
           "
@@ -75,7 +75,7 @@ export default function HeroTabs({ title, description1, description2, image, tab
         <div
           style={{ zIndex: 2000 }}
           className="
-            sticky top-[50px] max-h-[50px] whitespace-nowrap 
+            sticky top-[48px] max-h-[50px] whitespace-nowrap 
             border-b-2 border-gray-200 dark:border-gray-800 
             bg-gray-100 dark:bg-gray-900
           "

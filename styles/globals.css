@@ -29,3 +29,8 @@ ul li:before {
   border-right-width: 2px;
   border-color: rgb(250 204 21);
 }
+
+input, textarea {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
