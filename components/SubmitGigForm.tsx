@@ -14,13 +14,13 @@ export default function SubmitGigForm () {
     // Get data from the form.
     const data = {
       first: form.first.value as string,
-      title: form.term.value as string,
       mail: form.mail.value as string,
       phone: form.phone.value as string,
+      service: form.service.value as string,
       company: form.company.value as string,
       website: form.website.value as string,
-      subject: form.subject.value as string,
-      comments: form.comments.value as string,
+      budget: form.budget.value as string,
+      overview: form.overview.value as string,
     };
 
     // Send the form data to our API and get a response.
@@ -64,7 +64,47 @@ export default function SubmitGigForm () {
               <Input name="first" label="Name" />
               <Input name="mail" label="Email address" />
               <Input name="phone" label="Phone number" />
-              <Input name="service" label="Requested VO Sales Group service" />
+              <div className="flex flex-col">
+                <label 
+                  htmlFor="service"
+                  className="text-sm mb-2 text-gray-600 dark:text-gray-400"
+                >Requested VO Sales Group service</label>
+                <select 
+                  name="service" 
+                  id="service"
+                  className="
+                    py-3 px-4 appearance-none
+                    bg-gray-200 dark:bg-gray-800 
+                    outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
+                    border-b focus:border-0 border-gray-500
+                  "
+                >
+                  <option value="sel" disabled selected> Select service...</option>
+                  <option value="Professional Sales Prospecting">Professional Sales Prospecting</option>
+                  <option value="Call List Services">Call List Services</option>
+                  <option value="Inbound Follow Up">Inbound Follow Up</option>
+                  <option value="Lead Management">Lead Management</option>
+                  <option value="Outbound Demand Generation">Outbound Demand Generation</option>
+                  <option value="Sales Recruiting">Sales Recruiting</option>
+                  <option value="Sales Training">Sales Training</option>
+                  <option value="Branding">Branding</option>
+                  <option value="CRM Automation">CRM Automation</option>
+                  <option value="Customer Service/Customer Sat calls to your customers">Customer Service/Customer Sat calls to your customers</option>
+                  <option value="Digital Marketing (Buyer's Guides, SEM, etc)">{`Digital Marketing (Buyer's Guides, SEM, etc)`}</option>
+                  <option value="Email Solutions">Email Solutions</option>
+                  <option value="Event Driven Campaigns">Event Driven Campaigns</option>
+                  <option value="Marketo">Marketo</option>
+                  <option value="Messaging">Messaging</option>
+                  <option value="On Demand Projects">On Demand Projects</option>
+                  <option value="Pardot">Pardot</option>
+                  <option value="Partner Acquisition calls">Partner Acquisition calls</option>
+                  <option value="Sales Force Automation">Sales Force Automation</option>
+                  <option value="Scripted calling to canvas a space">Scripted calling to canvas a space</option>
+                  <option value="SEO">SEO</option>
+                  <option value="Website Refresh">Website Refresh</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
               <Input name="company" label="Company" />
               <Input name="website" label="Company website" />
             </div>
