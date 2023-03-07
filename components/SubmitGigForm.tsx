@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { FormEvent } from "react";
 import Input from "./Input";
 
@@ -52,7 +51,7 @@ export default function SubmitGigForm () {
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold pl-3">Submit GIG form</div>
 
-        <div className="grid grid-cols-1 md:col-span-3 lg:col-span-2 px-3 lg:pr-3 xl:px-0 pt-3 pb-8">
+        <div className="grid grid-cols-1 md:col-span-3 lg:col-span-2 px-3 lg:pr-3 xl:px-0 pb-8">
           <h1 className="text-3xl">Send project</h1>
 
           <p className="text-sm font-normal mb-10 text-gray-600 dark:text-gray-400">
@@ -79,7 +78,7 @@ export default function SubmitGigForm () {
                     border-b focus:border-0 border-gray-500
                   "
                 >
-                  <option value="sel" disabled selected> Select service...</option>
+                  <option value="sel" disabled selected>Select service...</option>
                   <option value="Professional Sales Prospecting">Professional Sales Prospecting</option>
                   <option value="Call List Services">Call List Services</option>
                   <option value="Inbound Follow Up">Inbound Follow Up</option>
@@ -128,8 +127,9 @@ export default function SubmitGigForm () {
                   border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
                 "
               >
+                <span className="leading-[1.2rem]">Submit</span>
+                <span className="grow"></span>
                 <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32"><path d="M28 13h-2v-2c0-2.8-2.2-5-5-5h-3V4h3c3.9 0 7 3.1 7 7V13zM22 20H25V22H22zM22 24H25V26H22z"></path><path d="M27 30h-5v-2h5V18h-7v9c0 1.7-1.3 3-3 3s-3-1.3-3-3v-3h2v3c0 .6.4 1 1 1s1-.4 1-1V16h11v12C29 29.1 28.1 30 27 30zM12 28h-1c-3.9 0-7-3.1-7-7v-4h2v4c0 2.8 2.2 5 5 5h1V28zM11 10v2h3c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4C2.9 2 2 2.9 2 4v6c0 1.1.9 2 2 2h2.4l1.7 3 1.7-1-2.3-4H4V4h10v6H11z"></path><title>IBM Watson® Orders</title></svg>
-                <span className="ml-4 leading-[1.2rem]">Submit</span>
               </button>
             </div>
           </form>

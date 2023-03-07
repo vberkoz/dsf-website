@@ -14,6 +14,9 @@ export const RequestInterview = {
       id: "HeroTabs",
     },
     {
+      id: "RequestInterviewForm",
+    },
+    {
       id: "NextSteps3",
       steps: DefaultNextSteps
     },

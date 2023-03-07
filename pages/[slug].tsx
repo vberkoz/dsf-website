@@ -15,6 +15,7 @@ import SectionC2TI from "@/components/SectionC2TI";
 import SectionCDDE from "@/components/SectionCDDE";
 import FAQ from "@/components/FAQ";
 import ContactUsForm from "@/components/ContactUsForm";
+import RequestInterviewForm from "@/components/RequestInterviewForm";
 
 export default function Page({ page }: any) {
   return (
@@ -82,6 +83,8 @@ export default function Page({ page }: any) {
             return <Testimonials data={section.data} key={key} />;
           case "ContactUsForm":
             return <ContactUsForm />;
+          case "RequestInterviewForm":
+            return <RequestInterviewForm />;
           case "NextSteps3":
             return <NextSteps3 data={section.steps} key={key} />;
           case "NextSteps4":
