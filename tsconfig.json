@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/posts.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/posts.ts", "components/Map.jsx"],
   "exclude": ["node_modules"]
 }
