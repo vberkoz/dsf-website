@@ -275,6 +275,7 @@ export default function Map() {
       "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
         maxZoom: 18,
+        minZoom: 4,
         attribution: "© OpenStreetMap",
       }
     );
