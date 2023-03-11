@@ -160,7 +160,7 @@ const recruiters = [
     name: "Lisa C",
     avatar: femaleWhiteBrownHair0002.src,
     cityState: "Orange, CA, United States",
-    audio: "",
+    audio: "audio/audio_21.mp3",
     skillSet:
       "23 +yrs Inside Sales - Robotics, ERP, Retail, Healthcare, SaaS, Supply Chain, Recruiting",
     lat: 33.7872568,
@@ -250,7 +250,7 @@ const recruiters = [
     name: "Tracey",
     avatar: femaleWhiteBlonde0001.src,
     cityState: "Barrie, ON, Canada",
-    audio: "",
+    audio: "audio/audio_15.mp3",
     skillSet:
       "20+ Yrs Outside Sales, Supply Chain, Hospitality, Technology, High Value Business Solutions, Mining, Retail",
     lat: 44.3893113,
@@ -329,5 +329,5 @@ export default function Map() {
     map.addLayer(markers);
   }, []);
 
-  return <div id="map" className="h-96 w-full"></div>;
+  return <div id="map" className="w-full h-[70vh]"></div>;
 }
