@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FormEvent } from "react";
+import Input from "./Input";
 
 export default function ContactUsForm() {
   // Handle the submit event on form submit.
@@ -51,7 +52,7 @@ export default function ContactUsForm() {
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
         <div className="font-bold pl-3">Contact form</div>
 
-        <div className="grid grid-cols-1 md:col-span-3 lg:col-span-2 px-3 lg:pr-3 xl:px-0 pt-3 pb-8">
+        <div className="grid grid-cols-1 md:col-span-3 lg:col-span-2 px-3 lg:pr-3 xl:px-0 pb-8">
           <h1 className="text-3xl">Send message</h1>
 
           <p className="text-sm font-normal mb-10 text-gray-600 dark:text-gray-400">
@@ -88,8 +89,9 @@ export default function ContactUsForm() {
                   border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
                 "
               >
+                <span className="leading-[1.2rem]">Send message</span>
+                <span className="grow"></span>
                 <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32"><path d="M28,6H4A2,2,0,0,0,2,8V24a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V8A2,2,0,0,0,28,6ZM25.8,8,16,14.78,6.2,8ZM4,24V8.91l11.43,7.91a1,1,0,0,0,1.14,0L28,8.91V24Z"></path><title>Email</title></svg>
-                <span className="ml-4 leading-[1.2rem]">Send</span>
               </button>
             </div>
           </form>
@@ -98,29 +100,3 @@ export default function ContactUsForm() {
     </div>
   );
 }
-
-type InputProps = {
-  name: string;
-  label: string;
-}
-
-const Input = ({ name, label }: InputProps) => (
-  <div className="flex flex-col">
-    <label 
-      htmlFor={name}
-      className="text-sm mb-2 text-gray-600 dark:text-gray-400"
-    >{label}</label>
-
-    <input 
-      type="text" 
-      id={name}
-      name={name}
-      className="
-        py-3 px-4 
-        bg-gray-200 dark:bg-gray-800 
-        outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
-        border-b focus:border-0 border-gray-500
-      " 
-    />
-  </div>
-)

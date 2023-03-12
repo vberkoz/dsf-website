@@ -15,6 +15,7 @@ import SectionC2TI from "@/components/SectionC2TI";
 import SectionCDDE from "@/components/SectionCDDE";
 import FAQ from "@/components/FAQ";
 import ContactUsForm from "@/components/ContactUsForm";
+import RequestInterviewForm from "@/components/RequestInterviewForm";
 
 export default function Page({ page }: any) {
   return (
@@ -68,11 +69,10 @@ export default function Page({ page }: any) {
             });
             return (
               <div
-                className="grid bg-gray-100 dark:bg-gray-900 lg:grid-cols-3 lg:pl-14 xl:grid-cols-4 xl:pr-[108px]"
+                className="bg-gray-100 dark:bg-gray-900 lg:pl-14 xl:pr-[108px]"
                 key={key}
               >
-                <div></div>
-                <div className="col-span-2">
+                <div>
                   <MapWithNoSSR />
                 </div>
                 <div></div>
@@ -82,6 +82,8 @@ export default function Page({ page }: any) {
             return <Testimonials data={section.data} key={key} />;
           case "ContactUsForm":
             return <ContactUsForm />;
+          case "RequestInterviewForm":
+            return <RequestInterviewForm />;
           case "NextSteps3":
             return <NextSteps3 data={section.steps} key={key} />;
           case "NextSteps4":

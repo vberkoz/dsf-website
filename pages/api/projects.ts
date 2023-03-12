@@ -17,5 +17,5 @@ export default function handler(
   }
 
   // Found the name.
-  res.status(200).json({ data: `${body.first} ${body.title} ${body.mail} ${body.phone} ${body.company} ${body.website} ${body.subject} ${body.comments}` })
+  res.status(200).json({ data: `${body.first} ${body.mail} ${body.phone} ${body.service} ${body.company} ${body.website} ${body.budget} ${body.overview}` })
 }
