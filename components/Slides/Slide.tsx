@@ -35,6 +35,17 @@ export default function Slide({ item, k, isActive, length, onShow }: Props) {
       ></Link>
     );
   }
+
+  let prev = k - 1;
+  if (prev < 0) {
+    prev = length - 1;
+  }
+
+  let next = k + 1;
+  if (next > length - 1) {
+    next = 0;
+  }
+
   return (
     <div
       style={{
@@ -51,13 +62,52 @@ export default function Slide({ item, k, isActive, length, onShow }: Props) {
           bg-gradient-to-r from-gray-100/100 to-gray-100/0 dark:from-gray-900/100 dark:to-gray-900/0
         "
       >
-        <div className="lg:p-14">
-          <div className="h-80 p-3">
-            <h1 className="mb-4 text-4xl font-light sm:text-5xl">
-              {item.title}
-            </h1>
-            <div className="grid xl:grid-cols-4">
-              <p className="md:w-[29rem] xl:col-span-2">{item.description}</p>
+        <div className="">
+          <div className="flex flex-col">
+            <div className="p-3">
+              <h1 className="lg:px-14 lg:pt-14 mb-4 text-4xl font-light sm:text-5xl">
+                {item.title}
+              </h1>
+              <div className="lg:px-14 grid xl:grid-cols-4">
+                <p className="md:w-[29rem] xl:col-span-2">{item.description}</p>
+              </div>
+              <div className="grow"></div>
+            </div>
+
+            <div className="pl-3">
+              <div className="flex py-8 lg:pl-14 pr-0">
+                <button 
+                  onClick={() => onShow(prev)}
+                  onKeyUp={(e) => {
+                    return e.key === "Enter" && onShow(prev)
+                  }}
+                  className="
+                    cursor-pointer p-3
+                    text-gray-100 dark:text-gray-900 text-xl
+                    bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+                    outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+                    border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+                  "
+                >
+                  <svg fill="currentColor" width="32" height="32" viewBox="0 0 32 32"><path d="M10 16L20 6 21.4 7.4 12.8 16 21.4 24.6 20 26z"></path></svg>
+                </button>
+                <div className="grow"></div>
+                <button 
+                  onClick={() => onShow(next)}
+                  onKeyUp={(e) => {
+                    return e.key === "Enter" && onShow(next)
+                  }}
+                  className="
+                    cursor-pointer p-3
+                    text-gray-100 dark:text-gray-900 text-xl
+                    bg-green-600 hover:bg-green-500 dark:bg-yellow-400 dark:hover:bg-yellow-500
+                    outline-none focus:ring-[1px] ring-inset ring-gray-100 dark:ring-gray-900
+                    border-[3px] border-green-600 hover:border-green-500 dark:border-yellow-400 hover:dark:border-yellow-500
+                  "
+                >
+                  <svg fill="currentColor" width="32" height="32" viewBox="0 0 32 32"><path d="M22 16L12 26 10.6 24.6 19.2 16 10.6 7.4 12 6z"></path></svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
