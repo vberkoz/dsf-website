@@ -135,6 +135,7 @@ export const SupplyChainAutomation = {
       link: "All Things Supply Chain & Automation",
       href: "/channel-development",
       image: storage,
+      video: "SupplyChainAutomation",
     },
     {
       id: "SectionC2TI",

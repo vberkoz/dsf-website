@@ -8,6 +8,7 @@ type Props = {
     svg: StaticImageData | null;
     content: (string[] | string)[];
     image: StaticImageData | null;
+    video?: string;
     link: string;
     href: string;
   };
@@ -108,11 +109,23 @@ export default function SectionC2TI({ data }: Props) {
 
         <div className={`${!data.image && "hidden"} xl:hidden`}></div>
 
-        {data.image && (
-          <div className="flex flex-col justify-end md:col-span-3 lg:col-span-2 xl:col-span-1 xl:pl-4">
-            <Image src={data.image} alt={""} className="w-full" />
-          </div>
-        )}
+        <div className="flex flex-col justify-end md:col-span-3 lg:col-span-2 xl:col-span-1 xl:pl-4">
+          {data.image && (
+            <Image src={data.image} alt={""} className="w-full mb-3" />
+          )}
+          {data.video && data.video === "SupplyChainAutomation" && (
+            <video controls autoPlay muted loop>
+              <source src="video/autonomousVehiclesRobot.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          )}
+          {data.video && data.video === "FactoryAutomation" && (
+            <video controls autoPlay muted loop>
+              <source src="video/machineTendingRobots.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          )}
+        </div>
       </div>
     </div>
   );
