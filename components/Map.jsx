@@ -40,7 +40,8 @@ const recruiters = [
     name: "Vicki",
     avatar: femaleWhiteBrownHair0001.src,
     cityState: "Morgantown, WV, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "20+ yrs Outside Sales-Risk Mgt, Fraud Prevention, eCommerce. Retail, Cybersecurity, Insurance, Utilities, Telecom, New/Emerging Mkts",
     lat: 39.6296809,
@@ -50,7 +51,8 @@ const recruiters = [
     name: "Jestine",
     avatar: femaleWhiteRedHair003.src,
     cityState: "Saint Cloud, Stearns County, Minnesota, USA",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "20+ yrs Business Development, Supply Chain, Robotics, Technology Solutions, Financial, Enterprise",
     lat: 45.5616075,
@@ -60,7 +62,8 @@ const recruiters = [
     name: "Cindy",
     avatar: femaleWhiteBrownHair0003.src,
     cityState: "Pikeville, KY, United States",
-    audio: "audio/audio_10.mp3",
+    employeeAudio: "audio/audio_10.mp3",
+    customerAudiio: "",
     skillSet:
       "20+ Years Inside Sales, Outside Sales - Supply Chain, Robotics, Mobility, Omni-Channel Retail",
     lat: 37.4792672,
@@ -70,7 +73,8 @@ const recruiters = [
     name: "Kelly",
     avatar: femaleWhiteBrownHair0004.src,
     cityState: "Conifer, CO, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "Lead Mgt, Client Services Mgt, Business Development, Healthcare, Public Safety, Retail, SAP",
     lat: 39.5233424,
@@ -80,7 +84,8 @@ const recruiters = [
     name: "Mary",
     avatar: femaleWhiteBrownHair001.src,
     cityState: "Simpsonville, SC, United States",
-    audio: "audio/audio_17.mp3",
+    employeeAudio: "audio/audio_17.mp3",
+    customerAudiio: "",
     skillSet:
       "30+ yrs Outside Sales - Supply Chain, Mobility and Healthcare",
     lat: 34.7370639,
@@ -90,7 +95,8 @@ const recruiters = [
     name: "Serena",
     avatar: femaleWhiteBrunette0001.src,
     cityState: "McKinney, TX, United States",
-    audio: "audio/audio_42.mp3",
+    employeeAudio: "audio/audio_42.mp3",
+    customerAudiio: "",
     skillSet:
       "21+ yrs Inside Sales and Business Development. Factory Automation, Supply Chain, Software, Hardware, and Consultative Services.",
     lat: 33.1976496,
@@ -100,7 +106,8 @@ const recruiters = [
     name: "Julie",
     avatar: femaleWhiteBrownHair0001.src,
     cityState: "Minneapolis, MN, United States",
-    audio: "audio/audio_22.mp3",
+    employeeAudio: "audio/audio_22.mp3",
+    customerAudiio: "",
     skillSet:
       "20+ yrs Inside Sales - Robotics, Barcoding, Retail, Mobility, Supply Chain, Marketing Solutions",
     lat: 44.9772995,
@@ -110,7 +117,8 @@ const recruiters = [
     name: "Nancy",
     avatar: femaleWhiteRedHair004.src,
     cityState: "Dumont, NJ, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "25+ Yrs Enterprise, Supply Chain, Material Handling, Factory Automation, C-Suite",
     lat: 40.9406541,
@@ -120,7 +128,8 @@ const recruiters = [
     name: "Joy",
     avatar: femaleWhiteRedHair001.src,
     cityState: "Safety Harbor, FL, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "25+ yrs B2B Enterprise Solution Sales, Healthcare, Supply Chain, Factory Automation, C-Suite",
     lat: 27.9908529,
@@ -130,7 +139,8 @@ const recruiters = [
     name: "Jen",
     avatar: femaleWhiteRedHair006.src,
     cityState: "Arlington Heights, Wheeling Township, Cook County, Illinois, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "25+ yrs in Sales focused on IT Consulting, Mgt Consulting/Advisory, Oracle ERP, SAP ERP SW and Svcs, Analytics, Financial Planning",
     lat: 42.0811563,
@@ -140,7 +150,8 @@ const recruiters = [
     name: "Catherine",
     avatar: femaleWhiteBlonde0001.src,
     cityState: "Las Vegas, Clark County, Nevada, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "22+ Years Outside Sales. Cyber Security, Enterprise, Encryptics, IT Security, Professional Services and Consulting",
     lat: 36.1672559,
@@ -150,7 +161,8 @@ const recruiters = [
     name: "Jodie",
     avatar: femaleWhiteBrunette0003.src,
     cityState: "Birmingham, Jefferson County, Alabama, United States	",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "20+ Years in Sales, Metals, Industrial, Healthcare, Major Accounts",
     lat: 33.5206824,
@@ -160,7 +172,8 @@ const recruiters = [
     name: "Lisa C",
     avatar: femaleWhiteBrownHair0002.src,
     cityState: "Orange, CA, United States",
-    audio: "audio/audio_21.mp3",
+    employeeAudio: "audio/audio_21.mp3",
+    customerAudiio: "",
     skillSet:
       "23 +yrs Inside Sales - Robotics, ERP, Retail, Healthcare, SaaS, Supply Chain, Recruiting",
     lat: 33.7872568,
@@ -170,7 +183,8 @@ const recruiters = [
     name: "Megan",
     avatar: femaleWhiteBrunette0003.src,
     cityState: "Palm Desert, Riverside County, California, United States of America",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "25+ years, Outside Sales, Technical Sales, Supply Chain, Industrial Radios, Major Account Selling",
     lat: 33.7288179,
@@ -180,7 +194,8 @@ const recruiters = [
     name: "Pattie",
     avatar: femaleWhiteRedHair004.src,
     cityState: "Morro Bay, San Luis Obispo County, California, 93442, USA",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "30+ years Outside Sales. B2B, Supply Chain, Management, Asset Tracking, Software, Technology",
     lat: 35.3658075,
@@ -190,7 +205,8 @@ const recruiters = [
     name: "Jennifer",
     avatar: femaleWhiteBrownHair0003.src,
     cityState: "Rancho Cucamonga, San Bernardino County, California, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "20+ years in Sales. Hospitality, Enterprise, SMB, Supply Chain, Project Mgt Solutions",
     lat: 34.1033192,
@@ -200,7 +216,8 @@ const recruiters = [
     name: "DeeDee",
     avatar: femaleWhiteRedHair001.src,
     cityState: "Chicago Avenue, Downtown Naperville, Naperville, DuPage County, Illinois, 60540, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "20+ yrs Outside Sales, Healthcare, Managed Services, Supply Chain, Enterprise Selling, C-Suite",
     lat: 41.771549,
@@ -210,7 +227,8 @@ const recruiters = [
     name: "Sue",
     avatar: femaleWhiteRedHair007.src,
     cityState: "Monticello, NY, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "Sales Operations, Web, Collaboration Software, Accounting, Call Lists, Special Projects",
     lat: 41.6804285,
@@ -220,7 +238,8 @@ const recruiters = [
     name: "Christine",
     avatar: femaleWhiteBrownHair0004.src,
     cityState: "Pittsburgh, Allegheny County, Pennsylvania, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "20+ Yrs Sales & Biz Dev; B2B Sales, Communications, Supply Chain, Real Estate",
     lat: 40.4416941,
@@ -230,7 +249,8 @@ const recruiters = [
     name: "Jen",
     avatar: femaleWhiteRedHair002.src,
     cityState: "Orlando, Orange County, Florida, United States",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "15+ Yrs Outside Sales; Enterprise, B2B, SaaS POS Systems, Supply Chain",
     lat: 28.5421109,
@@ -240,7 +260,8 @@ const recruiters = [
     name: "Theresa",
     avatar: femaleWhiteRedHair003.src,
     cityState: "Spokane, Spokane County, Washington, United States of America",
-    audio: "",
+    employeeAudio: "",
+    customerAudiio: "",
     skillSet:
       "25+ yrs Outside & B2B Sales, Business Development, Supply Chain, Wireless 2-Way Communication Solutions, Industrial, Security, Video",
     lat: 47.6571934,
@@ -250,7 +271,8 @@ const recruiters = [
     name: "Tracey",
     avatar: femaleWhiteBlonde0001.src,
     cityState: "Barrie, ON, Canada",
-    audio: "audio/audio_15.mp3",
+    employeeAudio: "audio/audio_15.mp3",
+    customerAudiio: "",
     skillSet:
       "20+ Yrs Outside Sales, Supply Chain, Hospitality, Technology, High Value Business Solutions, Mining, Retail",
     lat: 44.3893113,
@@ -315,9 +337,9 @@ export default function Map() {
               <div className="">{recruiter.skillSet}</div>
             </div>
           </div>
-          {recruiter.audio && (
+          {recruiter.employeeAudio && (
             <audio controls controlsList="nofullscreen nodownload noremoteplayback noplaybackrate foobar" className="mt-4">
-              <source src={recruiter.audio} type="audio/mpeg" />
+              <source src={recruiter.employeeAudio} type="audio/mpeg" />
             </audio>
           )}
         </div>
