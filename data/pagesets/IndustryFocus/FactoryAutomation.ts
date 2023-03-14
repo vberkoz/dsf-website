@@ -111,6 +111,7 @@ export const FactoryAutomation = {
       link: "All Things Industrial Automation",
       href: "/channel-development",
       image: conveyor,
+      video: "FactoryAutomation",
     },
     {
       id: "SectionC2TI",
