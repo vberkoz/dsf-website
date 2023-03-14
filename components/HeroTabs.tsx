@@ -75,7 +75,7 @@ export default function HeroTabs({ title, description1, description2, image, tab
         <div
           style={{ zIndex: 2000 }}
           className="
-            sticky top-[48px] max-h-[50px] whitespace-nowrap 
+            sticky top-[48px] lg:top-[50px] max-h-[50px] whitespace-nowrap 
             border-b-2 border-gray-200 dark:border-gray-800 
             bg-gray-100 dark:bg-gray-900
           "

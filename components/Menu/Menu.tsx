@@ -106,7 +106,7 @@ export default function Menu() {
           </div>
         </div>
 
-        <div className="my-3 border-r-2 border-gray-200 dark:border-gray-800"></div>
+        <div className="my-3 border-r-2 lg:hidden border-gray-200 dark:border-gray-800"></div>
 
         <Link 
           href="/"
@@ -148,6 +148,7 @@ export default function Menu() {
                       className="
                         absolute z-10 hidden flex-col shadow group-hover:flex
                         bg-gray-100 dark:bg-gray-900
+                        border border-green-600 dark:border-yellow-400
                       "
                     >
                       {item.subitems.map((subItem, subItemKey) => (
