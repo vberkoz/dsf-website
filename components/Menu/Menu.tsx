@@ -4,11 +4,13 @@ import logo from "../../public/logo.svg";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import MobileMenuItem from "./MobileMenuItem";
+import useDarkMode from "@/hooks/useDarkMode";
 
 import { Pages } from "@/data/data";
 
 export default function Menu() {
   const [opened, setOpened] = useState(false);
+  const [colorTheme, setTheme] = useDarkMode();
 
   const toggleMenu = () => {
     setOpened(!opened);
@@ -47,6 +49,7 @@ export default function Menu() {
         sticky top-0 flex justify-between 
         bg-gray-100 dark:bg-gray-900 
         text-gray-900 dark:text-gray-100
+        border-b-2 border-gray-200 dark:border-gray-800
       "
     >
       <div 
@@ -59,7 +62,7 @@ export default function Menu() {
       ></div>
 
       <div className="flex">
-        <div className="z-10 float-left lg:hidden border-b-2 border-gray-200 dark:border-gray-800">
+        <div className="z-10 float-left lg:hidden">
           <div 
             onClick={toggleMenu} 
             className="
@@ -114,7 +117,6 @@ export default function Menu() {
             py-2 px-3 
             hover:bg-gray-200 dark:hover:bg-gray-800 
             outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
-            border-b-2 border-gray-200 dark:border-gray-800
           " 
         >
           <Image src={logo} alt="VO Group" width={30} height={30} />
@@ -135,7 +137,6 @@ export default function Menu() {
                         flex cursor-pointer p-3 
                         hover:bg-gray-200 dark:hover:bg-gray-800 
                         outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
-                        border-b-2 border-gray-200 dark:border-gray-800
                       `}
                     >
                       {item.title}
@@ -173,7 +174,6 @@ export default function Menu() {
                       flex cursor-pointer p-3 
                       hover:bg-gray-200 dark:hover:bg-gray-800 
                       outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
-                      border-b-2 border-gray-200 dark:border-gray-800
                     `}
                   >{item.title}</Link>
                 )}
@@ -183,9 +183,37 @@ export default function Menu() {
         </div>
       </div>
 
-      <div className="grow border-b-2 border-gray-200 dark:border-gray-800"></div>
 
       <div className="flex">
+        {colorTheme === "light" ? (
+          <button 
+            onClick={() => setTheme("light")} 
+            className="
+              cursor-pointer p-3 
+              hover:bg-gray-200 dark:hover:bg-gray-800 
+              outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
+            "
+          >
+            <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32">
+              <path d="M15 2H17V7H15z"></path><path d="M21.668 6.854H26.625999999999998V8.854H21.668z" transform="rotate(-45 24.147 7.853)"></path><path d="M25 15H30V17H25z"></path><path d="M23.147 21.668H25.147V26.625999999999998H23.147z" transform="rotate(-45 24.147 24.146)"></path><path d="M15 25H17V30H15z"></path><path d="M5.375 23.147H10.333V25.147H5.375z" transform="rotate(-45 7.853 24.146)"></path><path d="M2 15H7V17H2z"></path><path d="M6.854 5.375H8.854V10.333H6.854z" transform="rotate(-45 7.854 7.853)"></path><path d="M16,12a4,4,0,1,1-4,4,4.0045,4.0045,0,0,1,4-4m0-2a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z"></path>
+              <title>Light</title>
+            </svg>
+          </button>
+        ) : (
+          <button 
+            onClick={() => setTheme("dark")} 
+            className="
+              cursor-pointer p-3 
+              hover:bg-gray-200 dark:hover:bg-gray-800 
+              outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
+            "
+          >
+            <svg fill="currentColor" width="20" height="20" viewBox="0 0 32 32">
+              <path d="M13.5025,5.4136A15.0755,15.0755,0,0,0,25.096,23.6082a11.1134,11.1134,0,0,1-7.9749,3.3893c-.1385,0-.2782.0051-.4178,0A11.0944,11.0944,0,0,1,13.5025,5.4136M14.98,3a1.0024,1.0024,0,0,0-.1746.0156A13.0959,13.0959,0,0,0,16.63,28.9973c.1641.006.3282,0,.4909,0a13.0724,13.0724,0,0,0,10.702-5.5556,1.0094,1.0094,0,0,0-.7833-1.5644A13.08,13.08,0,0,1,15.8892,4.38,1.0149,1.0149,0,0,0,14.98,3Z"></path>
+              <title>Dark</title>
+            </svg>
+          </button>
+        )}
         <Link 
           href="/submit-gig" 
           className="
