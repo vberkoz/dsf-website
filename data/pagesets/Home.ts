@@ -5,13 +5,6 @@ import road from "@/public/home/road.webp";
 import bb1 from "@/public/home/brooklyn-bridge-1.webp";
 import bb2 from "@/public/home/brooklyn-bridge-2.jpeg";
 
-import bulb from "@/public/home/bulb.svg";
-import target from "@/public/home/target.svg";
-import wallet from "@/public/home/wallet.svg";
-import brand from "@/public/home/brand.svg";
-import speaker from "@/public/home/speaker.svg";
-import key from "@/public/home/key.svg";
-
 import { DefaultNextSteps } from "../DefaultNextSteps";
 
 export const Home = {
@@ -107,7 +100,7 @@ export const Home = {
       data: [
         {
           title: "Professional Sales Prospecting",
-          image: bulb.src,
+          image: "bulb",
           content: [
             'VO Concierge is VO Sales Group\'s "white glove" service that incorporates all facets of the comprehensive VO Sales Group Sales Prospecting approach.',
             "With this service, you have one go-to company for all of your Demand Generation needs.",
@@ -118,7 +111,7 @@ export const Home = {
         },
         {
           title: "Demand generation",
-          image: target.src,
+          image: "target",
           content: [
             "VO Sales Group’s Business Development Managers (BDs) are seasoned sales professionals who leverage their sales skills to achieve your lead generation and lead qualification goals in order to advance your product or service.",
             "Keywords: Sales Lead, Lead Generation, Demand Generation, Prospecting.",
@@ -128,7 +121,7 @@ export const Home = {
         },
         {
           title: "Channel Development",
-          image: wallet.src,
+          image: "wallet",
           content: [
             "VO Sales Group has vast experience in Channel Development and Channel Management, including a software suite to allow both Development and Management.",
             "If Channel Portals and a Channel community are part of your offering VO Sales Group can help.",
@@ -138,7 +131,7 @@ export const Home = {
         },
         {
           title: "Brand Refresh",
-          image: brand.src,
+          image: "brand",
           content: [
             "VO Sales Group assists Solution providers with their Digital Marketing, including website refresh, message refresh, analysis, Search Engine Optimization (SEO), and assistance with landing page creation to provide traffic.",
             "These are all part of the VO Sales Prospecting concept, which fosters an increase in inbound leads passive leads generation.",
@@ -149,7 +142,7 @@ export const Home = {
         },
         {
           title: "Digital Marketing",
-          image: speaker.src,
+          image: "speaker",
           content: [
             "Digital Marketing is another key facet of the VO Sales Group suite of services and can be easily scaled up to leverage your web presence.",
             "VO Sales Group is committed to driving revenue for Solution Providers.",
@@ -160,7 +153,7 @@ export const Home = {
         },
         {
           title: "All Things Sales",
-          image: key.src,
+          image: "key",
           content: [
             "VO Sales Group's focus IS Sales. We are a Sales company. We are staffed with industry professionals that you can hire by the project or a set duration.",
             "With the shorter ramp-up times and less overhead, you can utilize our early adoption of the Gig Economy to your benefit and leverage our world-class sales and sales marketing team to advance your revenue.",

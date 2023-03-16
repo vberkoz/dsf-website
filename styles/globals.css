@@ -13,21 +13,12 @@ ul li:before {
   margin-left: -20px;
 }
 
-.svg-icon {
-  fill: #000000;
-}
-
-@media (prefers-color-scheme: dark) {
-  .svg-icon {
-    filter: invert(1);
-  }
-}
-
 .post-list-element:focus .post-image {
   border-top-width: 2px;
   border-left-width: 2px;
   border-right-width: 2px;
-  border-color: rgb(250 204 21);
+  border-color: rgb(22 163 74);
+  @apply border-green-600 dark:border-yellow-400
 }
 
 input, textarea {

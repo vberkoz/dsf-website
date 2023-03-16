@@ -1,13 +1,6 @@
 import { DefaultNextSteps } from "@/data/DefaultNextSteps";
 import nyc from "@/public/solutions/nyc.webp";
 
-import folder from "@/public/solutions/folder.svg";
-import email from "@/public/solutions/email.svg";
-import message from "@/public/solutions/message.svg";
-import smartphone from "@/public/solutions/smartphone.svg";
-import list from "@/public/solutions/list.svg";
-import diagram from "@/public/solutions/diagram.svg";
-
 export const Marketing20 = {
   title: "Marketing 2.0",
   slug: "marketing-2-0",
@@ -67,7 +60,7 @@ export const Marketing20 = {
       data: [
         {
           title: "Tactful Marketing Solutions",
-          image: folder.src,
+          image: "folder",
           content: [
             "We can help you with all of your Tactful Marketing solutions",
             [
@@ -83,7 +76,7 @@ export const Marketing20 = {
         },
         {
           title: "Email Solutions",
-          image: email.src,
+          image: "email",
           content: [
             "VO will assist with the implementation, design, and management of your Email Marketing Campaigns.",
             "If you use Marketo, Pardot, or Mailchimp and do not have the time or resources to handle your Marketing Campaigns, VO Sales Group can step in and manage the process for you.",
@@ -93,7 +86,7 @@ export const Marketing20 = {
         },
         {
           title: "Messaging",
-          image: message.src,
+          image: "message",
           content: [
             "VO Marketing offers Messaging assistance and has special expertise in assisting Start Up Companies and Emerging Technology Vendors to fine tune their message in order to make it more impactful and relevant.",
           ],
@@ -102,7 +95,7 @@ export const Marketing20 = {
         },
         {
           title: "All Things Digital Marketing",
-          image: smartphone.src,
+          image: "smartphone",
           content: [
             "VO can help you implement an Internet Marketing Strategy for Lead Generation.",
             "Areas where we can help are:",
@@ -121,7 +114,7 @@ export const Marketing20 = {
         },
         {
           title: "VO Call List Services",
-          image: list.src,
+          image: "list",
           content: [
             "Any Sales Prospecting effort should start with understanding the target audience.",
             "The most effective Sales Campaigns that VO runs are industry-focused campaigns.",
@@ -134,7 +127,7 @@ export const Marketing20 = {
         },
         {
           title: "Sales Force Automation",
-          image: diagram.src,
+          image: "diagram",
           content: [
             "VO Sales Group can design a manageable Closed Loop Sales and Marketing system.",
             "Whether using SalesForce.com (SFDC) or another Sales Force Automation (SFA) tool, we can help implement and then manage the SFA effort.",

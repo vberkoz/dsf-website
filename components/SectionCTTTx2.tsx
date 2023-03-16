@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image, { StaticImageData } from "next/image";
+import Pictogram from "./Pictogram";
 
 type Props = {
   section: {
@@ -7,7 +7,7 @@ type Props = {
     caption: (string[] | string)[];
     data: {
       title: string;
-      image: StaticImageData;
+      image: string;
       content: (string[] | string)[];
       link: string;
       href: string;
@@ -24,42 +24,42 @@ import bulb from "@/public/home/bulb.svg";
   data: [
     {
       title: "",
-      image: bulb.src,
+      image: "",
       content: [],
       link: "",
       href: "#",
     },
     {
       title: "",
-      image: bulb.src,
+      image: "",
       content: [],
       link: "",
       href: "#",
     },
     {
       title: "",
-      image: bulb.src,
+      image: "",
       content: [],
       link: "",
       href: "#",
     },
     {
       title: "",
-      image: bulb.src,
+      image: "",
       content: [],
       link: "",
       href: "#",
     },
     {
       title: "",
-      image: bulb.src,
+      image: "",
       content: [],
       link: "",
       href: "#",
     },
     {
       title: "",
-      image: bulb.src,
+      image: "",
       content: [],
       link: "",
       href: "#",
@@ -120,7 +120,7 @@ export default function SectionCTTTx2({ section }: Props) {
 type ItemProps = {
   data: {
     title: string;
-    image: StaticImageData;
+    image: string;
     content: (string[] | string)[];
     link: string;
     href: string;
@@ -133,13 +133,11 @@ const Item = ({ data }: ItemProps) => (
 
     <div className="grid grid-cols-1 gap-4">
       <div className="flex h-16 flex-col">
-        <Image
-          src={data.image}
-          alt={data.title}
-          width={60}
-          height={60}
-          className="svg-icon mt-auto"
-        />
+        <div className="mt-auto fill-gray-900 dark:fill-gray-100">
+          <svg width={60} height={60} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <Pictogram name={data.image} />
+          </svg>
+        </div>
       </div>
 
       {data.content.map((item, pKey) => {
