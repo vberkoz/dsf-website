@@ -1,12 +1,5 @@
 import map from "@/public/join_our_team/map.webp";
 
-import bulb from "@/public/home/bulb.svg";
-import analyze from "@/public/join_our_team/analyze.svg";
-import person from "@/public/join_our_team/person.svg";
-import refferal from "@/public/join_our_team/map.svg";
-import check from "@/public/join_our_team/check.svg";
-import contract from "@/public/join_our_team/contract.svg";
-
 export const SalesAgentProgram = {
   title: "Sales agent program",
   slug: "sales-agent-program",
@@ -54,7 +47,7 @@ export const SalesAgentProgram = {
       data: [
         {
           title: "We Are Looking for Sales Agents",
-          image: analyze.src,
+          image: "analyze",
           content: [
             "We are always looking to add sales professionals to our sales team.",
             "Our sales team consists of salespeople who are seasoned in making high-level calls into an organization.",
@@ -65,7 +58,7 @@ export const SalesAgentProgram = {
         },
         {
           title: "Commission Only Sales",
-          image: person.src,
+          image: "person",
           content: [
             "This is a commission-only Sales GIG. You will be assigned geography.",
             "Sales skills and sales strategies are a must. A technology or business solution-centric sales background is required.",
@@ -76,7 +69,7 @@ export const SalesAgentProgram = {
         },
         {
           title: "Referral Program",
-          image: refferal.src,
+          image: "refferal",
           content: [
             "VO Sales Group offers a Referral Program for those that are part time committed to our Sales effort.",
             "If you have a lead for us, flip it in and if we sell it, you will be paid a Referral Fee.",
@@ -86,7 +79,7 @@ export const SalesAgentProgram = {
         },
         {
           title: "Understanding of Verticals",
-          image: bulb.src,
+          image: "bulb",
           content: [
             "We are looking for those who have an understanding of:",
             [
@@ -107,7 +100,7 @@ export const SalesAgentProgram = {
         },
         {
           title: "What VO Offers",
-          image: check.src,
+          image: "check",
           content: [
             "We offer an environment of self-employment and flex hours.",
             "This opportunity comes with the potential to earn $40K, $60K, or $80K, depending on duties performed and your success at those duties.",
@@ -118,7 +111,7 @@ export const SalesAgentProgram = {
         },
         {
           title: "Sales Background",
-          image: contract.src,
+          image: "contract",
           content: [
             "Strong business acumen and a strong sales background are more important than product knowledge.",
             "Our style is to focus on the solution, the business solution more than the product offering itself.",

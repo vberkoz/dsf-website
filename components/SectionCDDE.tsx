@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image, { StaticImageData } from "next/image";
+import Pictogram from "./Pictogram";
 
 type Props = {
   data: {
@@ -7,7 +7,7 @@ type Props = {
     caption: (string[] | string)[];
     data: {
       title: string;
-      svg: StaticImageData;
+      svg: string | null;
       content: (string[] | string)[];
       link: string;
       href: string;
@@ -83,7 +83,7 @@ export default function SectionCDDE({ data }: Props) {
 type ItemProps = {
   data: {
     title: string;
-    svg: StaticImageData;
+    svg: string | null;
     content: (string[] | string)[];
     link: string;
     href: string;
@@ -97,13 +97,11 @@ const Item = ({ data }: ItemProps) => (
     <div className="grid grid-cols-1 gap-4">
       <div className="flex h-16 flex-col">
         {data.svg && (
-          <Image
-            src={data.svg}
-            alt={data.title}
-            width={60}
-            height={60}
-            className="mt-auto svg-icon"
-          />
+          <div className="mt-auto fill-gray-900 dark:fill-gray-100">
+            <svg width={60} height={60} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <Pictogram name={data.svg} />
+            </svg>
+          </div>
         )}
       </div>
 

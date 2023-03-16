@@ -1,12 +1,7 @@
 import writing from "@/public/join_our_team/writing.webp";
 import team from "@/public/join_our_team/team.webp";
 
-import home from "@/public/join_our_team/home.svg";
-import rocket from "@/public/join_our_team/rocket.svg";
-import archive from "@/public/join_our_team/archive.svg";
-import university from "@/public/join_our_team/university.svg";
 import support from "@/public/join_our_team/support.svg";
-import presentation from "@/public/join_our_team/presentation.svg";
 import tools from "@/public/join_our_team/tools.svg";
 
 export const Sales360Team = {
@@ -25,7 +20,7 @@ export const Sales360Team = {
       id: "SectionC2TI",
       caption: [],
       title: "Career - Self Employment",
-      svg: home.src,
+      svg: "home",
       content: [
         "The VO Sales 360 Team is comprised of Business Development Managers (BDs) - professional salespeople, seasoned in making high-level calls into an organization.",
         "VO Group's Self Employment Career Opportunity allows for self-employed professionals to work at home.",
@@ -89,7 +84,7 @@ export const Sales360Team = {
       id: "SectionC2TI",
       caption: [],
       title: "VO Group's Model for Success",
-      svg: rocket.src,
+      svg: "rocket",
       content: [
         "We help you with all the tools necessary to be a self-employed sales development contractor.",
         [
@@ -112,7 +107,7 @@ export const Sales360Team = {
       id: "SectionC2TI",
       caption: [],
       title: "Additional Benefits",
-      svg: archive.src,
+      svg: "archive",
       content: [
         "We have a back-end team to manage a campaign, do reporting, and log time.",
         [
@@ -135,7 +130,7 @@ export const Sales360Team = {
       data: [
         {
           title: "Knowledge of Sales and Marketing",
-          svg: university.src,
+          svg: "university",
           content: [
             "VO Group is not a self-serve model. You must request an interview and have knowledge of how to drive sales for solution providers. All of our customers sell High-Value Solutions.",
             "Our job is to drive revenue for them. Knowledge of Sales and Marketing in the vendor space is a requirement. Request an Interview and get on the VO Map.",
@@ -145,7 +140,7 @@ export const Sales360Team = {
         },
         {
           title: "Administrative Support",
-          svg: support.src,
+          svg: "support",
           content: [
             "VO Group offers administrative support for independent contractors.",
             "You can still be self-employed, but allow VO Group to support your independent contractor efforts.",
@@ -162,7 +157,7 @@ export const Sales360Team = {
       data: [
         {
           title: "What we Offer",
-          svg: presentation.src,
+          svg: "presentation",
           content: [
             "We offer an environment of self-employment and flex hours.",
             "This opportunity comes with the potential to earn $40K, $60K, or $80K, depending on duties performed and your success at those duties.",
@@ -173,7 +168,7 @@ export const Sales360Team = {
         },
         {
           title: "Tools",
-          svg: tools.src,
+          svg: "tools",
           content: [
             "VO gives our Business Development Managers (BDs) the tools to grow their own business.",
             "With our client relationships, we can smooth out your income by allowing you to vie for accounts as they come up.",

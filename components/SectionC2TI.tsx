@@ -1,11 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import Pictogram from "./Pictogram";
 
 type Props = {
   data: {
     caption: (string[] | string)[];
     title: string;
-    svg: StaticImageData | null;
+    svg: string | null;
     content: (string[] | string)[];
     image: StaticImageData | null;
     video?: string;
@@ -59,13 +60,11 @@ export default function SectionC2TI({ data }: Props) {
           <div className="text-3xl text-gray-900 dark:text-gray-100">{data.title}</div>
           
           {data.svg && (
-            <Image
-              src={data.svg}
-              alt={data.title}
-              width={60}
-              height={60}
-              className="mt-auto svg-icon"
-            />
+            <div className="mt-auto fill-gray-900 dark:fill-gray-100">
+              <svg width={60} height={60} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <Pictogram name={data.svg} />
+              </svg>
+            </div>
           )}
 
           {data.content.map((item, pKey) => {

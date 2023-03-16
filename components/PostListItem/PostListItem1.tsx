@@ -18,9 +18,10 @@ export default function PostListItem1({ data }: Props) {
       href={`/blog/${data.id}`}
       className="
       post-list-element
-      col-span-1 row-span-1 flex flex-col bg-gray-200 outline-none ring-inset ring-green-600
-      focus:ring-2 hover:bg-gray-300 dark:bg-gray-800 dark:ring-yellow-400 
-      dark:hover:bg-gray-700 md:col-span-2 lg:h-[60vw] xl:row-span-2 xl:h-[70vw]
+      row-span-1 col-span-1 md:col-span-2 flex flex-col lg:h-[60vw] xl:row-span-2 xl:h-[70vw]
+      focus:ring-2 outline-none ring-inset ring-green-600 dark:ring-yellow-400 
+      bg-gray-200 hover:bg-gray-300 dark:bg-gray-800
+      dark:hover:bg-gray-700 
       "
     >
       <div
