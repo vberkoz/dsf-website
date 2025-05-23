@@ -1,7 +1,7 @@
 ---
 image: "coder"
 title: "It’s not about US; it’s about THEM"
-author: "Stephen Zarick - CEO, VO Group, LLC"
+author: "Robert Sinclair - CEO, Distributed Sales Force, LLC"
 date: "2014-12-15"
 excerpt: "There are some very simple people skills that we embrace to be successful in life, and in sales."
 prev: "the-digital-nomad"
@@ -52,4 +52,4 @@ Ask them about the environment that they have today, have they ever looked at a 
 **Listen First. Present Second.**
 Take notes while they talk and then speak to those topics when you finally do your presentation.
 \
-As a rule, at VO Group, my Sales Prospecting company, we typically would do a ONE HOUR meeting, the fist 30 minutes the prospect never sees our logo. Instead, the first 30 minutes is all about them and making references to how we helped other customers out.
+As a rule, at Distributed Sales Force, my Sales Prospecting company, we typically would do a ONE HOUR meeting, the fist 30 minutes the prospect never sees our logo. Instead, the first 30 minutes is all about them and making references to how we helped other customers out.

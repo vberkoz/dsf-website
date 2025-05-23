@@ -12,8 +12,8 @@ export default function Layout({ children }: Props) {
   return (
     <>
       <Head>
-        <title>VO Sales Group</title>
-        <meta name="description" content="VO Sales Group" />
+        <title>Distributed Sales Force</title>
+        <meta name="description" content="Distributed Sales Force" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="logo.svg" type="image/svg+xml" />
       </Head>

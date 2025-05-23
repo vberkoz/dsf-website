@@ -7,7 +7,7 @@ export const Solutions = {
   slug: "solutions",
   pageset: "solutions",
   isPrimary: true,
-  description1: ["VO Sales Group offers a full suite of Sales Prospecting, Lead Generation & Channel Development Solutions"],
+  description1: ["Distributed Sales Force offers a full suite of Sales Prospecting, Lead Generation & Channel Development Solutions"],
   description2: [],
   image: plants.src,
   sections: [
@@ -17,7 +17,7 @@ export const Solutions = {
     {
       id: "SectionC2TI",
       caption: ["Revenue Producing"],
-      title: "VO Sales Group Solutions",
+      title: "Distributed Sales Force Solutions",
       svg: null,
       content: [
         [

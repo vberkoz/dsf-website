@@ -67,7 +67,7 @@ export default function SubmitGigForm () {
                 <label 
                   htmlFor="service"
                   className="text-sm mb-2 text-gray-600 dark:text-gray-400"
-                >Requested VO Sales Group service</label>
+                >Requested Distributed Sales Force service</label>
                 <select 
                   name="service" 
                   id="service"

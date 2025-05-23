@@ -31,7 +31,7 @@ export const SalesAgentFAQs = {
     },
     {
       id: "FAQ",
-      question: "Can anyone join the VO Sales Group team?",
+      question: "Can anyone join the Distributed Sales Force team?",
       answer: [
         "No. We screen and interview all candidates before they are invited onto the team.",
       ],
@@ -47,18 +47,18 @@ export const SalesAgentFAQs = {
     },
     {
       id: "FAQ",
-      question: "Can I bring in any new account for VO Sales Group?",
+      question: "Can I bring in any new account for Distributed Sales Force?",
       answer: [
-        "NO. We have guidelines as to who is and who is not a good prospect/customer for VO Sales Group. We have a training program to discover more on this topic.",
+        "NO. We have guidelines as to who is and who is not a good prospect/customer for Distributed Sales Force. We have a training program to discover more on this topic.",
       ],
     },
     {
       id: "FAQ",
-      question: "Can I bring in my own people to VO Sales Group?",
+      question: "Can I bring in my own people to Distributed Sales Force?",
       answer: [
-        "NO. We expect all people on our team to be interviewed by management and invited on the team. All team members must fall under the VO Sales Group contracts and payment system. Today we are not expecting any subcontracting under you.",
-        "Should this person be accepted and invited on the team, then this person could work under you as a direct report. But all team members on the VO Sales Group team are considered peers. So someone else might wish to hire that person as well.",
-        "We do have projects where there is a project lead, and that person manages the project and the people. In a sense, we do not mind if you build your own business, but all delivery team members must be approved, accepted, and invited on the team by VO Sales Group management.",
+        "NO. We expect all people on our team to be interviewed by management and invited on the team. All team members must fall under the Distributed Sales Force contracts and payment system. Today we are not expecting any subcontracting under you.",
+        "Should this person be accepted and invited on the team, then this person could work under you as a direct report. But all team members on the Distributed Sales Force team are considered peers. So someone else might wish to hire that person as well.",
+        "We do have projects where there is a project lead, and that person manages the project and the people. In a sense, we do not mind if you build your own business, but all delivery team members must be approved, accepted, and invited on the team by Distributed Sales Force management.",
       ],
     },
     {

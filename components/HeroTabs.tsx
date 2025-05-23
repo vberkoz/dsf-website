@@ -80,7 +80,7 @@ export default function HeroTabs({ title, description1, description2, image, tab
             bg-gray-100 dark:bg-gray-900
           "
         >
-          <div className="flex overflow-x-scroll text-gray-900 dark:text-gray-100 lg:ml-14">
+          <div className="flex overflow-x-hidden text-gray-900 dark:text-gray-100 lg:ml-14">
             {tabs.map((tab, key) => (
               <Link
                 key={key}

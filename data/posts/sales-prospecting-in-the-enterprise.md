@@ -1,7 +1,7 @@
 ---
 image: "operator"
 title: "Sales Prospecting in the Enterprise"
-author: "Stephen Zarick - CEO, VO Group, LLC"
+author: "Robert Sinclair - CEO, Distributed Sales Force, LLC"
 date: "2014-11-09"
 excerpt: "Who said cold calling is dead? Those that do not like cold calling of course."
 prev: "intentional-sales-progression"
@@ -79,7 +79,7 @@ Marketing Programs never go Deep and Broad.
 **Sales Training**
 _We can not emphasize enough that Sales Training and Sales Prospecting training is and should be ongoing activities._ Many sales efforts have hurdles, new competitors, new trends, and are always maturing. The Marketing message just isn't good enough. There is always a new objection, and you must move to act and to respond. If Marketing is NOT on the phone, and Salespeople are NOT prospecting, how will they ever know or understand these new trends.
 \
-VO Group's Sales Prospecting teams hear more of these trends for our customers than even our customers do. We will make more phone calls and talk to more new people in a week than most of our customers do in a month. Marketing people mostly have NEVER picked up the phone to understand the sales challenges of representing a high value solution. The task is not easy, but can be managed effectively for real sales revenue results.
+Distributed Sales Force's Sales Prospecting teams hear more of these trends for our customers than even our customers do. We will make more phone calls and talk to more new people in a week than most of our customers do in a month. Marketing people mostly have NEVER picked up the phone to understand the sales challenges of representing a high value solution. The task is not easy, but can be managed effectively for real sales revenue results.
 \
 **Summary**
 - Cold Calling is NOT Dead

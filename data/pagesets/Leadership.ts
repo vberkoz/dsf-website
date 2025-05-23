@@ -6,7 +6,7 @@ export const Leadership = {
   slug: "leadership",
   pageset: "leadership",
   isPrimary: true,
-  description1: ["Stephen Zarick, President and Owner of VO Sales Group also runs XIT.company, a company offering Exit Strategies"],
+  description1: ["Robert Sinclair, President and Owner of Distributed Sales Force also runs Valuora Partners, a company offering Exit Strategies"],
   description2: [],
   image: leadership.src,
   sections: [
@@ -16,7 +16,7 @@ export const Leadership = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "Stephen Zarick",
+      title: "Robert Sinclair",
       svg: null,
       content: [
         "Stephen has been a Professional in Sales for over 30 years. Technologies include Supply Chain/Logistics, All Things Enterprise Mobile, Retail, Healthcare, High Value Software Solutions, Business Applications.",
@@ -46,7 +46,7 @@ export const Leadership = {
       title: "International Business",
       svg: null,
       content: [
-        "Stephen, as well as VO Sales Group, has represented Brazilian companies and other international companies from Canada, UK, New Zealand, India, Sweden, Italy, Hong Kong, France, and Portugal, ",
+        "Stephen, as well as Distributed Sales Force, has represented Brazilian companies and other international companies from Canada, UK, New Zealand, India, Sweden, Italy, Hong Kong, France, and Portugal, ",
         "Stephen has started several companies in the US. He sold his former company to a NASDAQ-traded telecom company.",
       ],
       link: "",
@@ -72,12 +72,12 @@ export const Leadership = {
       caption: ["Links"],
       links: [
         {
-          text: "linkedin.com/in/stephenzarick",
-          href: "https://www.linkedin.com/in/stephenzarick/",
+          text: "linkedin.com/in/robert-sinclair",
+          href: "https://www.linkedin.com/in/robert-sinclair/",
         },
         {
-          text: "xit.company",
-          href: "https://xit.company/",
+          text: "Valuora Partners",
+          href: "#",
         },
         {
           text: "vogroup.com",

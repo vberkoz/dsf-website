@@ -22,7 +22,7 @@ export const SubmitGig = {
     {
       id: "SectionCTTE",
       data: {
-        caption: "VO Group does everything for you",
+        caption: "Distributed Sales Force does everything for you",
         title1: "",
         title2: "",
         col1: [

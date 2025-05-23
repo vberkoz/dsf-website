@@ -30,7 +30,7 @@ export const Healthcare = {
       title: "Healthcare Sales Prospecting",
       svg: null,
       content: [
-        "VO Sales Group offers Sales Prospecting for all things Healthcare. With a finite market of only 6000 hospitals, there is a race for market share. Let VO Sales Group help you win that race.",
+        "Distributed Sales Force offers Sales Prospecting for all things Healthcare. With a finite market of only 6000 hospitals, there is a race for market share. Let Distributed Sales Force help you win that race.",
         [
           "Healthcare Sales Leads",
           "EHR/EMR",
@@ -55,14 +55,14 @@ export const Healthcare = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "VO Healthcare Solutions",
+      title: "DSF Healthcare Solutions",
       svg: null,
       content: [
-        "VO does not sell your Healthcare offering. Instead, VO will help you identify the buyer and then probe for compelling reasons to talk to your sales team.",
-        "VO Prospects. You Sell.",
-        "VO strives to stuff the Sales Pipeline with Sales Opportunities to raise capital.",
-        "Partner with VO Sales Group for your investment strategies to grow your mHealth business.",
-        "VO Sales Group is looking for investment opportunities in new technologies in Healthcare.",
+        "DSF does not sell your Healthcare offering. Instead, DSF will help you identify the buyer and then probe for compelling reasons to talk to your sales team.",
+        "DSF Prospects. You Sell.",
+        "DSF strives to stuff the Sales Pipeline with Sales Opportunities to raise capital.",
+        "Partner with Distributed Sales Force for your investment strategies to grow your mHealth business.",
+        "Distributed Sales Force is looking for investment opportunities in new technologies in Healthcare.",
       ],
       link: "",
       href: "#",
@@ -103,7 +103,7 @@ export const Healthcare = {
       svg: null,
       content: [
         "vHealth - Virtual Healthcare - is the hottest market right now. Many in this space are start-ups or emerging vendors.",
-        "VO Sales Group has a track record of producing Healthcare Sales Leads and Sales Opportunities for emerging healthcare solution providers.",
+        "Distributed Sales Force has a track record of producing Healthcare Sales Leads and Sales Opportunities for emerging healthcare solution providers.",
         "Let us devise a plan for you, and let's starting finding revenue.",
       ],
       link: "",
@@ -116,9 +116,9 @@ export const Healthcare = {
       title: "Messaging",
       svg: null,
       content: [
-        "With so many new entrants into the Healthcare space, many companies hire VO Sales Group not only to canvass for Sales Opportunities, but to refine their Sales Message and Brand.",
+        "With so many new entrants into the Healthcare space, many companies hire Distributed Sales Force not only to canvass for Sales Opportunities, but to refine their Sales Message and Brand.",
         "Our seasoned Sales team can offer you weekly feedback on what is resonating and what is not.",
-        "Many start-ups in Healthcare have hired VO Sales Group’s Concierge team.",
+        "Many start-ups in Healthcare have hired Distributed Sales Force’s Concierge team.",
       ],
       link: "",
       href: "#",
@@ -130,8 +130,8 @@ export const Healthcare = {
       title: "Healthcare Sales Development",
       svg: null,
       content: [
-        "VO is focused on Healthcare Sales Development and HIMSS Sales Leads.",
-        "VO Team Members regularly attend the HIMSS Conference and are up-to-date on the latest solutions in Healthcare.",
+        "DSF is focused on Healthcare Sales Development and HIMSS Sales Leads.",
+        "DSF Team Members regularly attend the HIMSS Conference and are up-to-date on the latest solutions in Healthcare.",
         "We can help you with Call List Services, Niche Lists, and development of a Sales and Marketing Strategy to properly canvas this space.",
       ],
       link: "",

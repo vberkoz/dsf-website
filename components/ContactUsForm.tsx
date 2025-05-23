@@ -74,7 +74,7 @@ export default function ContactUsForm() {
               <div className="flex flex-col">
                 <label htmlFor="comments" className="text-sm mb-2 text-gray-600 dark:text-gray-400">Questions / Comments</label>
                 <textarea id="comments" name="comments" rows={5} className="py-3 px-4 bg-gray-200 dark:bg-gray-800 outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 border-b focus:border-0 border-gray-500"></textarea>
-                <p className="text-sm mt-2 text-gray-600 dark:text-gray-400">All VO applicants must submit their info through the <Link href="/join-our-team" className="cursor-pointer hover:underline text-green-600 dark:text-yellow-400 outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400">Join Our Team</Link> section, not below</p>
+                <p className="text-sm mt-2 text-gray-600 dark:text-gray-400">All DSF applicants must submit their info through the <Link href="/join-our-team" className="cursor-pointer hover:underline text-green-600 dark:text-yellow-400 outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400">Join Our Team</Link> section, not below</p>
               </div>
             </div>
 

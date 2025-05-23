@@ -69,7 +69,7 @@ export default function Post({ postData }: Props) {
         <div className="flex">
           <div className="flex lg:flex-col">
             <Link
-              href="https://www.facebook.com/VO-Group-137855302900377/"
+              href="https://www.facebook.com/DSF-Group-137855302900377/"
               className="
               m-3 
               text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200
@@ -95,7 +95,7 @@ export default function Post({ postData }: Props) {
               </svg>
             </Link>
             <Link
-              href="https://twitter.com/StephenZarick"
+              href="https://twitter.com/robert-sinclair"
               className="
               m-3 
               text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200

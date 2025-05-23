@@ -22,7 +22,7 @@ export const ConciergeServices = {
       title: "Sales Development Solutions",
       svg: null,
       content: [
-        "A Premier Approach for High Value Technology and Business Solutions companies. VO Sales Group’s goals are to Generate Qualified Sales Opportunities that are revenue producing.",
+        "A Premier Approach for High Value Technology and Business Solutions companies. Distributed Sales Force’s goals are to Generate Qualified Sales Opportunities that are revenue producing.",
         "Our Professional Sales Prospecting Services are to be revenue producing as opposed to being just a marketing expense as other marketing activity. Our focus on high value solutions where there are many points of contacts to penetrate a company to identify the buying team and the sales opportunities within.",
       ],
       link: "",
@@ -32,10 +32,10 @@ export const ConciergeServices = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "VO Sales Group Concierge",
+      title: "Distributed Sales Force Concierge",
       svg: null,
       content: [
-        "VO Concierge is a “white glove” Sales Prospecting/Demand Generation service.",
+        "DSF Concierge is a “white glove” Sales Prospecting/Demand Generation service.",
         [
           "You will be assigned a Team Manager and a Project Leader",
           "We will build a Sales Plan that includes Revenue Goals",
@@ -56,8 +56,8 @@ export const ConciergeServices = {
       title: "On-Demand Sales Professionals",
       svg: null,
       content: [
-        "Outsourcing with VO allows you to have a contract Virtual Sales Team by creating a Virtual Organization (VO) of professional salespeople generating prospects and sales opportunities for you. VO becomes your on-demand sales workforce.",
-        "VO Sales Group's Concierge Sales Team professionals run their own campaigns, have a proven track record with VO Sales Group, and report directly to you.",
+        "Outsourcing with DSF allows you to have a contract Virtual Sales Team by creating a Virtual Organization (DSF) of professional salespeople generating prospects and sales opportunities for you. DSF becomes your on-demand sales workforce.",
+        "Distributed Sales Force's Concierge Sales Team professionals run their own campaigns, have a proven track record with Distributed Sales Force, and report directly to you.",
         "The salesperson assigned to your account is held accountable for your project, as you would expect a salesperson to be held accountable.",
       ],
       link: "",
@@ -112,7 +112,7 @@ export const ConciergeServices = {
     {
       id: "SectionC2TI",
       caption: ["Benefits"],
-      title: "Why Engage VO Concierge?",
+      title: "Why Engage DSF Concierge?",
       svg: null,
       content: [
         [
@@ -129,7 +129,7 @@ export const ConciergeServices = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "Benefits of VO Concierge",
+      title: "Benefits of DSF Concierge",
       svg: null,
       content: [
         [
@@ -137,7 +137,7 @@ export const ConciergeServices = {
           "We are hired to complement sales teams and should be hired by your sales team",
           "We will enhance your current sales message and effort",
           "In many cases, we actually re-shape your technical message to get the attention of the prospect to at least lead us to an executive-level conversation",
-          "Many companies use VO Sales Group to augment their Sales Retention efforts",
+          "Many companies use Distributed Sales Force to augment their Sales Retention efforts",
         ],
       ],
       link: "",
@@ -152,7 +152,7 @@ export const ConciergeServices = {
       content: [
         "As your Strategic Sales Partner, we work with you to provide solutions that Integrate with your current organization - whether or not you have a current salesforce or use a sales channel.",
         "We are senior-level people working for you.",
-        "Let VO Sales Group start Prospecting today for net new revenue.",
+        "Let Distributed Sales Force start Prospecting today for net new revenue.",
       ],
       link: "",
       href: "#",

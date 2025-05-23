@@ -7,7 +7,7 @@ export const ContactUs = {
   pageset: "about-us",
   isPrimary: false,
   description1: [
-    "VO Sales Group Louisville, KY",
+    "Distributed Sales Force Louisville, KY",
     "Phone: 502.899.3227",
     "Fax: 866.510.0690",
   ],

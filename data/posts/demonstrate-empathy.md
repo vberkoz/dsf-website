@@ -1,7 +1,7 @@
 ---
 image: "empathy"
 title: "Demonstrate Empathy"
-author: "Stephen Zarick - CEO, VO Group, LLC"
+author: "Robert Sinclair - CEO, Distributed Sales Force, LLC"
 date: "2015-02-23"
 excerpt: "In sales we are most times calling strangers. We are attempting to engage this stranger to see if they are interested in our offering that might solve a problem for them."
 prev: ""
@@ -10,7 +10,7 @@ next: "the-digital-nomad"
 nextCap: "The Digital Nomad"
 ---
 
-**_"Sales people need to learn to listen"_**  - Stephen Zarick
+**_"Sales people need to learn to listen"_**  - Robert Sinclair
 \
 A few things are going to occur during this approach call.
 - You have to engage in a conversation

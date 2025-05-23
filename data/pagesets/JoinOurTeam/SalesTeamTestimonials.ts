@@ -6,7 +6,7 @@ export const SalesTeamTestimonials = {
   slug: "sales-team-testimonials",
   pageset: "join-our-team",
   isPrimary: false,
-  description1: ["Why I work at VO Sales Group"],
+  description1: ["Why I work at Distributed Sales Force"],
   description2: [],
   image: typing.src,
   sections: [
@@ -16,10 +16,10 @@ export const SalesTeamTestimonials = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "Looking to work for VO Sales Group?",
+      title: "Looking to work for Distributed Sales Force?",
       svg: null,
       content: [
-        "Learn about what it's like to be part of the VO Sales Group Team. Click on each avatar in the map below to hear our Sales team's stories.",
+        "Learn about what it's like to be part of the Distributed Sales Force Team. Click on each avatar in the map below to hear our Sales team's stories.",
       ],
       link: "",
       href: "#",

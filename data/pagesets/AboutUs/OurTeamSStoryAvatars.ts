@@ -20,7 +20,7 @@ export const OurTeamSStoryAvatars = {
         title1: "Our Story",
         title2: "Our Team",
         col1: [
-          "VO Sales Group is a Virtual Organization of sales professionals.",
+          "Distributed Sales Force is a Virtual Organization of sales professionals.",
           "A collaborative community of people with great backgrounds.",
           "We are the Giggers, the Taskers. We are Parents. We are Professionals that you can hire On Demand, as needed, by the Project.",
         ],

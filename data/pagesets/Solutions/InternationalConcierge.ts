@@ -37,7 +37,7 @@ export const InternationalConcierge = {
     {
       id: "SectionC2TI",
       caption: [""],
-      title: "Companies that Work with VO Sales Group",
+      title: "Companies that Work with Distributed Sales Force",
       svg: null,
       content: [
         [
@@ -54,7 +54,7 @@ export const InternationalConcierge = {
     {
       id: "SectionC2TI",
       caption: [""],
-      title: "VO Revenue Model",
+      title: "DSF Revenue Model",
       svg: null,
       content: [
         "18 Months to Revenue: For international companies, we work toward a model that allows for sustainable revenue in an 18-month period.",
@@ -70,10 +70,10 @@ export const InternationalConcierge = {
       title: "International Concierge",
       svg: null,
       content: [
-        "VO Sales Group is a professional organization of Senior Level Sales Development Professionals that can help a international company with the expansion of its sales into the United States.",
+        "Distributed Sales Force is a professional organization of Senior Level Sales Development Professionals that can help a international company with the expansion of its sales into the United States.",
         "Our mission is to consult with international companies on how to do business in the U.S. and assist with what is needed to establish a business entity in the U.S.",
         "Our main mission is to grow your international company to sustainable revenue in the U.S.",
-        "If you are coming to the United States for a Trade Show or an event, let VO Sales Group be your host.",
+        "If you are coming to the United States for a Trade Show or an event, let Distributed Sales Force be your host.",
         "We will provide comfort for your business visit and be there for any questions, scheduling, and logistics to make your visit productive as well as comfortable.",
       ],
       link: "",

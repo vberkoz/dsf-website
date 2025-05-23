@@ -19,7 +19,7 @@ export const Marketing20 = {
       title: "Branding, Positioning & Strategic Marketing",
       svg: null,
       content: [
-        "If you want to change the look of your company, your logo, your brand, your positioning and seemingly have an inconsistent message, VO can help.",
+        "If you want to change the look of your company, your logo, your brand, your positioning and seemingly have an inconsistent message, DSF can help.",
         "Our team includes professionals who have worked with large and small companies in the field of strategic marketing or CMO On-Demand.",
       ],
       link: "",
@@ -32,7 +32,7 @@ export const Marketing20 = {
       title: "Website Refresh",
       svg: null,
       content: [
-        "VO recognizes that a website is a tool that every company needs in today's digital world.",
+        "DSF recognizes that a website is a tool that every company needs in today's digital world.",
         "A company website can act as a salesperson, delivering information 24/7.",
         "Websites must be responsive on a variety of devices, visually engaging, and able to be easily found by the various search engines.",
       ],
@@ -46,9 +46,9 @@ export const Marketing20 = {
       title: "Search Engine Optimization",
       svg: null,
       content: [
-        "VO understands and embraces the new marketing landscape.",
+        "DSF understands and embraces the new marketing landscape.",
         "A healthy Digital Marketing Strategy must incorporate Search Engine Optimization (SEO).",
-        "With a particular focus on Organic SEO to drive business to your website, VO can help simplify the process for your company and help your company be found online.",
+        "With a particular focus on Organic SEO to drive business to your website, DSF can help simplify the process for your company and help your company be found online.",
       ],
       link: "",
       href: "#",
@@ -78,8 +78,8 @@ export const Marketing20 = {
           title: "Email Solutions",
           image: "email",
           content: [
-            "VO will assist with the implementation, design, and management of your Email Marketing Campaigns.",
-            "If you use Marketo, Pardot, or Mailchimp and do not have the time or resources to handle your Marketing Campaigns, VO Sales Group can step in and manage the process for you.",
+            "DSF will assist with the implementation, design, and management of your Email Marketing Campaigns.",
+            "If you use Marketo, Pardot, or Mailchimp and do not have the time or resources to handle your Marketing Campaigns, Distributed Sales Force can step in and manage the process for you.",
           ],
           link: "",
           href: "#",
@@ -88,7 +88,7 @@ export const Marketing20 = {
           title: "Messaging",
           image: "message",
           content: [
-            "VO Marketing offers Messaging assistance and has special expertise in assisting Start Up Companies and Emerging Technology Vendors to fine tune their message in order to make it more impactful and relevant.",
+            "DSF Marketing offers Messaging assistance and has special expertise in assisting Start Up Companies and Emerging Technology Vendors to fine tune their message in order to make it more impactful and relevant.",
           ],
           link: "",
           href: "#",
@@ -97,7 +97,7 @@ export const Marketing20 = {
           title: "All Things Digital Marketing",
           image: "smartphone",
           content: [
-            "VO can help you implement an Internet Marketing Strategy for Lead Generation.",
+            "DSF can help you implement an Internet Marketing Strategy for Lead Generation.",
             "Areas where we can help are:",
             [
               "SEO/SEM",
@@ -113,13 +113,13 @@ export const Marketing20 = {
           href: "#",
         },
         {
-          title: "VO Call List Services",
+          title: "DSF Call List Services",
           image: "list",
           content: [
             "Any Sales Prospecting effort should start with understanding the target audience.",
-            "The most effective Sales Campaigns that VO runs are industry-focused campaigns.",
+            "The most effective Sales Campaigns that DSF runs are industry-focused campaigns.",
             "Many times this type of campaign requires us to build a Niche Call List because no such list exists to be purchased.",
-            "Niche Lists are where VO blends data, using technology plus human resources, to build lists that you normally cannot find.",
+            "Niche Lists are where DSF blends data, using technology plus human resources, to build lists that you normally cannot find.",
             "We can create both verified or unverified email lists, with or without contact information.",
           ],
           link: "",
@@ -129,10 +129,10 @@ export const Marketing20 = {
           title: "Sales Force Automation",
           image: "diagram",
           content: [
-            "VO Sales Group can design a manageable Closed Loop Sales and Marketing system.",
+            "Distributed Sales Force can design a manageable Closed Loop Sales and Marketing system.",
             "Whether using SalesForce.com (SFDC) or another Sales Force Automation (SFA) tool, we can help implement and then manage the SFA effort.",
             "Our goal is not only to implement but to utilize an SFA strategy for the benefit of producing actionable sales leads.",
-            "Allow VO to assist you in making your Sales Processes measurable.",
+            "Allow DSF to assist you in making your Sales Processes measurable.",
           ],
           link: "",
           href: "#",

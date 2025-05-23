@@ -119,7 +119,7 @@ export default function Menu() {
             outline-none focus:ring-2 ring-inset ring-green-600 dark:ring-yellow-400 
           " 
         >
-          <Image src={logo} alt="VO Group" width={30} height={30} />
+          <Image src={logo} alt="Distributed Sales Force" width={30} height={30} />
         </Link>
 
         <div className="hidden lg:flex">

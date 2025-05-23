@@ -21,25 +21,25 @@ export const JoinOurTeam = {
       id: "Testimonials",
       data: [
         {
-          body: "What I like about Gigging with VO is the ability it gives me to hone my sales and prospecting skills, as well as the variety of campaigns that I engage in.",
+          body: "What I like about Gigging with DSF is the ability it gives me to hone my sales and prospecting skills, as well as the variety of campaigns that I engage in.",
           location: "Colorado",
           position: "Enterprise Sales Team Member",
           image: colorado.src,
         },
         {
-          body: "What I enjoy the most about my work with VO is the constantly changing campaigns that I work on and all the cool, emerging technologies I now know about.",
+          body: "What I enjoy the most about my work with DSF is the constantly changing campaigns that I work on and all the cool, emerging technologies I now know about.",
           location: "Orlando, FL",
           position: "Enterprise Sales Team Member",
           image: orlando.src,
         },
         {
-          body: "One of my favorite things about working with VO is the support of the team. We are available for one another and provide support for each other. Even though we are all virtual, we are able to create that team environment.",
+          body: "One of my favorite things about working with DSF is the support of the team. We are available for one another and provide support for each other. Even though we are all virtual, we are able to create that team environment.",
           location: "Toronto, Canada",
           position: "Enterprise Sales Team Member",
           image: toronto.src,
         },
         {
-          body: "After being a road warrior and networking maven for a number of years, I needed the ability to create my own schedule while using my sales skills. I love the flexibility that my VO Gigs give me to structure my schedule as I see fit.",
+          body: "After being a road warrior and networking maven for a number of years, I needed the ability to create my own schedule while using my sales skills. I love the flexibility that my DSF Gigs give me to structure my schedule as I see fit.",
           location: "Philadelphia, PA",
           position: "Enterprise Sales Team Member",
           image: philadelphia.src,
@@ -92,10 +92,10 @@ export const JoinOurTeam = {
       content: [
         [
           "Submit a resume or bio with a brief outline of product knowledge focus",
-          "Phone interview with VO management; there may be several",
-          "Review of the VO Agent Contract and NDA that needs to be signed and accepted",
-          "Once invited to the VO Sales Group sales team, it may take some time to place you on a project",
-          "You are always welcome to bring projects to the team, and VO Sales Group management will assist in closing the new client",
+          "Phone interview with DSF management; there may be several",
+          "Review of the DSF Agent Contract and NDA that needs to be signed and accepted",
+          "Once invited to the Distributed Sales Force sales team, it may take some time to place you on a project",
+          "You are always welcome to bring projects to the team, and Distributed Sales Force management will assist in closing the new client",
         ]
       ],
       link: "Request interview",

@@ -2,14 +2,14 @@ import xitStrategy from "@/public/xitStrategy.webp";
 import { DefaultNextSteps } from "../DefaultNextSteps";
 
 export const XitStrategy = {
-  title: "XIT Strategy",
-  slug: "xit-strategy",
-  pageset: "xit-strategy",
+  title: "Valuora Strategy",
+  slug: "valuora-strategy",
+  pageset: "valuora-strategy",
   isPrimary: true,
   description1: [
     "ALL THINGS CAPITAL:",
     [
-      "EXIT Strategies",
+      "Valuora Strategies",
       "Intellectual Property",
       "Looking to sell your company",
       "Stuff your Sales Pipe to Raise Capital",
@@ -29,20 +29,20 @@ export const XitStrategy = {
           "For More Sales to Raise your Valuation?",
           "To Raise Growth Capital?",
           "For a Strategic Partner?",
-          "For an Exit Strategy?",
+          "For an Valuora Strategy?",
           "For M&A Advisory?",
         ],
       ],
-      title: "VO Sales Group has a sister company called XIT Group",
+      title: "Distributed Sales Force has a sister company called Valuora Partners",
       svg: null,
       content: [
         [
-          "Exit Strategies and Plans",
-          "Exit Sales Strategies",
+          "Valuora Strategies and Plans",
+          "Valuora Sales Strategies",
           "Strategies to Raise your Valuation",
-          "Exit Checklists and more",
+          "Valuora Checklists and more",
         ],
-        "VO's XIT Group can help you raise your Valuation before your Exit.",
+        "DSF's Valuora Partners can help you raise your Valuation before your Exit.",
       ],
       link: "",
       href: "#",
@@ -60,11 +60,11 @@ export const XitStrategy = {
           "Equity Capital ",
           "Private Equity",
           "M&A Advisory & Finance",
-          "EXIT Strategies and Plans",
+          "Valuora Strategies and Plans",
         ],
       ],
       link: "Let us find a Strategic Partner to sell to",
-      href: "https://xit.company/",
+      href: "#",
       image: null,
     },
     {
@@ -98,7 +98,7 @@ export const XitStrategy = {
       title: "Capital strategy",
       svg: null,
       content: [
-        "VO Sales Group will put together a small team to help you package your offering for Raising Capital or for Exit.",
+        "Distributed Sales Force will put together a small team to help you package your offering for Raising Capital or for Exit.",
         "We help with all things needed for your pitch deck.",
         "Stuff the Sales Pipe, Sales, Sales Plan, Getting in front of Strategic Partners, Prepping, Role Playing, Presentations, and more.",
       ],
@@ -112,9 +112,9 @@ export const XitStrategy = {
       title: "Matchmaker",
       svg: null,
       content: [
-        "VO Sales Group represents you, the entrepreneur.",
+        "Distributed Sales Force represents you, the entrepreneur.",
         "Our job is to help you with positioning, revenue, your pitch, strategy, and to get you prepped and in front of Strategic Partners.",
-        "VO Sales Group, your Consultant, and Pitchman.",
+        "Distributed Sales Force, your Consultant, and Pitchman.",
       ],
       link: "",
       href: "#",
@@ -127,7 +127,7 @@ export const XitStrategy = {
         title1: "Sales plan",
         title2: "Research",
         col1: [
-          "VO Sales Group is focused on Sales Planning, Sales Development, and Marketing Strategies to push an emerging company to the next level and to improve valuation, with the ultimate goal of gaining investments, and then to a liquidity event.",
+          "Distributed Sales Force is focused on Sales Planning, Sales Development, and Marketing Strategies to push an emerging company to the next level and to improve valuation, with the ultimate goal of gaining investments, and then to a liquidity event.",
         ],
         col2: [
           "We will do the necessary research to find your Strategic Partner.",

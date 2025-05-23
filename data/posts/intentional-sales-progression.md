@@ -1,7 +1,7 @@
 ---
 image: "tags"
 title: "Intentional Sales Progression"
-author: "Stephen Zarick - CEO, VO Group, LLC"
+author: "Robert Sinclair - CEO, Distributed Sales Force, LLC"
 date: "2014-11-10"
 excerpt: "Intentional Progression refers to a style of moving sales through your sales cycle.  In other words, this is as opposed to those that do not have any idea what their sales progression looks like."
 prev: "its-not-about-us-its-about-them"
@@ -19,7 +19,7 @@ Intentional Progression refers to moving your prospects through your sales steps
 **Stop Lying to Yourself**
 I think one of the first steps in sales is - stop lying to yourself. Some prospects will never or should never move through your sales cycles because only you think they are qualified. Some just are not interested, the timing is wrong, they do not qualify, they should not be in your forecast, and they even told you this - yet you are still delusional about forecasting the opportunity or even making a sale.  These are actually what we call an opportunity cost.
 \
-**_"Stop Lying to Yourself"_** - Stephen Zarick
+**_"Stop Lying to Yourself"_** - Robert Sinclair
 \
 **Intentional Progression – Acknowledgment**
 When you do have a qualified prospect, and the timing is good, then this style will work for you. Whether you have competition or not, you need to keep your prospect engaged until you get a definitive NO. Intentional Progression embraces that Hope is NOT a Strategy and that you are leaving little to chance. You also must acknowledge that your competitor just might be smarter than you and actually has a play book that works for them. What is your play book?
@@ -39,7 +39,7 @@ We could go into many other reasons as to how to run a 1st meeting, how to get a
 \
 What we advise our customers to do is 1st, recognize this chase and stop it and then fix it.
 \
-**_"Stop the Chase"_** – Stephen Zarick
+**_"Stop the Chase"_** – Robert Sinclair
 \
 **Steps of Intentional Progression**
 Below we are using bullets to outline how to effectively embrace Intentional Progression. Otherwise this article will become a book.

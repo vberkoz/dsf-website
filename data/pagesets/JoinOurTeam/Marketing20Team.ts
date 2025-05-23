@@ -6,7 +6,7 @@ export const Marketing20Team = {
   slug: "marketing-2-0-team",
   pageset: "join-our-team",
   isPrimary: false,
-  description1: ["VO Sales Group offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually"],
+  description1: ["Distributed Sales Force offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually"],
   description2: [],
   image: markers.src,
   sections: [
@@ -23,8 +23,8 @@ export const Marketing20Team = {
         [
           "We supply you with Training.",
           "We have our own Sales Prospecting effort to keep our pipeline full of customers.",
-          "VO Sales Group is doing your selling and managing the engagement when necessary.",
-          "You are allowed to carry the VO Sales Group Agent business card.",
+          "Distributed Sales Force is doing your selling and managing the engagement when necessary.",
+          "You are allowed to carry the Distributed Sales Force Agent business card.",
           "You will be included in team conference calls for training and sharing.",
           "We offer a referral program within our offerings.",
           "You will be a member of our collaboration suite to network with others on our team.",
@@ -39,7 +39,7 @@ export const Marketing20Team = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "Get on the VO Sales Group Map",
+      title: "Get on the Distributed Sales Force Map",
       svg: null,
       content: [
         "We are looking for Contractors with aspects of Sales Marketing/Lead Generation skill sets.",
@@ -65,13 +65,13 @@ export const Marketing20Team = {
       title: "Career Self Employment",
       svg: null,
       content: [
-        "The VO Marketing 2.0 Team is comprised of professional marketing people who have extensive backgrounds in all aspects of today's marketing landscape.",
-        "VO Sales Group's Career Self Employment Opportunity allows for self-employed professionals to work at home.",
-        "Many of VO Sales Group's Marketing 2.0 Team contractors are women and moms who have chosen a work-at-home lifestyle for a variety of reasons.",
-        "VO Sales Group creates a collaborative virtual environment using readily available cloud and collaboration tools.",
-        "In today's On-Demand Economy, VO Sales Group allows an environment for the professional to have the Gig Life.",
-        "VO Sales Group offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually.",
-        "VO Sales Group's contractors have chosen a work-at-home lifestyle for a variety of reasons and are able to effectively balance their work life with their family life.",
+        "The DSF Marketing 2.0 Team is comprised of professional marketing people who have extensive backgrounds in all aspects of today's marketing landscape.",
+        "Distributed Sales Force's Career Self Employment Opportunity allows for self-employed professionals to work at home.",
+        "Many of Distributed Sales Force's Marketing 2.0 Team contractors are women and moms who have chosen a work-at-home lifestyle for a variety of reasons.",
+        "Distributed Sales Force creates a collaborative virtual environment using readily available cloud and collaboration tools.",
+        "In today's On-Demand Economy, Distributed Sales Force allows an environment for the professional to have the Gig Life.",
+        "Distributed Sales Force offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually.",
+        "Distributed Sales Force's contractors have chosen a work-at-home lifestyle for a variety of reasons and are able to effectively balance their work life with their family life.",
       ],
       link: "",
       href: "#",
@@ -80,7 +80,7 @@ export const Marketing20Team = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "Additional VO Benefits",
+      title: "Additional DSF Benefits",
       svg: null,
       content: [
         [
@@ -92,7 +92,7 @@ export const Marketing20Team = {
           "We have a PO issuance and Project Tracking program that you will use to streamline your efforts to allow you to scale.",
           "We take care of all contracts with new clients or new subs.",
         ],
-        "VO Sales Group takes the peaks and valleys out of your traditional freelance gigs.",
+        "Distributed Sales Force takes the peaks and valleys out of your traditional freelance gigs.",
       ],
       link: "",
       href: "#",

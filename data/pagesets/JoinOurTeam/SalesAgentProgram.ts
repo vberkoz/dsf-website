@@ -18,10 +18,10 @@ export const SalesAgentProgram = {
       title: "Career Self Employment",
       svg: null,
       content: [
-        "The VO Sales Agent Team is comprised of Professional Salespeople, seasoned in making high-level calls into an organization.",
-        "VO Sales Group's Career Self Employment opportunity allows for self-employed professionals to work at home…to have the Gig Life in today's on-demand economy.",
-        "VO Sales Group creates a collaborative virtual environment using readily available cloud and collaboration tools.",
-        "VO Sales Group offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually.",
+        "The DSF Sales Agent Team is comprised of Professional Salespeople, seasoned in making high-level calls into an organization.",
+        "Distributed Sales Force's Career Self Employment opportunity allows for self-employed professionals to work at home…to have the Gig Life in today's on-demand economy.",
+        "Distributed Sales Force creates a collaborative virtual environment using readily available cloud and collaboration tools.",
+        "Distributed Sales Force offers a unique model, built around collaborative business tools that allow the self-employed Gigger or Tasker to feel part of a company, yet work individually.",
       ],
       link: "",
       href: "#",
@@ -30,10 +30,10 @@ export const SalesAgentProgram = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "VO Sales Agent Program",
+      title: "DSF Sales Agent Program",
       svg: null,
       content: [
-        "This is an agency program, as opposed to a franchise model. The VO Sales Group agency model is one of Finder's Fees and Commissions. We give you the tools to grow your own business if you wish.",
+        "This is an agency program, as opposed to a franchise model. The Distributed Sales Force agency model is one of Finder's Fees and Commissions. We give you the tools to grow your own business if you wish.",
         "With our national reputation, you can have your own lead generation business. We will give you the tools and resources to be successful, if you can sell.",
         "We offer a complete Sales Agent Program and help you with all the tools necessary to manage your own business.",
       ],
@@ -71,7 +71,7 @@ export const SalesAgentProgram = {
           title: "Referral Program",
           image: "refferal",
           content: [
-            "VO Sales Group offers a Referral Program for those that are part time committed to our Sales effort.",
+            "Distributed Sales Force offers a Referral Program for those that are part time committed to our Sales effort.",
             "If you have a lead for us, flip it in and if we sell it, you will be paid a Referral Fee.",
           ],
           link: "",
@@ -99,7 +99,7 @@ export const SalesAgentProgram = {
           href: "#",
         },
         {
-          title: "What VO Offers",
+          title: "What DSF Offers",
           image: "check",
           content: [
             "We offer an environment of self-employment and flex hours.",
@@ -129,7 +129,7 @@ export const SalesAgentProgram = {
       content: [
         "We help you with all the tools necessary to have a Sales Agency.",
         [
-          "VO gives you access to our pool of contractors when you are ready to manage an account and grow your own business.",
+          "DSF gives you access to our pool of contractors when you are ready to manage an account and grow your own business.",
           "We have marketing material for you to use to win a new account on your own.",
           "We pay commissions as soon as we are paid, and we use direct deposit.",
           "We invoice on your behalf, and then we become your collection arm.",
@@ -151,7 +151,7 @@ export const SalesAgentProgram = {
       title: "Administrative Support",
       svg: null,
       content: [
-        "VO gives you access to our pool of contractors when you are ready to manage an account and grow your own business.",
+        "DSF gives you access to our pool of contractors when you are ready to manage an account and grow your own business.",
         [
           "We have marketing materials if you want to win a new account on your own.",
           "We pay early and we pay weekly - we embrace direct deposit.",
@@ -174,13 +174,13 @@ export const SalesAgentProgram = {
         [
           "We supply you with Training.",
           "We supply you with marketing materials and collateral.",
-          "You are allowed to carry the VO Sales Group business card.",
+          "You are allowed to carry the Distributed Sales Force business card.",
           "You will be a member of our collaboration suite.",
           "You will have an @vogroup.com email",
           "We will do your presentations, proposals, and even your selling (Finder's Fee (FF) Program).",
           "When you are prepared to make your own sales, we will supply you with all the resources that we use.",
           "In the Selling Agent program, your commission is double that of the FF program.",
-          "After 90 days, we will set up your own microsite under the VO Sales Group site.",
+          "After 90 days, we will set up your own microsite under the Distributed Sales Force site.",
         ],
       ],
       link: "",
@@ -210,7 +210,7 @@ export const SalesAgentProgram = {
         },
         {
           title: "FAQ",
-          description: "VO Sales Group Sales Agent FAQs",
+          description: "Distributed Sales Force Sales Agent FAQs",
           href: "#",
         },
       ],

@@ -57,10 +57,10 @@ export const EnterpriseMobility = {
     {
       id: "SectionC2TI",
       caption: [],
-      title: "VO Sales Group Solutions",
+      title: "Distributed Sales Force Solutions",
       svg: null,
       content: [
-        "VO is involved in Business Development activities for Enterprise Mobility companies in a variety of ways.",
+        "DSF is involved in Business Development activities for Enterprise Mobility companies in a variety of ways.",
         [
           "Lead Generation",
           "Sales Prospecting",
@@ -69,8 +69,8 @@ export const EnterpriseMobility = {
           "Mergers/Acquisitions",
           "Helping Raise Capital",
         ],
-        "VO is focused on Sales Planning and Sales Development to push an emerging company to the next level, and maybe to the level of gaining investments, or even a liquidity event. Revenue is king. VO Sales Group’s Prospecting efforts help to define the audience – the market, to stuff your sales pipe, and to identify revenue.",
-        "VO Sales Group knows Enterprise Mobility. We can help with Branding, Messaging, and Sales.",
+        "DSF is focused on Sales Planning and Sales Development to push an emerging company to the next level, and maybe to the level of gaining investments, or even a liquidity event. Revenue is king. Distributed Sales Force’s Prospecting efforts help to define the audience – the market, to stuff your sales pipe, and to identify revenue.",
+        "Distributed Sales Force knows Enterprise Mobility. We can help with Branding, Messaging, and Sales.",
       ],
       link: "",
       href: "#",
