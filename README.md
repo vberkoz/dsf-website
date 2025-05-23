@@ -1,38 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Distributed Sales Force Website
+
+## Overview
+This is a Next.js website for Distributed Sales Force, a virtual organization offering on-demand sales and marketing solutions. The website showcases the company's services, industry focus areas, team structure, and provides information for potential clients and job seekers.
+
+## Project Structure
+
+### Technology Stack
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Maps**: Leaflet.js
+- **Content**: Static content managed through TypeScript files
+
+### Key Directories
+- `/components`: Reusable UI components
+- `/data`: Content organization and structure
+  - `/pagesets`: Organized content by sections (AboutUs, Solutions, IndustryFocus, etc.)
+  - `/posts`: Blog content in markdown format
+- `/pages`: Next.js page routes
+- `/public`: Static assets (images, SVGs, audio, video)
+- `/styles`: Global CSS styles
+
+### Main Features
+- Responsive design with dark mode support
+- Dynamic page generation based on content structure
+- Blog functionality with markdown support
+- Interactive map component
+- Contact and interview request forms
+- Testimonials section
+
+## Content Structure
+The website content is organized into several main sections:
+
+1. **About Us**: Company history, mission, and values
+2. **Solutions**: Sales prospecting, lead generation, and channel development solutions
+3. **Industry Focus**: Specialized solutions for different industries
+4. **Join Our Team**: Career opportunities and self-employment programs
+5. **Leadership**: Information about company leadership
+6. **Valuora Strategy**: Exit strategies and capital raising services
+7. **Blog**: Articles and insights
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js (latest LTS version recommended)
+- npm or pnpm
 
+### Installation
 ```bash
-npm run dev
+# Clone the repository
+git clone https://github.com/vberkoz/vogroup.git
+cd vogroup
+
+# Install dependencies
+npm install
 # or
-yarn dev
-# or
-pnpm dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
+```bash
+# Start development server
+npm run dev
+# or
+pnpm dev
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Start development server with specific host (for local network access)
+npm run home
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Building for Production
+```bash
+# Build the project
+npm run build
+# or
+pnpm build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Export as static site
+npm run export
+# or
+pnpm export
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Running in Production
+```bash
+# Start production server
+npm run start
+# or
+pnpm start
+```
 
-## Learn More
+## Project Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Adding New Pages
+1. Create a new TypeScript file in the appropriate `/data/pagesets/` directory
+2. Follow the existing page structure pattern
+3. Import and add the new page to the `Pages` array in `/data/data.ts`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Modifying Components
+The website uses a component-based architecture where each section type (Hero, Slides, etc.) is defined as a reusable component. Modify these components in the `/components` directory to change the appearance and behavior of the website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Styling
+The project uses Tailwind CSS for styling. Modify the `tailwind.config.js` file to customize the theme, colors, and other design elements.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+Private - All rights reserved
