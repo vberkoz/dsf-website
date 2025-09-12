@@ -144,7 +144,22 @@ export default function Footer() {
           <div className="hidden xl:block"></div>
           <div className="border-t-2 border-gray-200 dark:border-gray-700 sm:col-span-2 lg:col-span-3 xl:col-span-3"></div>
           <div className="hidden xl:block"></div>
-          <div className="flex flex-col pl-3 xl:pl-6">© Distributed Sales Force, LLC</div>
+          <div className="flex justify-between pl-3 xl:pl-6 sm:col-span-2 lg:col-span-3 xl:col-span-3">
+            <span>© Distributed Sales Force, LLC</span>
+            <span>
+              <span className="text-gray-600 dark:text-gray-400">Created by </span>
+              <Link
+                href="https://vberkoz.com/"
+                className="
+                w-fit
+                hover:underline
+                outline-none focus:ring-2 ring-green-600 dark:ring-yellow-400
+                "
+              >
+                vberkoz.com
+              </Link>
+            </span>
+          </div>
         </div>
       </div>
     </div>
