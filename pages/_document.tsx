@@ -20,6 +20,12 @@ export default function Document() {
             `,
           }}
         />
+        <script
+          async
+          data-project="dsf"
+          data-source="multipage"
+          src="https://analytics.vberkoz.com/track.js"
+        />
       </Head>
       <body className="overflow-x-hidden bg-gray-100 dark:bg-gray-900">
         <Main />

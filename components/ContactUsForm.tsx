@@ -3,42 +3,20 @@ import { FormEvent } from "react";
 import Input from "./Input";
 
 export default function ContactUsForm() {
-  // Handle the submit event on form submit.
-  const handleSubmit = async (event: FormEvent) => {
-    // Stop the form from submitting and refreshing the page.
+  const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-
-    // Cast the event target to an html form
     const form = event.target as HTMLFormElement;
-
-    // Get data from the form.
     const data = {
-      first: form.first.value as string,
-      title: form.term.value as string,
-      mail: form.mail.value as string,
-      phone: form.phone.value as string,
-      company: form.company.value as string,
-      website: form.website.value as string,
-      subject: form.subject.value as string,
-      comments: form.comments.value as string,
+      first: form.first.value,
+      title: form.term.value,
+      mail: form.mail.value,
+      phone: form.phone.value,
+      company: form.company.value,
+      website: form.website.value,
+      subject: form.subject.value,
+      comments: form.comments.value,
     };
-
-    // Send the form data to our API and get a response.
-    const response = await fetch("/api/contacts", {
-      // Body of the request is the JSON data we created above.
-      body: JSON.stringify(data),
-      // Tell the server we're sending JSON.
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // The method is POST because we are sending data.
-      method: "POST",
-    });
-
-    // Get the response data from server as JSON.
-    // If server returns the name submitted, that means the form works.
-    const result = await response.json();
-    alert(result.data);
+    alert(`Form submitted: ${JSON.stringify(data)}`);
   };
 
   return (

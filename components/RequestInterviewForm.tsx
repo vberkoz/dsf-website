@@ -2,56 +2,34 @@ import { FormEvent } from "react";
 import Input from "./Input";
 
 export default function RequestInterviewForm () {
-  // Handle the submit event on form submit.
-  const handleSubmit = async (event: FormEvent) => {
-    // Stop the form from submitting and refreshing the page.
+  const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-
-    // Cast the event target to an html form
     const form = event.target as HTMLFormElement;
-
-    // Get data from the form.
     const data = {
-      firstName: form.firstName.value as string,
-      lastName: form.lastName.value as string,
-      phoneNumber: form.phoneNumber.value as string,
-      emailAddress: form.emailAddress.value as string,
-      address: form.address.value as string,
-      city: form.city.value as string,
-      state: form.state.value as string,
-      postalCode: form.postalCode.value as string,
-      totalSalesExperience: form.totalSalesExperience.value as string,
-      totalMarketingExperience: form.totalMarketingExperience.value as string,
-      outsideSalesExperience: form.outsideSalesExperience.value as string,
-      positionApplyingFor: form.positionApplyingFor.value as string,
-      lastPlaceWorked: form.lastPlaceWorked.value as string,
-      hoursAvailablePerWeek: form.hoursAvailablePerWeek.value as string,
-      currentJobTitle: form.currentJobTitle.value as string,
-      currentEmployer: form.currentEmployer.value as string,
-      skillSet: form.skillSet.value as string,
-      currentSalary: form.currentSalary.value as string,
-      expectedSalary: form.expectedSalary.value as string,
-      highestEducation: form.highestEducation.value as string,
-      resume: form.resume.value as string,
-      additionalInfo: form.additionalInfo.value as string,
+      firstName: form.firstName.value,
+      lastName: form.lastName.value,
+      phoneNumber: form.phoneNumber.value,
+      emailAddress: form.emailAddress.value,
+      address: form.address.value,
+      city: form.city.value,
+      state: form.state.value,
+      postalCode: form.postalCode.value,
+      totalSalesExperience: form.totalSalesExperience.value,
+      totalMarketingExperience: form.totalMarketingExperience.value,
+      outsideSalesExperience: form.outsideSalesExperience.value,
+      positionApplyingFor: form.positionApplyingFor.value,
+      lastPlaceWorked: form.lastPlaceWorked.value,
+      hoursAvailablePerWeek: form.hoursAvailablePerWeek.value,
+      currentJobTitle: form.currentJobTitle.value,
+      currentEmployer: form.currentEmployer.value,
+      skillSet: form.skillSet.value,
+      currentSalary: form.currentSalary.value,
+      expectedSalary: form.expectedSalary.value,
+      highestEducation: form.highestEducation.value,
+      resume: form.resume.value,
+      additionalInfo: form.additionalInfo.value,
     };
-
-    // Send the form data to our API and get a response.
-    const response = await fetch("/api/interviews", {
-      // Body of the request is the JSON data we created above.
-      body: JSON.stringify(data),
-      // Tell the server we're sending JSON.
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // The method is POST because we are sending data.
-      method: "POST",
-    });
-
-    // Get the response data from server as JSON.
-    // If server returns the name submitted, that means the form works.
-    const result = await response.json();
-    alert(result.data);
+    alert(`Form submitted: ${JSON.stringify(data)}`);
   };
 
   return (

@@ -26,5 +26,5 @@
     "lib/posts.ts",
     "components/Map.jsx",
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "cdk"]
 }
